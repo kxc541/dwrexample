@@ -1,0 +1,12 @@
+Example web-application for developerWorks DWR article
+======================================================
+
+dwr-app.war is the pre-built application, ready to be deployed to a Java servlet 
+container. 
+
+To rebuild the application, use "ant war".
+
+Configuration files (web.xml and dwr.xml) are under "WEB-INF". Static web-content
+is under "web". Java source files are in "src".
+
+The DWR runtime itself, dwr.jar, is included with this application, under "lib".
