@@ -1,0 +1,1 @@
+jar cmf C:\Tools\Java\WTK21\apps\HelloWorld\bin\Manifest.mf HelloWorld.jar *.class
