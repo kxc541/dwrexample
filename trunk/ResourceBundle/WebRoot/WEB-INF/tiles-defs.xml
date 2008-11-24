@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+"http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<!--author Ankur-->
+<!--for common layout on all pages-->
+
+<tiles-definitions>
+	<!-- Base Tiles Definition -->
+	<definition name="base.definition" path="/WebContent/common/SiteLayOut.jsp">
+		<put name="headTag" value="/WebContent/common/HeadTag.jsp" />
+		<put name="header" value="/WebContent/common/Header.jsp" />
+		<put name="globalnavigation" value="/WebContent/common/GlobalNavigation.jsp" />
+		<put name="footernavigation" value="/WebContent/common/FooterNav.jsp" />
+		<put name="footer" value="/WebContent/common/Footer.jsp" />
+	</definition>
+
+	<definition name="base.definitionLogin" path="/WebContent/common/SiteLayOut.jsp">
+		<put name="headTag" value="/WebContent/common/HeadTag.jsp" />
+		<put name="header" value="/WebContent/common/HeaderLogin.jsp" />
+		<put name="globalnavigation" value="/WebContent/common/GlobalNavigationLogin.jsp" />
+		<put name="footernavigation" value="/WebContent/common/FooterNavLogin.jsp" />
+		<put name="footer" value="/WebContent/common/Footer.jsp" />
+	</definition>
+
+	<definition name="base.definitionLoginWOTitle" path="/WebContent/common/SiteLayOutWOTitle.jsp">
+		<put name="headTag" value="/WebContent/common/HeadTag.jsp" />
+		<put name="header" value="/WebContent/common/HeaderLogin.jsp" />
+		<put name="globalnavigation" value="/WebContent/common/GlobalNavigationLogin.jsp" />
+		<put name="footernavigation" value="/WebContent/common/FooterNavLogin.jsp" />
+		<put name="footer" value="/WebContent/common/Footer.jsp" />
+	</definition>
+
+	<!-- END - Base Tiles Definition -->
+
+	<!-- Base Tiles Definition WITH NEW HEAD TAG (NEW CSS LAYOUT) -->
+
+	<definition name="base.definition.new" path="/WebContent/common/SiteLayOutNew.jsp">
+		<put name="headTag" value="/WebContent/common/HeadTagNew.jsp" />
+		<put name="header" value="/WebContent/common/HeaderNew.jsp" />
+		<put name="globalnavigation" value="/WebContent/common/GlobalNavigation.jsp" />
+		<put name="footernavigation" value="/WebContent/common/FooterNavNew.jsp" />
+		<put name="footer" value="/WebContent/common/FooterNew.jsp" />
+	</definition>
+
+	<definition name="base.definitionLogin.new" path="/WebContent/common/SiteLayOutNew.jsp">
+		<put name="headTag" value="/WebContent/common/HeadTagNew.jsp" />
+		<put name="header" value="/WebContent/common/HeaderLoginNew.jsp" />
+		<put name="globalnavigation" value="/WebContent/common/GlobalNavigationLogin.jsp" />
+		<put name="footernavigation" value="/WebContent/common/FooterNavLoginNew.jsp" />
+		<put name="footer" value="/WebContent/common/FooterNew.jsp" />
+	</definition>
+
+	<definition name="base.definitionLoginWOTitle.new" path="/WebContent/common/SiteLayOutWOTitleNew.jsp">
+		<put name="headTag" value="/WebContent/common/HeadTagNew.jsp" />
+		<put name="header" value="/WebContent/common/HeaderLoginNew.jsp" />
+		<put name="globalnavigation" value="/WebContent/common/GlobalNavigationLogin.jsp" />
+		<put name="footernavigation" value="/WebContent/common/FooterNavLoginNew.jsp" />
+		<put name="footer" value="/WebContent/common/FooterNew.jsp" />
+	</definition>
+
+	<!-- END - Base Tiles Definition WITH NEW HEAD TAG (NEW CSS LAYOUT) -->
+
+
+	<!-- Tiles Definition of Register1 page -->
+	<definition name="page.register1" extends="base.definition.new">
+		<put name="title" value="Registering to Win with World Gaming" />
+		<put name="body" value="/WebContent/register1.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of Register2 page -->
+	<definition name="page.register2" extends="base.definition.new">
+		<put name="title" value="Registering to Win with World Gaming" />
+		<put name="body" value="/WebContent/register2.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of Register3 page -->
+	<definition name="page.register3" extends="base.definition.new">
+		<put name="title" value="Registering to Win with World Gaming" />
+		<put name="body" value="/WebContent/register3.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of Register4 page -->
+	<definition name="page.register4" extends="base.definitionLogin.new">
+		<put name="title" value="Registering to Win with World Gaming" />
+		<put name="body" value="/WebContent/register4.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of Cashier page -->
+	<definition name="page.cashierPage" extends="base.definitionLoginWOTitle.new">
+		<put name="body" value="/WebContent/cashierPage.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of CashierAddAccount page -->
+	<definition name="page.cashierPageAddAccount" extends="base.definitionLoginWOTitle.new">
+		<put name="body" value="/WebContent/cashierPage_addAccount.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of CashierEditAccount page -->
+	<definition name="page.cashierPageEditAccount" extends="base.definitionLoginWOTitle.new">
+		<put name="body" value="/WebContent/cashierPage_editAccount.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of DirectChallenge1 page -->
+	<definition name="page.direct1challenge" extends="base.definitionLogin">
+		<put name="title" value="Welcome to World Gaming" />
+		<put name="body" value="/WebContent/directChallenge1.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of Game Details page -->
+	<definition name="page.gameDetails" extends="base.definitionLogin.new">
+		<put name="title" value="Game Lobby page" />
+		<put name="body" value="/WebContent/gameDetails.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of about page -->
+	<definition name="page.about" extends="base.definition.new">
+		<put name="title" value="About WorldGaming" />
+		<put name="body" value="/WebContent/about.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of about page -->
+	<definition name="page.faq" extends="base.definition.new">
+		<put name="title" value="FAQs" />
+		<put name="body" value="/WebContent/fAQ.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of Blog page -->
+	<definition name="page.blog" extends="base.definitionLogin">
+		<put name="title" value="Coming Soon" />
+		<put name="body" value="/WebContent/blog.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of editGameRegister page -->
+	<definition name="page.editGameRegister" extends="base.definitionLogin">
+		<put name="title" value="Registering to Win with World Gaming" />
+		<put name="body" value="/WebContent/editGameRegister.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of EditFinanceRegister page -->
+	<definition name="page.editFinanceRegister" extends="base.definitionLogin">
+		<put name="title" value="Registering to Win with World Gaming" />
+		<put name="body" value="/WebContent/editGameRegister.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of Coming Soon page -->
+	<definition name="page.comingSoonLogin" extends="base.definitionLogin">
+		<put name="title" value="Coming Soon" />
+		<put name="body" value="/WebContent/comingSoon.jsp" />
+	</definition>
+
+
+	<!-- Tiles Definition of Coming Soon page -->
+	<definition name="page.comingSoon" extends="base.definition.new">
+		<put name="title" value="Coming Soon" />
+		<put name="body" value="/WebContent/comingSoon.jsp" />
+	</definition>
+
+
+	<!-- Tiles Definition of sendMessage page -->
+	<definition name="page.sendMessage" extends="base.definitionLogin">
+		<put name="title" value="Coming Soon" />
+		<put name="body" value="/WebContent/sendMessage.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of gameLobbyPage page -->
+	<definition name="page.gameLobbyPage" extends="base.definitionLogin.new">
+		<put name="title" value="Game Lobby Page" />
+		<put name="body" value="/WebContent/gameLobbyPage.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of viewMultiTierTournament page -->
+	<definition name="page.viewMultiTierTournament" extends="base.definitionLogin">
+		<put name="title" value="World Gaming Tournaments" />
+		<put name="body" value="/WebContent/viewMultiTierTournament.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of tournamentAdmin page -->
+	<definition name="page.tournamentAdmin" extends="base.definitionLogin.new">
+		<put name="title" value="World Gaming Tournaments" />
+		<put name="body" value="/WebContent/tournamentAdmin.jsp" />
+	</definition>
+
+    <!-- Tiles Definition of tournamentAction page -->
+	<definition name="page.tournamentAction" extends="base.definitionLogin">
+		<put name="title" value="World Gaming Tournaments" />
+		<put name="body" value="/WebContent/tournamentActions.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of playForMoney page -->
+	<definition name="page.playForMoney" extends="base.definitionLogin.new">
+		<put name="title" value="Coming Soon" />
+		<put name="body" value="/WebContent/playForMoney.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of viewCard page -->
+	<definition name="page.viewCard" extends="base.definitionLogin">
+		<put name="title" value="Coming Soon" />
+		<put name="body" value="/WebContent/viewCard.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of openChallenge page -->
+	<definition name="page.openChallenge" extends="base.definitionLogin">
+		<put name="title" value="Coming Soon" />
+		<put name="body" value="/WebContent/openChallenge.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of Tournament Creation page -->
+	<definition name="page.tournamentCreation" extends="base.definitionLogin">
+		<put name="title" value="Tournament Creation Window" />
+		<put name="body" value="/WebContent/tournamentCreation.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of messageCenter page -->
+	<definition name="page.messageCenter" extends="base.definitionLogin">
+		<put name="title" value="Message Center" />
+		<put name="body" value="/WebContent/messageCenter.jsp" />
+	</definition>
+
+
+
+	<!-- Tiles Definition of profile page -->
+	<definition name="page.profile" extends="base.definitionLoginWOTitle.new">
+		<put name="body" value="/WebContent/profile.jsp" />
+	</definition>
+
+	<definition name="view.profile" extends="base.definitionLoginWOTitle.new">
+		<put name="body" value="/WebContent/viewProfile.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of search page -->
+	<definition name="page.search" extends="base.definitionLogin">
+		<put name="title" value="Search Results" />
+		<put name="body" value="/WebContent/search.jsp" />
+	</definition>
+
+	<!-- Tiles Definition of search result page -->
+	<definition name="page.searchResult" extends="base.definitionLogin">
+		<put name="title" value="Search Results" />
+		<put name="body" value="/WebContent/searchResult.jsp" />
+	</definition>
+
+</tiles-definitions>
