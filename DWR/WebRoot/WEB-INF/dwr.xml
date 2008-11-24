@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN"
+    "http://getahead.org/dwr/dwr20.dtd">
+
+<dwr>
+	<allow>
+		<create creator="new" javascript="HelloWorld">
+			<param name="class" value="com.ankur.helloworld.HelloWorld" />
+		</create>
+		<create creator="new" javascript="RF">
+			<param name="class"
+				value="com.ankur.resourceforwarding.ResourceForward" />
+		</create>
+		<create creator="new" javascript="People" scope="script">
+			<param name="class" value="com.ankur.dto.People" />
+		</create>
+		<convert match="com.ankur.dto.Person" converter="bean" />
+		<create creator="new" javascript="JavaChat">
+			<param name="class" value="com.ankur.chat.JavaChat" />
+		</create>
+		<convert converter="bean" match="com.ankur.chat.Message" />
+
+		<create creator="new" javascript="CarsFacade">
+			<param name="class" value="com.ankur.pagination.CarsFacade" />
+		</create>
+
+
+		<create creator="new" javascript="CityStateDAO">
+			<param name="class"  value="com.ankur.citystate.CityStateDAO" />
+		</create>
+		<convert converter="bean" match="com.ankur.citystate.City" />
+		 <convert converter="bean" match="com.ankur.citystate.State"/>
+
+	</allow>
+</dwr>

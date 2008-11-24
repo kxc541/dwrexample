@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/cityState.do" location="50,50" dimension="252,88" />
+  <StrutsActivity path="cityState;6" location="650,50" dimension="102,75" />
+  <StrutsActivity path="/cityState.jsp" location="950,50" dimension="94,49" />
+  <StrutsTransition id="cityState;6,null,/cityState.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,87" />
+      <AbsolutePoint location="302,87" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cityState.jsp,null,/cityState.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="997,50" />
+      <AbsolutePoint location="997,-25" />
+      <AbsolutePoint location="176,-25" />
+      <AbsolutePoint location="176,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+
