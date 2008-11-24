@@ -1,0 +1,55 @@
+#FAQ .PageContent {
+	background:#fff;
+}
+
+.Article {
+	color:#535548;
+	padding:20px 50px;
+}
+.Article h1 {
+	margin:15px 0 0;
+	font-size:16px;
+	color:#535548;
+	font-weight:bold;
+}
+.Article h2 {
+	margin:5px 0;
+	font-size:10px;
+	color:#535548;
+	font-weight:bold;
+}
+.Article h3 {
+	margin:10px 0;
+	font-weight:bold;
+}
+.Article p {
+	margin:10px 0;
+	font-size:11px;
+	line-height:18px;
+}
+.Article li {
+	font-size:10px;
+	margin:5px 20px;
+	list-style:disc;
+}
+.Article blockquote {
+	margin:10px 20px;
+	padding:10px;
+	font-style:italic;
+	line-height:18px;
+}
+.Article img {
+	border:1px solid #eaeaea;
+}
+.Article img.left {
+	float:left;
+	margin:0 10px 0 0;
+}
+.Article img.right {
+	float:right;
+	margin:0 0px 0 10px;
+}
+.Article img.center {
+	display:block;
+	margin:10px auto;
+}

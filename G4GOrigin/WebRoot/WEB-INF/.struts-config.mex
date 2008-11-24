@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/displayImage.do" location="650,50" dimension="106,62" />
+  <StrutsActivity path="/displayAbout.do" location="2750,650" dimension="105,62" />
+  <StrutsActivity path="/displayFAQ.do" location="3050,650" dimension="97,62" />
+  <StrutsActivity path="/displayContact.do" location="3050,850" dimension="114,62" />
+  <StrutsActivity path="/displayTerms.do" location="3050,1050" dimension="105,62" />
+  <StrutsActivity path="/displayPrivacy.do" location="3050,1250" dimension="111,62" />
+  <StrutsActivity path="/displayAdvertise.do" location="3050,1450" dimension="122,62" />
+  <StrutsActivity path="/displayManagement.do" location="2750,1550" dimension="138,62" />
+  <StrutsActivity path="/displayPress.do" location="3050,1650" dimension="102,62" />
+  <StrutsActivity path="/displayResponsibleGaming.do" location="2750,1750" dimension="168,62" />
+  <StrutsActivity path="/comminSoon.do" location="2150,1750" dimension="102,62" />
+  <StrutsActivity path="/comminSoonLogin.do" location="50,1850" dimension="127,62" />
+  <StrutsActivity path="/logout.do" location="50,50" dimension="180,88" />
+  <StrutsActivity path="/displayLogin.do" location="350,50" dimension="172,88" />
+  <StrutsActivity path="/login.do" location="950,50" dimension="172,88" />
+  <StrutsActivity path="/displayCashier.do" location="1250,50" dimension="183,88" />
+  <StrutsActivity path="/cashier.do" location="1550,50" dimension="183,88" />
+  <StrutsActivity path="/displayCashierAddEditAccount.do" location="2750,50" dimension="259,88" />
+  <StrutsActivity path="/cashierAddEditAccount.do" location="2750,450" dimension="259,88" />
+  <StrutsActivity path="/saveCashierAccount.do" location="2750,250" dimension="259,88" />
+  <StrutsActivity path="/displayGameDetails.do" location="1850,50" dimension="206,88" />
+  <StrutsActivity path="/register1.do" location="2150,50" dimension="193,88" />
+  <StrutsActivity path="/displayRegister1.do" location="2450,50" dimension="193,88" />
+  <StrutsActivity path="/displayRegister2.do" location="50,250" dimension="193,88" />
+  <StrutsActivity path="/register2.do" location="350,250" dimension="193,88" />
+  <StrutsActivity path="/displayRegister3.do" location="650,250" dimension="193,88" />
+  <StrutsActivity path="/register3.do" location="950,250" dimension="193,88" />
+  <StrutsActivity path="/displayRegister4.do" location="1250,250" dimension="193,88" />
+  <StrutsActivity path="/editProfile.do" location="1850,250" dimension="195,88" />
+  <StrutsActivity path="/search.do" location="350,450" dimension="180,88" />
+  <StrutsActivity path="/forgotPassword.do" location="1850,450" dimension="225,88" />
+  <StrutsActivity path="/displayForgotPassword.do" location="2750,1250" dimension="225,88" />
+  <StrutsActivity path="/displayMessageCenter.do" location="2150,450" dimension="222,88" />
+  <StrutsActivity path="/displayProfile.do" location="2450,450" dimension="177,88" />
+  <StrutsActivity path="/profile.do" location="50,650" dimension="177,88" />
+  <StrutsActivity path="/displayGameLobbyPage.do" location="350,650" dimension="227,88" />
+  <StrutsActivity path="/displayWidgetGameLobbyPage.do" location="950,450" dimension="266,88" />
+  <StrutsActivity path="/gameLobbyPage.do" location="650,650" dimension="227,88" />
+  <StrutsActivity path="/displayViewMutiTierTournament.do" location="1550,650" dimension="265,88" />
+  <StrutsActivity path="/viewMutiTierTournament.do" location="2150,650" dimension="265,88" />
+  <StrutsActivity path="/displayTournamentAction.do" location="1250,850" dimension="205,88" />
+  <StrutsActivity path="/tournamentAction.do" location="1550,850" dimension="205,88" />
+  <StrutsActivity path="/displayTournamentCreation.do" location="2750,2050" dimension="246,88" />
+  <StrutsActivity path="/tournamentCreation.do" location="3050,2050" dimension="246,88" />
+  <StrutsActivity path="/displayRanking.do" location="2450,850" dimension="209,88" />
+  <StrutsActivity path="/submitFeedbackReputation.do" location="950,650" dimension="209,88" />
+  <StrutsActivity path="/directChallenge1.do" location="950,1050" dimension="234,88" />
+  <StrutsActivity path="/displayDirectedChallenge1.do" location="1250,1050" dimension="234,88" />
+  <StrutsActivity path="/displayDirectChallenge2.do" location="1550,1050" dimension="228,88" />
+  <StrutsActivity path="/directChallenge2.do" location="1850,1050" dimension="228,88" />
+  <StrutsActivity path="/directChallenge3.do" location="2150,1050" dimension="228,88" />
+  <StrutsActivity path="/displayDirectChallenge3.do" location="2450,1050" dimension="228,88" />
+  <StrutsActivity path="homePage;6" location="50,1250" dimension="117,75" />
+  <StrutsActivity path="userHome;6" location="50,2250" dimension="122,75" />
+  <StrutsActivity path="commingSoon;6" location="350,1250" dimension="124,75" />
+  <StrutsActivity path="commingSoonLogin;6" location="650,2250" dimension="143,75" />
+  <StrutsActivity path="contact;6" location="650,1250" dimension="162,75" />
+  <StrutsActivity path="faq;6" location="1250,2250" dimension="113,75" />
+  <StrutsActivity path="about;6" location="1250,1250" dimension="95,75" />
+  <StrutsActivity path="logout;6" location="1850,1250" dimension="73,75" />
+  <StrutsActivity path="removethickbox;6" location="2450,2250" dimension="204,75" />
+  <StrutsActivity path="terms;6" location="2750,2250" dimension="121,75" />
+  <StrutsActivity path="privacy;6" location="3050,2250" dimension="127,75" />
+  <StrutsActivity path="press;6" location="350,2350" dimension="118,75" />
+  <StrutsActivity path="advertise;6" location="950,2350" dimension="138,75" />
+  <StrutsActivity path="management;6" location="1550,2350" dimension="154,75" />
+  <StrutsActivity path="responsiblegaming;6" location="1850,2350" dimension="184,75" />
+  <StrutsActivity path="/WebContent/displayImage.jsp" location="950,850" dimension="179,49" />
+  <StrutsActivity path="/WebContent/about.jsp" location="2150,2350" dimension="144,49" />
+  <StrutsActivity path="/WebContent/fAQ.jsp" location="2450,1650" dimension="135,49" />
+  <StrutsActivity path="/WebContent/contact.jsp" location="2150,1650" dimension="152,49" />
+  <StrutsActivity path="/WebContent/terms.jsp" location="50,2450" dimension="143,49" />
+  <StrutsActivity path="/WebContent/privacy.jsp" location="650,2450" dimension="151,49" />
+  <StrutsActivity path="/WebContent/advertise.jsp" location="1250,2450" dimension="161,49" />
+  <StrutsActivity path="/WebContent/management.jsp" location="2150,2450" dimension="178,49" />
+  <StrutsActivity path="/WebContent/press.jsp" location="2450,2450" dimension="142,49" />
+  <StrutsActivity path="/WebContent/responsiblegaming.jsp" location="2750,2450" dimension="204,49" />
+  <StrutsActivity path="page.comingSoon" location="1850,1650" dimension="114,49" />
+  <StrutsActivity path="page.comingSoonLogin" location="50,2550" dimension="139,49" />
+  <StrutsActivity path="/WebContent/homePage.jsp" location="2150,1250" dimension="166,49" />
+  <StrutsActivity path="page.cashierPage" location="2450,1250" dimension="115,49" />
+  <StrutsActivity path="page.cashierPageAddAccount" location="2750,950" dimension="173,49" />
+  <StrutsActivity path="page.gameDetails" location="2150,1350" dimension="115,49" />
+  <StrutsActivity path="page.register1" location="2450,1350" dimension="100,49" />
+  <StrutsActivity path="page.register2" location="50,1450" dimension="100,49" />
+  <StrutsActivity path="page.register3" location="350,1450" dimension="100,49" />
+  <StrutsActivity path="page.register4" location="650,1450" dimension="100,49" />
+  <StrutsActivity path="page.searchResult" location="1550,1450" dimension="119,49" />
+  <StrutsActivity path="/WebContent/forgotPassword.jsp" location="50,2650" dimension="192,49" />
+  <StrutsActivity path="page.messageCenter" location="350,1550" dimension="132,49" />
+  <StrutsActivity path="page.profile" location="650,1550" dimension="87,49" />
+  <StrutsActivity path="page.gameLobbyPage" location="950,1550" dimension="136,49" />
+  <StrutsActivity path="/WebContent/Ajax/myGameLobby.jsp" location="2750,1050" dimension="212,49" />
+  <StrutsActivity path="/index.jsp" location="2150,1450" dimension="77,49" />
+  <StrutsActivity path="page.viewMultiTierTournament" location="1550,1550" dimension="177,49" />
+  <StrutsActivity path="page.tournamentAction" location="2450,1550" dimension="143,49" />
+  <StrutsActivity path="page.tournamentCreation" location="2150,2650" dimension="154,49" />
+  <StrutsActivity path="/WebContent/rankingform.jsp" location="350,1650" dimension="173,49" />
+  <StrutsActivity path="/WebContent/removeThickbox.jsp" location="350,2750" dimension="194,49" />
+  <StrutsActivity path="/WebContent/directChallenge1.jsp" location="950,1650" dimension="196,49" />
+  <StrutsActivity path="/WebContent/directChallenge2.jsp" location="1250,1650" dimension="196,49" />
+  <StrutsActivity path="/WebContent/directChallenge3.jsp" location="1550,1650" dimension="196,49" />
+  <StrutsActivity path="error;6" location="1550,1250" dimension="150,75" />
+  <StrutsActivity path="page.userPage" location="1850,1450" dimension="102,49" />
+  <StrutsActivity path="page.sendMessage" location="650,1650" dimension="122,49" />
+  <StrutsActivity path="/WebContent/error.jsp" location="350,1750" dimension="140,49" />
+  <StrutsActivity path="fAQ;6" location="950,1250" dimension="145,75" />
+  <StrutsActivity path="page.editGameRegister" location="950,1450" dimension="142,49" />
+  <StrutsActivity path="/WebContent/Profile_EditProfile.jsp" location="2750,1450" dimension="200,49" />
+  <StrutsActivity path="page.editFinanceRegister" location="1250,1450" dimension="152,49" />
+  <StrutsActivity path="page.viewOwnProfile" location="2450,1450" dimension="131,49" />
+  <StrutsActivity path="page.forgotPassword" location="50,1550" dimension="133,49" />
+  <StrutsActivity path="page.openChallenge" location="1250,1550" dimension="128,49" />
+  <StrutsActivity path="page.viewCard" location="1850,1550" dimension="102,49" />
+  <StrutsActivity path="page.tournamentAdmin" location="2150,1550" dimension="142,49" />
+  <StrutsActivity path="page.playForMoney" location="50,1650" dimension="125,49" />
+  <StrutsActivity path="/comminSoon" location="2450,1750" dimension="92,49" />
+  <StrutsActivity path="page.cashierPageEditAccount" location="2750,850" dimension="172,49" />
+  <StrutsActivity path="/logout" location="650,1750" dimension="63,49" />
+  <StrutsActivity path="page.about" location="50,1750" dimension="85,49" />
+  <StrutsActivity path="/WebContent/commingSoon.jsp" location="950,1750" dimension="181,49" />
+  <StrutsActivity path="/W" location="1250,1750" dimension="43,49" />
+  <StrutsActivity path="/wEBcONTENT" location="1550,1750" dimension="98,49" />
+  <StrutsActivity path="/" location="1850,1750" dimension="33,49" />
+  <StrutsActivity path="" location="2750,1150" dimension="29,49" />
+  <StrutsTransition id="/directChallenge2.do,dissolve,/WebContent/removeThickbox.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2009,1138" />
+      <AbsolutePoint location="2009,1927" />
+      <AbsolutePoint location="505,1927" />
+      <AbsolutePoint location="505,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayDirectedChallenge1.do,success,/WebContent/directChallenge1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1397,1138" />
+      <AbsolutePoint location="1397,1265" />
+      <AbsolutePoint location="1530,1265" />
+      <AbsolutePoint location="1530,2017" />
+      <AbsolutePoint location="827,2017" />
+      <AbsolutePoint location="827,1674" />
+      <AbsolutePoint location="950,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayProfile.do,success,page.profile,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2538,538" />
+      <AbsolutePoint location="2538,783" />
+      <AbsolutePoint location="922,783" />
+      <AbsolutePoint location="922,1574" />
+      <AbsolutePoint location="737,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/directChallenge1.do,success,/displayDirectChallenge2.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1161,1138" />
+      <AbsolutePoint location="1161,1214" />
+      <AbsolutePoint location="1664,1214" />
+      <AbsolutePoint location="1664,1138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="commingSoon;6,null,/comminSoon.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,1287" />
+      <AbsolutePoint location="208,1287" />
+      <AbsolutePoint location="208,1727" />
+      <AbsolutePoint location="2201,1727" />
+      <AbsolutePoint location="2201,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.cashierPage,null,/cashierAddEditAccount.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2557,1299" />
+      <AbsolutePoint location="2557,1371" />
+      <AbsolutePoint location="2982,1371" />
+      <AbsolutePoint location="2982,538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayTerms.do,null,/WebContent/terms.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3155,1111" />
+      <AbsolutePoint location="3277,1111" />
+      <AbsolutePoint location="3277,1865" />
+      <AbsolutePoint location="622,1865" />
+      <AbsolutePoint location="622,2474" />
+      <AbsolutePoint location="193,2474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayProfile.do,null,/profile.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2508,538" />
+      <AbsolutePoint location="2508,583" />
+      <AbsolutePoint location="138,583" />
+      <AbsolutePoint location="138,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayForgotPassword.do,success,/WebContent/forgotPassword.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,1314" />
+      <AbsolutePoint location="2608,1314" />
+      <AbsolutePoint location="2608,1895" />
+      <AbsolutePoint location="208,1895" />
+      <AbsolutePoint location="208,2650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayTournamentCreation.do,success,page.tournamentCreation,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,2124" />
+      <AbsolutePoint location="2123,2124" />
+      <AbsolutePoint location="2123,2674" />
+      <AbsolutePoint location="2150,2674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="logout;6,null,/logout.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1886,1325" />
+      <AbsolutePoint location="1886,1345" />
+      <AbsolutePoint location="570,1345" />
+      <AbsolutePoint location="570,887" />
+      <AbsolutePoint location="250,887" />
+      <AbsolutePoint location="250,94" />
+      <AbsolutePoint location="230,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayDirectChallenge3.do,null,/directChallenge3.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,1094" />
+      <AbsolutePoint location="2378,1094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayCashier.do,success,page.cashierPage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1341,50" />
+      <AbsolutePoint location="1341,-25" />
+      <AbsolutePoint location="2430,-25" />
+      <AbsolutePoint location="2430,1274" />
+      <AbsolutePoint location="2450,1274" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayRegister2.do,null,/register2.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="243,294" />
+      <AbsolutePoint location="350,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/directChallenge2.do,comment,/displayDirectChallenge2.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,1094" />
+      <AbsolutePoint location="1778,1094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayRanking.do,success,/WebContent/rankingform.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2534,938" />
+      <AbsolutePoint location="2534,1014" />
+      <AbsolutePoint location="304,1014" />
+      <AbsolutePoint location="304,1674" />
+      <AbsolutePoint location="350,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayAbout.do,null,/WebContent/about.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2855,681" />
+      <AbsolutePoint location="3030,681" />
+      <AbsolutePoint location="3030,1236" />
+      <AbsolutePoint location="2365,1236" />
+      <AbsolutePoint location="2365,2373" />
+      <AbsolutePoint location="2294,2373" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/gameLobbyPage.do,success,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="763,738" />
+      <AbsolutePoint location="763,865" />
+      <AbsolutePoint location="274,865" />
+      <AbsolutePoint location="274,2065" />
+      <AbsolutePoint location="2049,2065" />
+      <AbsolutePoint location="2049,1474" />
+      <AbsolutePoint location="2150,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayLogin.do,success,/WebContent/homePage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="522,94" />
+      <AbsolutePoint location="622,94" />
+      <AbsolutePoint location="622,1414" />
+      <AbsolutePoint location="2280,1414" />
+      <AbsolutePoint location="2280,1299" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="homePage;6,null,/displayLogin.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1287" />
+      <AbsolutePoint location="5,1287" />
+      <AbsolutePoint location="5,153" />
+      <AbsolutePoint location="436,153" />
+      <AbsolutePoint location="436,138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/comminSoonLogin.do,null,page.comingSoonLogin,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1881" />
+      <AbsolutePoint location="5,1881" />
+      <AbsolutePoint location="5,2574" />
+      <AbsolutePoint location="50,2574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WebContent/forgotPassword.jsp,null,/forgotPassword.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="242,2674" />
+      <AbsolutePoint location="2093,2674" />
+      <AbsolutePoint location="2093,494" />
+      <AbsolutePoint location="2075,494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WebContent/forgotPassword.jsp,null,/displayForgotPassword.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="146,2699" />
+      <AbsolutePoint location="146,2874" />
+      <AbsolutePoint location="3024,2874" />
+      <AbsolutePoint location="3024,1294" />
+      <AbsolutePoint location="2975,1294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayViewMutiTierTournament.do,success,page.viewMultiTierTournament,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,694" />
+      <AbsolutePoint location="1355,694" />
+      <AbsolutePoint location="1355,813" />
+      <AbsolutePoint location="-85,813" />
+      <AbsolutePoint location="-85,1957" />
+      <AbsolutePoint location="1793,1957" />
+      <AbsolutePoint location="1793,1574" />
+      <AbsolutePoint location="1727,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WebContent/homePage.jsp,null,/login.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2233,1250" />
+      <AbsolutePoint location="2233,1238" />
+      <AbsolutePoint location="946,1238" />
+      <AbsolutePoint location="946,94" />
+      <AbsolutePoint location="950,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cashierAddEditAccount.do,addsuccess,page.cashierPageAddAccount,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3009,494" />
+      <AbsolutePoint location="3187,494" />
+      <AbsolutePoint location="3187,1014" />
+      <AbsolutePoint location="2836,1014" />
+      <AbsolutePoint location="2836,999" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.register3,null,/register3.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="430,1450" />
+      <AbsolutePoint location="430,1365" />
+      <AbsolutePoint location="892,1365" />
+      <AbsolutePoint location="892,294" />
+      <AbsolutePoint location="950,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="responsiblegaming;6,null,/displayResponsibleGaming.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1942,2350" />
+      <AbsolutePoint location="1942,1957" />
+      <AbsolutePoint location="2834,1957" />
+      <AbsolutePoint location="2834,1812" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WebContent/directChallenge1.jsp,null,/displayDirectedChallenge1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1146,1674" />
+      <AbsolutePoint location="1161,1674" />
+      <AbsolutePoint location="1161,2395" />
+      <AbsolutePoint location="1500,2395" />
+      <AbsolutePoint location="1500,1295" />
+      <AbsolutePoint location="1367,1295" />
+      <AbsolutePoint location="1367,1138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayTournamentAction.do,success,page.tournamentAction,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1352,938" />
+      <AbsolutePoint location="1352,1036" />
+      <AbsolutePoint location="1836,1036" />
+      <AbsolutePoint location="1836,2271" />
+      <AbsolutePoint location="2436,2271" />
+      <AbsolutePoint location="2436,1574" />
+      <AbsolutePoint location="2450,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayImage.do,null,/WebContent/displayImage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="703,50" />
+      <AbsolutePoint location="703,5" />
+      <AbsolutePoint location="274,5" />
+      <AbsolutePoint location="274,783" />
+      <AbsolutePoint location="823,783" />
+      <AbsolutePoint location="823,865" />
+      <AbsolutePoint location="950,865" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.cashierPage,null,/displayCashier.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2507,1250" />
+      <AbsolutePoint location="2507,1165" />
+      <AbsolutePoint location="1530,1165" />
+      <AbsolutePoint location="1530,94" />
+      <AbsolutePoint location="1433,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.register1,null,/register1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2500,1399" />
+      <AbsolutePoint location="2500,1414" />
+      <AbsolutePoint location="3217,1414" />
+      <AbsolutePoint location="3217,414" />
+      <AbsolutePoint location="2276,414" />
+      <AbsolutePoint location="2276,138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/register3.do,error,/displayRegister1.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1137,250" />
+      <AbsolutePoint location="1137,-85" />
+      <AbsolutePoint location="2576,-85" />
+      <AbsolutePoint location="2576,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/comminSoon.do,null,page.comingSoon,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2150,1781" />
+      <AbsolutePoint location="1907,1781" />
+      <AbsolutePoint location="1907,1699" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayDirectChallenge2.do,success,/WebContent/directChallenge2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1764,1138" />
+      <AbsolutePoint location="1764,2130" />
+      <AbsolutePoint location="1348,2130" />
+      <AbsolutePoint location="1348,1699" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tournamentAction.do,success,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1755,924" />
+      <AbsolutePoint location="2393,924" />
+      <AbsolutePoint location="2393,1274" />
+      <AbsolutePoint location="2343,1274" />
+      <AbsolutePoint location="2343,1474" />
+      <AbsolutePoint location="2227,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewMutiTierTournament.do,success,page.viewMultiTierTournament,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2387,650" />
+      <AbsolutePoint location="2387,354" />
+      <AbsolutePoint location="3277,354" />
+      <AbsolutePoint location="3277,1014" />
+      <AbsolutePoint location="3247,1014" />
+      <AbsolutePoint location="3247,1927" />
+      <AbsolutePoint location="2195,1927" />
+      <AbsolutePoint location="2195,2295" />
+      <AbsolutePoint location="1461,2295" />
+      <AbsolutePoint location="1461,1574" />
+      <AbsolutePoint location="1550,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/directChallenge1.do,failure,/displayDirectedChallenge1.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1184,1094" />
+      <AbsolutePoint location="1250,1094" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/directChallenge3.do,success,/WebContent/directChallenge3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2264,1050" />
+      <AbsolutePoint location="2264,987" />
+      <AbsolutePoint location="1822,987" />
+      <AbsolutePoint location="1822,1674" />
+      <AbsolutePoint location="1746,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.tournamentCreation,null,/displayTournamentCreation.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2304,2674" />
+      <AbsolutePoint location="2969,2674" />
+      <AbsolutePoint location="2969,2138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayRegister1.do,success,page.register1,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2642,138" />
+      <AbsolutePoint location="2642,384" />
+      <AbsolutePoint location="3431,384" />
+      <AbsolutePoint location="3431,2213" />
+      <AbsolutePoint location="2393,2213" />
+      <AbsolutePoint location="2393,1374" />
+      <AbsolutePoint location="2450,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.tournamentCreation,null,/tournamentCreation.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2227,2650" />
+      <AbsolutePoint location="2227,2514" />
+      <AbsolutePoint location="3192,2514" />
+      <AbsolutePoint location="3192,2138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/register3.do,Edit,/displayRegister1.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1143,294" />
+      <AbsolutePoint location="1231,294" />
+      <AbsolutePoint location="1231,-55" />
+      <AbsolutePoint location="2546,-55" />
+      <AbsolutePoint location="2546,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="removethickbox;6,null,/WebContent/removeThickbox.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2607,2325" />
+      <AbsolutePoint location="2607,2614" />
+      <AbsolutePoint location="447,2614" />
+      <AbsolutePoint location="447,2750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayRegister2.do,success,page.register2,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,294" />
+      <AbsolutePoint location="-25,294" />
+      <AbsolutePoint location="-25,1474" />
+      <AbsolutePoint location="50,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,login,/displayProfile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1066,138" />
+      <AbsolutePoint location="1066,183" />
+      <AbsolutePoint location="2598,183" />
+      <AbsolutePoint location="2598,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search.do,success,page.searchResult,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="530,494" />
+      <AbsolutePoint location="646,494" />
+      <AbsolutePoint location="646,1389" />
+      <AbsolutePoint location="1609,1389" />
+      <AbsolutePoint location="1609,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayRanking.do,null,/submitFeedbackReputation.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,894" />
+      <AbsolutePoint location="1793,894" />
+      <AbsolutePoint location="1793,1365" />
+      <AbsolutePoint location="1231,1365" />
+      <AbsolutePoint location="1231,694" />
+      <AbsolutePoint location="1159,694" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="contact;6,null,/displayContact.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="731,1250" />
+      <AbsolutePoint location="731,1165" />
+      <AbsolutePoint location="1500,1165" />
+      <AbsolutePoint location="1500,753" />
+      <AbsolutePoint location="3107,753" />
+      <AbsolutePoint location="3107,850" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.cashierPageAddAccount,null,/saveCashierAccount.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2923,974" />
+      <AbsolutePoint location="3247,974" />
+      <AbsolutePoint location="3247,294" />
+      <AbsolutePoint location="3009,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayResponsibleGaming.do,null,/WebContent/responsiblegaming.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2918,1781" />
+      <AbsolutePoint location="3341,1781" />
+      <AbsolutePoint location="3341,2474" />
+      <AbsolutePoint location="2954,2474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayManagement.do,null,/WebContent/management.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2819,1612" />
+      <AbsolutePoint location="2819,1727" />
+      <AbsolutePoint location="2343,1727" />
+      <AbsolutePoint location="2343,2474" />
+      <AbsolutePoint location="2328,2474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/directChallenge2.do,success,/displayDirectChallenge3.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1964,1050" />
+      <AbsolutePoint location="1964,965" />
+      <AbsolutePoint location="2564,965" />
+      <AbsolutePoint location="2564,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="userHome;6,null,/displayProfile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="111,2250" />
+      <AbsolutePoint location="111,1987" />
+      <AbsolutePoint location="2723,1987" />
+      <AbsolutePoint location="2723,494" />
+      <AbsolutePoint location="2627,494" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayGameDetails.do,success,page.gameDetails,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2056,94" />
+      <AbsolutePoint location="2141,94" />
+      <AbsolutePoint location="2141,1374" />
+      <AbsolutePoint location="2150,1374" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayWidgetGameLobbyPage.do,success,/WebContent/Ajax/myGameLobby.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1083,538" />
+      <AbsolutePoint location="1083,635" />
+      <AbsolutePoint location="2960,635" />
+      <AbsolutePoint location="2960,1050" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/register3.do,save,/displayRegister4.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1143,324" />
+      <AbsolutePoint location="1250,324" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayContact.do,null,/WebContent/contact.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3164,881" />
+      <AbsolutePoint location="3401,881" />
+      <AbsolutePoint location="3401,1627" />
+      <AbsolutePoint location="2226,1627" />
+      <AbsolutePoint location="2226,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayFAQ.do,null,/WebContent/fAQ.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3050,695" />
+      <AbsolutePoint location="3016,695" />
+      <AbsolutePoint location="3016,1271" />
+      <AbsolutePoint location="3003,1271" />
+      <AbsolutePoint location="3003,1674" />
+      <AbsolutePoint location="2585,1674" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayGameLobbyPage.do,success,page.gameLobbyPage,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="493,738" />
+      <AbsolutePoint location="493,914" />
+      <AbsolutePoint location="1199,914" />
+      <AbsolutePoint location="1199,1574" />
+      <AbsolutePoint location="1086,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayMessageCenter.do,success,page.messageCenter,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2261,538" />
+      <AbsolutePoint location="2261,554" />
+      <AbsolutePoint location="334,554" />
+      <AbsolutePoint location="334,1574" />
+      <AbsolutePoint location="350,1574" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="terms;6,null,/displayTerms.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2810,2325" />
+      <AbsolutePoint location="2810,2414" />
+      <AbsolutePoint location="3401,2414" />
+      <AbsolutePoint location="3401,1681" />
+      <AbsolutePoint location="3341,1681" />
+      <AbsolutePoint location="3341,1081" />
+      <AbsolutePoint location="3155,1081" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayPress.do,null,/WebContent/press.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3152,1681" />
+      <AbsolutePoint location="3311,1681" />
+      <AbsolutePoint location="3311,2365" />
+      <AbsolutePoint location="2521,2365" />
+      <AbsolutePoint location="2521,2450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayTournamentCreation.do,failure,/displayLogin.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,2094" />
+      <AbsolutePoint location="592,2094" />
+      <AbsolutePoint location="592,183" />
+      <AbsolutePoint location="466,183" />
+      <AbsolutePoint location="466,138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cashierAddEditAccount.do,success,/displayCashier.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,524" />
+      <AbsolutePoint location="2699,524" />
+      <AbsolutePoint location="2699,213" />
+      <AbsolutePoint location="1341,213" />
+      <AbsolutePoint location="1341,138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="commingSoonLogin;6,null,/comminSoonLogin.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,2287" />
+      <AbsolutePoint location="439,2287" />
+      <AbsolutePoint location="439,1865" />
+      <AbsolutePoint location="177,1865" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cashierAddEditAccount.do,deletesuccess,/displayCashier.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2750,464" />
+      <AbsolutePoint location="2723,464" />
+      <AbsolutePoint location="2723,5" />
+      <AbsolutePoint location="1371,5" />
+      <AbsolutePoint location="1371,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="press;6,null,/displayPress.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="409,2350" />
+      <AbsolutePoint location="409,1827" />
+      <AbsolutePoint location="3101,1827" />
+      <AbsolutePoint location="3101,1712" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/forgotPassword.do,success,/displayLogin.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1964,538" />
+      <AbsolutePoint location="1964,613" />
+      <AbsolutePoint location="304,613" />
+      <AbsolutePoint location="304,94" />
+      <AbsolutePoint location="350,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,firstLogin,/displayRegister2.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1036,138" />
+      <AbsolutePoint location="1036,213" />
+      <AbsolutePoint location="146,213" />
+      <AbsolutePoint location="146,250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayPrivacy.do,null,/WebContent/privacy.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3119,1312" />
+      <AbsolutePoint location="3119,1436" />
+      <AbsolutePoint location="800,1436" />
+      <AbsolutePoint location="800,2450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="advertise;6,null,/displayAdvertise.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1019,2350" />
+      <AbsolutePoint location="1019,1845" />
+      <AbsolutePoint location="3159,1845" />
+      <AbsolutePoint location="3159,1512" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="about;6,null,/displayAbout.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1297,1250" />
+      <AbsolutePoint location="1297,1189" />
+      <AbsolutePoint location="2741,1189" />
+      <AbsolutePoint location="2741,681" />
+      <AbsolutePoint location="2750,681" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/saveCashierAccount.do,success,/displayCashier.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2879,250" />
+      <AbsolutePoint location="2879,153" />
+      <AbsolutePoint location="1359,153" />
+      <AbsolutePoint location="1359,138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayDirectChallenge3.do,null,/displayDirectChallenge3.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2594,1050" />
+      <AbsolutePoint location="2594,1014" />
+      <AbsolutePoint location="2699,1014" />
+      <AbsolutePoint location="2699,1084" />
+      <AbsolutePoint location="2678,1084" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayAdvertise.do,null,/WebContent/advertise.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3169,1512" />
+      <AbsolutePoint location="3169,2039" />
+      <AbsolutePoint location="1370,2039" />
+      <AbsolutePoint location="1370,2450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayRegister4.do,success,page.register4,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1359,250" />
+      <AbsolutePoint location="1359,237" />
+      <AbsolutePoint location="940,237" />
+      <AbsolutePoint location="940,1474" />
+      <AbsolutePoint location="750,1474" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayDirectChallenge3.do,dissolve,/WebContent/removeThickbox.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2669,1138" />
+      <AbsolutePoint location="2669,2774" />
+      <AbsolutePoint location="544,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.messageCenter,null,/displayMessageCenter.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="416,1550" />
+      <AbsolutePoint location="416,1527" />
+      <AbsolutePoint location="3311,1527" />
+      <AbsolutePoint location="3311,613" />
+      <AbsolutePoint location="2291,613" />
+      <AbsolutePoint location="2291,538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="faq;6,null,/displayFAQ.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,2287" />
+      <AbsolutePoint location="870,2287" />
+      <AbsolutePoint location="870,835" />
+      <AbsolutePoint location="3085,835" />
+      <AbsolutePoint location="3085,712" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.cashierPage,null,/cashier.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2507,1299" />
+      <AbsolutePoint location="2507,1314" />
+      <AbsolutePoint location="2123,1314" />
+      <AbsolutePoint location="2123,414" />
+      <AbsolutePoint location="1671,414" />
+      <AbsolutePoint location="1671,138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayGameDetails.do,gamelobby,/displayGameLobbyPage.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1850,94" />
+      <AbsolutePoint location="1830,94" />
+      <AbsolutePoint location="1830,965" />
+      <AbsolutePoint location="463,965" />
+      <AbsolutePoint location="463,738" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="page.cashierPage,null,/displayCashierAddEditAccount.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2565,1274" />
+      <AbsolutePoint location="2638,1274" />
+      <AbsolutePoint location="2638,2183" />
+      <AbsolutePoint location="3371,2183" />
+      <AbsolutePoint location="3371,94" />
+      <AbsolutePoint location="3009,94" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="privacy;6,null,/displayPrivacy.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3113,2250" />
+      <AbsolutePoint location="3113,2160" />
+      <AbsolutePoint location="2691,2160" />
+      <AbsolutePoint location="2691,1385" />
+      <AbsolutePoint location="3105,1385" />
+      <AbsolutePoint location="3105,1312" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/submitFeedbackReputation.do,success,/WebContent/removeThickbox.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1054,738" />
+      <AbsolutePoint location="1054,753" />
+      <AbsolutePoint location="35,753" />
+      <AbsolutePoint location="35,2774" />
+      <AbsolutePoint location="350,2774" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cashier.do,next,/displayRegister2.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1641,138" />
+      <AbsolutePoint location="1641,414" />
+      <AbsolutePoint location="138,414" />
+      <AbsolutePoint location="138,338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/cashierAddEditAccount.do,editsuccess,page.cashierPageAddAccount,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2938,538" />
+      <AbsolutePoint location="2938,927" />
+      <AbsolutePoint location="2836,927" />
+      <AbsolutePoint location="2836,950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayRegister3.do,success,page.register3,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="771,250" />
+      <AbsolutePoint location="771,35" />
+      <AbsolutePoint location="-55,35" />
+      <AbsolutePoint location="-55,1414" />
+      <AbsolutePoint location="400,1414" />
+      <AbsolutePoint location="400,1450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/editProfile.do,success,/displayProfile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2045,324" />
+      <AbsolutePoint location="2538,324" />
+      <AbsolutePoint location="2538,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/profile.do,success,/displayProfile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="168,650" />
+      <AbsolutePoint location="168,384" />
+      <AbsolutePoint location="2508,384" />
+      <AbsolutePoint location="2508,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WebContent/directChallenge1.jsp,null,/directChallenge1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1110,1650" />
+      <AbsolutePoint location="1110,1138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayDirectChallenge3.do,success,/WebContent/directChallenge3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2550,1138" />
+      <AbsolutePoint location="2550,1214" />
+      <AbsolutePoint location="1742,1214" />
+      <AbsolutePoint location="1742,1650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/WebContent/directChallenge2.jsp,null,/directChallenge2.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1348,1650" />
+      <AbsolutePoint location="1348,1627" />
+      <AbsolutePoint location="1979,1627" />
+      <AbsolutePoint location="1979,1138" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayDirectedChallenge1.do,profile,/displayProfile.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1470,1050" />
+      <AbsolutePoint location="1470,813" />
+      <AbsolutePoint location="2568,813" />
+      <AbsolutePoint location="2568,538" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayProfile.do,null,/editProfile.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2568,450" />
+      <AbsolutePoint location="2568,294" />
+      <AbsolutePoint location="2045,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/register2.do,review,/displayRegister3.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="543,294" />
+      <AbsolutePoint location="650,294" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="management;6,null,/displayManagement.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1627,2350" />
+      <AbsolutePoint location="1627,2017" />
+      <AbsolutePoint location="2933,2017" />
+      <AbsolutePoint location="2933,1581" />
+      <AbsolutePoint location="2888,1581" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/register1.do,next,/displayRegister2.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2246,138" />
+      <AbsolutePoint location="2246,354" />
+      <AbsolutePoint location="168,354" />
+      <AbsolutePoint location="168,338" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/register3.do,EDIT,/register1.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1143,264" />
+      <AbsolutePoint location="1197,264" />
+      <AbsolutePoint location="1197,35" />
+      <AbsolutePoint location="2246,35" />
+      <AbsolutePoint location="2246,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

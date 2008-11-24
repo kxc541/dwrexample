@@ -1,0 +1,67 @@
+#Search .PageContent {
+	background:#fff;
+	color:#525252;
+}
+
+#Search .PageContent .Widget {
+	margin:5px 15px;
+	background:#fff;
+}
+#Search .PageContent .WidgetContent {
+	background:#fff;
+}
+
+#Search .PageContent .WidgetHeader h1 {
+	background:#f1f1f1;
+	color:#676767;
+}
+#Search .PageContent h2 {
+	color:#676767;
+}
+#Search .PageContent .WidgetContent .Format1 {
+	margin:5px 0;
+	background:#fafafa;
+}
+
+
+
+#Search .PageContent a {
+	color:#000;
+}
+#Search .PageContent .buttons a {
+	color:#fff;
+}
+#Search .PageContent .SearchOptions a {
+	color:#64a4eb;
+}
+
+
+
+
+#Search .PageContent .WidgetContent .Format1 .Style1 td {
+	color:#676767;
+}
+#Search .PageContent .WidgetContent .Format1 li {
+	color:#676767;
+	font-size:10px;
+	margin-bottom:3px;
+}
+#Search .PageContent .WidgetContent .Format1 p {
+	color:#676767;
+}
+
+#Search .PageContent .WidgetContent .Format1 .GameAvatar .AvatarImage img {
+	width:40px;
+}
+
+#Search .PageContent .WidgetContent .Format1 .buttons {
+	padding:0;
+	margin:0;
+}
+#Search .PageContent .WidgetContent .Format1 .buttons a {
+	font-size:10px;
+	float:right;
+	width:80%;
+	margin-bottom:5px;
+	text-align:center;
+}

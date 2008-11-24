@@ -1,0 +1,650 @@
+
+
+/* ------ NOTES ---------------------------------------------------------------
+
+The base width of the Widget Area is 565px; (based on PageContent)
+
+--------- UPDATE INFO ---------------------------------------------------------
+
+
+
+--------- CONTENTS ------------------------------------------------------------
+
+1: STRUCTURE
+
+2: TOURNAMENT LANDING PAGE (Tournament Center)
+
+
+BRACKETS
+---------------------------------------------------------------------------- */
+
+/* 1: STRUCTURE
+============================================================================ */
+
+#Tournaments .PageContent {
+	width:100%;
+	background:url(images/bg/TournamentBG.jpg) top left no-repeat #313131;
+}
+/* NO SIDEBAR*/
+#Tournaments .Sidebar {
+	display:none;
+}
+
+
+
+
+/* 2: TOURNAMENT LANDING (Tournament Center)
+============================================================================ */
+
+/* 2 a): TabNav and Tab
+============================================================================ */
+#Tournaments #TournamentsLanding.PageContent .TabContent {
+	background:#d2d2d2;
+}
+#Tournaments #TournamentsLanding.PageContent .TabNav {
+	background:#bbbbbb;
+	padding-left:40px;
+}
+#Tournaments #TournamentsLanding.PageContent .TabNav li a {
+	background:url('images/bg/PageContent/tabnav-dark.jpg') top left repeat-x #5e5e5e;
+}
+#Tournaments #TournamentsLanding.PageContent .TabNav li a.selected {
+	background:#d2d2d2;
+	font-weight:bold;
+	color:#000;
+}
+#Tournaments .PageContent .TabNav .selected {
+	background:#a0a0a0;
+}
+
+
+/* 2 b): Intro div and text
+============================================================================ */
+.intro {
+	background:url(images/bg/tournamentIntro.jpg) top left no-repeat;
+	height:262px;
+	padding:0px 0px 0px;
+	margin-bottom:0px;
+}
+.intro p {
+	width:400px;
+	position:relative;
+	top:150px;
+	left:45px;
+	color:#000;
+}
+
+
+/* 2 c): Format 1 - Contains the other two formats
+============================================================================ */
+#Tournaments .Format1 {
+	margin:10px auto;
+	width:836px;
+	position:relative;
+}
+#Tournaments .Format1 h1 {
+	font-size:18px;
+	margin-bottom:10px;
+	font-weight:bold;
+	color:#a8a8a8;
+	color:#474747;
+}
+#Tournaments .Format1 h2 {
+	margin-bottom:5px;
+}
+
+
+
+/* 2 d): Format 2 - Formats for Tournament banners
+============================================================================ */
+#Tournaments .Format2 {
+	border:0;
+	padding:0 0 0px 0;
+	margin:0px 0 10px;
+	border-bottom:1px solid #666;
+	background:transparent;
+	position:relative;
+}
+
+#Tournaments .Format2 h2 {
+	font-size:20px;
+	margin:10px 0 5px;
+}
+
+/* 2 e): Format 3 - formats for the past games
+============================================================================ */
+#Tournaments .Format3 {
+	margin:20px 0;
+	padding:0px;
+}
+#Tournaments .Format3 h2 {
+	font-size:16px;
+	padding:5px;
+	margin-bottom:2px;
+	background:#383838;
+	position:relative;
+}
+#Tournaments .Format3 h2 img {
+	position:absolute;
+	top:3px;
+	right:5px;
+}
+
+#Tournaments .Format4 {
+	padding:10px;
+	background:#d2d2d2;
+}
+
+
+
+
+/* 2 f): Past Tournaments
+============================================================================ */
+.PastTournaments {
+	background:#383838;
+	padding:10px;
+}
+
+
+/* 2 g): Past Tournaments Table
+============================================================================ */
+table.PastTournamentTable {
+	width:100%;
+}
+table.PastTournamentTable thead {
+	color:#999;
+	padding:10px 0;
+	font-size:11px;
+}
+table.PastTournamentTable th {
+	padding:10px 0;
+}
+table.PastTournamentTable tbody {
+	padding:10px 0;
+}
+table.PastTournamentTable tbody tr {
+	background:#3e3e3e;
+	border-bottom:5px solid #363636;
+}
+table.PastTournamentTable thead th {
+	padding:5px;
+}
+table.PastTournamentTable tbody td {
+	padding:5px;
+}
+
+
+
+
+/* 3: TOURNAMENT BANNER
+============================================================================ */
+.Format2 .TournamentBanner {
+	border:1px solid #fff;
+	margin:0px auto;
+	overflow:hidden;
+	width:836px;
+}
+
+/* 3 a) : Tournament Description
+============================================================================ */
+.Format2 .TournamentDescription {
+	background:#000;
+	padding:20px 10px;
+}
+.Format2 .TournamentDescription th {
+	padding-right:20px;
+	font-weight:bold;
+}
+.Format2 .TournamentDescription td.buttons {
+	width:260px;
+	text-align:center;
+}
+.Format2 .TournamentDescription td.buttons a {
+	position:relative;
+	left:80px;
+}
+
+/* 3 b) : Banner Game Info
+============================================================================ */
+.Format2 .GameInfo {
+	position:absolute;
+	top:10px;
+	right:0;
+	width:260px;
+}
+.Format2 .GameInfo dd.jackpot img {
+	float:left;
+	font-size:20px;
+	line-height:40px;
+	position:relative;
+	left:-5px;
+}
+.Format2 .GameInfo dd.jackpot strong {
+	font-size:20px;
+	font-weight:bold;
+	line-height:40px;
+}
+
+
+
+/* MISC
+============================================================================ */
+#TournamentSingle.PageContent {
+	background:url(images/bg/PageContent/pagecontent-singletournament.jpg) top left no-repeat #bbbbbb;
+	padding-top:50px;
+	color:#333
+}
+img.tournamentBanner {
+	margin-bottom:25px;
+}
+
+/* 1: STRUCTURE
+============================================================================ */
+#Tournaments #Invite {
+	margin:20px 0;
+	background:#555;
+}
+#Tournaments #Chat {
+	margin:20px 0;
+}
+
+#PlayersOnline .Avatar {
+	margin:0 5px 5px 0;
+}
+
+
+
+#Tournaments .more {
+	padding-top:0px;
+	margin-top:10px;
+	font-weight:bold;
+}
+#Tournaments .more a {
+	font-size:12px;
+	padding-left:15px;
+	background:url('images/icons/expand.png') left center no-repeat;
+}
+
+
+
+
+/* 1: STRUCTURE
+============================================================================ */
+.Custom1 {
+	border:1px solid #777777;
+	margin-top:20px;
+	padding:10px;
+	background:#555555;
+}
+.Custom1 .Avatar, .Custom1 .Avatar .AvatarImage, .Custom1 .Avatar .AvatarImage img {
+	width:45px;
+}
+.Custom1 .Avatar {
+	margin-right:5px;
+	margin-bottom:5px;
+}
+.Custom1 .Avatar em {
+	display:none;
+}
+
+.Custom1 p {
+	margin-bottom:18px;
+	line-height:18px;
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+table.row {
+	background:#969696;
+}
+table.row td {
+	font-size:14px;
+	padding:1px 2px;
+}
+table.row th {
+	padding:1px 2px;
+	color:#d8d8d8;
+}
+table.row.rowHeader {
+	background:#787878;
+}
+#Tournaments table.row.rowHeader h1 {
+	font-size:20px;
+	padding:10px;
+	color:#fff;
+}
+table.row.rowHeader img {
+	position:relative;
+	top:3px;
+}
+
+
+ul.WidgetInfo li a {
+	text-decoration:none;
+	border:0;
+	color:#333;
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+.PageContent .Options {
+	background:transparent;
+	clear:none;
+}
+.PageContent .Options table {
+	margin-bottom:10px;
+}
+
+
+
+/* 1: STRUCTURE
+============================================================================ */
+
+
+
+
+
+/* 1: BRACKETS
+============================================================================ */
+#brackets {
+	width:100%;
+	position:relative;
+}
+#brackets h2 {
+	color:#fff;
+}
+#brackets h1 {
+	margin:0 10px -20px;
+	background:url(images/bg/bracketsTitleBG.jpg) bottom left repeat-x #161712;
+	height:60px;
+	padding:10px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets h4, #brackets h5, #brackets h6 {
+	position:absolute;
+	top:50%;
+	left:100%;
+	text-align:center;
+	width:100%;
+	line-height:25px;
+	color:#666;
+	font-size:10px;
+}
+#brackets h5 {
+	left:200%;
+}
+#brackets h6 {
+	left:300%;
+	color:#fff;
+	z-index:300;
+}
+#brackets .BracketContainer.Brackets8 h6 {
+	left:200%;	
+}
+#brackets .BracketContainer.Brackets4 h6 {
+	left:100%;	
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets td {
+	width:25%;
+}
+#brackets ul {
+	padding:0px 5px;
+	background:#7e7e7e;
+	margin:10px 10px;
+}
+#brackets ul li {
+	padding:0px 0px;
+	display:block;
+	width:100%;
+}
+#brackets ul li a {
+	display:block;
+	text-align:center;
+	background:#fff;
+	color:#000;
+	line-height:20px;
+	font-size:10px;
+	margin:0 5px;
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets .col {
+	width:20%;
+	float:left;
+	position:relative;
+}
+#brackets .col h2 {
+	text-align:center;
+	position:relative;
+	padding-bottom:5px;
+	background:url(images/bg/bracketCarrot.png) bottom center no-repeat;
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets .BracketContainer.Brackets4 .col {
+	width:33%;
+}
+#brackets .BracketContainer.Brackets4 .level2  {
+	left:33%;
+}
+#brackets .BracketContainer.Brackets4 .level3  {
+	left:66%;
+}
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets .BracketContainer.Brackets8 .col {
+	width:25%;
+}
+#brackets .BracketContainer.Brackets8 .level2  {
+	left:25%;
+}
+#brackets .BracketContainer.Brackets8 .level3  {
+	left:50%;
+}
+#brackets .BracketContainer.Brackets8 .level4  {
+	left:75%;
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets .level1 {
+
+}
+#brackets .level1 ul {
+	height:55px;
+	position:relative;
+}
+
+.BracketContainer {
+	position:relative;
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets .level2 {
+	position:absolute;
+	top:10px;
+	left:20%;	
+}
+#brackets .level2 h2 {
+	top:-10px;
+}
+#brackets .level2 ul {
+	margin-bottom:30px;
+	height:100px;
+	position:relative;
+}
+
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets .level3 {
+	position:absolute;
+	top:20px;
+	left:40%;	
+}
+#brackets .level3 h2 {
+	top:-20px;
+}
+#brackets .level3 ul {
+	margin-bottom:50px;
+	height:210px;
+	position:relative;
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets .level4 {
+	position:absolute;
+	top:100px;
+	left:60%;	
+}
+#brackets .level4 h2 {
+	top:-100px;
+}
+#brackets .level4 ul {
+	margin-bottom:50px;
+	height:315px;
+	position:relative;
+}
+
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets .level5 {
+	position:absolute;
+	top:255px;
+	left:80%;	
+}
+#brackets .level5 h2 {
+	top:-255px;
+}
+#brackets .level5 ul {
+	margin-bottom:50px;
+	height:210px;
+	position:relative;
+}
+
+/* 1: STRUCTURE
+============================================================================ */
+	
+#brackets .bracket-winner {
+	position:relative;
+	margin:10px auto;
+	width:100px;
+	text-align:center;
+}
+#brackets .level5 .bracket-winner {
+	top:-80px;
+}
+#brackets .level4 .bracket-winner {
+	top:-55px;
+}
+#brackets .level3 .bracket-winner {
+	top:-20px;
+}
+.bracket-winner a {
+	display:block;
+	margin:5px;
+	text-align:center;
+	background:#fff;
+	color:#000;
+	padding:5px 0;
+}
+.bracket-winner p {
+	padding:5px;
+	background:#a0a0a0;
+}
+.bracket-winner div {
+	margin:5px;
+	border:5px solid #fff;
+	background:#fff;
+}
+.bracket-winner div img {
+	display:block;
+	margin:0px auto;
+	width:80px;
+}
+
+
+/* 1: STRUCTURE
+============================================================================ */
+#brackets li.top {
+	position:absolute;
+	top:5px;
+	left:0;
+	width:100%;
+}
+#brackets li.bottom {
+	position:absolute;
+	bottom:5px;
+	left:0;
+	width:100%;
+}
+
+
+
+
+
+
+
+
+/* Date Calendar */
+#container .SchDate {
+	padding:3px 0;
+	width:44px;
+	height:74px;
+	margin-right:10px;
+	background:url(images/bg/calendar-small.png) top left no-repeat;
+	text-align:center;
+}
+#container .SchDate h1 {
+	font-size: 20px;
+	font-weight:bold;
+	margin-bottom:5px;
+	color:#000;
+}
+.SchDate h1 strong {
+	font-weight:bold;
+	font-style:italic;
+	font-size:12px;
+	color:#fff;
+}
+#container .SchDate h2 {
+	font-size:11px;
+	color:#fff;
+	font-weight:bold;
+	position:relative;
+	top:4px;
+}
+.SchDate a {
+	font-size:10px;
+	color:#d2d2d2;
+}
+
+
+
+
+
+

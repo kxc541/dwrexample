@@ -1,0 +1,562 @@
+
+/**************************
+Main Containing Div
+**************************/
+#DirectChallenge {
+	width:565px;
+	margin:0 auto;
+	border:5px solid #666;
+}
+
+/**************************
+ChallengeCard
+**************************/
+.ChallengeCard {
+	width:100%;
+	margin:0 auto;
+	background:url(images/bg/ChallengeCardBG.jpg) top center no-repeat #d2d2d2;
+	color:#fff;
+	position:relative;
+}
+.ChallengeCard h1 {
+	font-size:12px;
+	font-weight:bold;
+	margin:5px 0;
+}
+.ChallengeCard textarea {
+	display:block;
+	width:98%; 
+	height:80px; 
+	font-size:10px; 
+	font-family:verdana;
+	margin:5px 0;
+}
+.ChallengeCard p {
+	margin:10px 0;
+	line-height:18px;
+}
+
+
+.PlayerStatus {
+	margin:5px;
+	border:1px solid #fff;
+	text-align:center;
+	padding:5px;
+	font-size:10px;
+}
+.PlayerStatus.PlayerConfirmed {
+	border:1px solid #a5ad92;
+}
+.PlayerStatus.PlayerPending {
+}
+.PlayerStatus.PlayerRejected {
+}
+/**************************
+Re-style subnav
+**************************/
+.SubNav {
+	width:545px;
+	margin:0 auto;
+	padding:5px 10px;
+	background:url(images/bg/ChallengeCardSubnavBG.jpg) top left repeat-x #666;
+	color:#999;
+}
+.SubNav li {
+	padding:2px 5px;
+	margin-right:10px;
+	line-height:12px;
+}
+.SubNav li.selected {
+	color:#eee;
+	border:1px solid #b6b6b6;	
+}
+/**************************
+Make the avatars centered
+**************************/
+.ChallengeCard .Avatar {
+	margin:15px auto;
+	float:none;
+}
+
+
+/**************************
+The options div
+**************************/
+.Options {
+	text-align:center;
+	padding:8px 20px;
+	clear:both;
+	background:#000;
+}
+.Options table {
+	margin:0 auto;
+}
+.Options td {
+	padding:0 10px;
+}
+.Options table a {
+	font-size:14px;
+}
+/**************************
+Terms of Service
+**************************/
+.TOS {
+	padding:5px 20px;
+	background:#454545;
+}
+
+/**************************
+Comments
+**************************/
+.MatchComments {
+	padding:5px;
+	text-align:center;
+
+}
+
+/**************************
+The Message area is the top of the challenge card with a brief
+message and an icon
+**************************/
+.Message {
+	width:565px;
+	margin:0 auto;
+	color:#fff;
+	padding:5px 0;
+	background:url(images/bg/ChallengeCard/MessageCheckBG.png) 20px 7px no-repeat #333;
+	min-height:53px;
+	height:auto;
+}
+.Message h1 {
+	font-weight:bold;
+	padding:10px 0 0 90px;
+	font-size:15px;
+}
+.Message p {
+	padding:0 0 0 90px;
+	margin:0;
+}
+
+.Message.rate {
+	background:url(images/icon/ChallengeCard/Message_Rate.png) 20px 20px no-repeat #000;
+}
+.Message.organize{
+	
+}
+.Message.confirm{
+}
+.Message.chat{
+}
+.Message.pick{
+}
+.Message.inviteusers{
+}
+
+/**************************
+GAme Picker
+**************************/
+
+#GamePicker {
+	background:#000;
+	padding:0px 0 0px;
+	position:relative;
+
+}
+#GamePicker .Options {
+	padding:20px;
+}
+
+#GamePicker .Avatar {
+	float:left;
+	position:relative;
+	cursor:pointer;
+}
+#GamePicker .Avatar .Hover {
+	position:absolute;
+	top:15px;
+	left:7px;
+	width:35px;
+	height:77px;
+	border:5px solid #fff;
+	display:none;
+}
+#GamePicker .Avatar .AddGame {
+	height:15px;
+	line-height:15px;
+	font-size:9px;
+}
+
+#GamePicker .TabContent {
+	margin-bottom:20px;
+	background:transparent;
+}
+#GamePicker div {
+	padding:0 10px;
+}
+
+#GamePicker .TabNav .selected {
+	background:#000;
+}
+#GamePicker .TabNav {
+	background:#333;
+	margin:0 0 5px;
+}
+#GamePicker .TabNav li {
+	border-right:2px solid #333;
+}
+
+/**************************
+Rating Page
+**************************/
+
+#RateOpponent {
+	background:#000;
+	padding:10px;
+}
+#RateOpponent h2 {
+	font-size:14px;
+}
+#RateOpponent h3 {
+	font-size:10px;
+	color:#666;
+}
+
+/*** Match details ***/
+.RatingDetails {
+	border:1px solid #999;
+	margin-bottom:10px;
+	background:#505050;
+	width:100%;
+}
+.RatingDetails td {
+	padding:5px;
+	color:#999;
+}
+.RatingDetails td strong {
+	color:#fff;
+	font-size:12px;
+	margin-left:5px;
+}
+/*** Opponent Container ***/
+.OpponentContainer textarea {
+	width:215px;
+	height:43px;
+	background:#505050;
+	border:1px solid #fff;
+	padding:5px;
+	color:#fff;
+}
+.OpponentContainer.winner textarea {
+	background:#565a4c;
+}
+.OpponentContainer {
+	border:1px solid #999;
+	margin-bottom:10px;
+	padding:5px 10px;
+	background:#3c3c3c;
+	position:relative;
+}
+.OpponentContainer.winner {
+	background:#434738;
+}
+
+/*** Opponent Rating ***/
+.OpponentRating {
+	float:left;
+}
+.OpponentRating .Avatar {
+	float:left;
+	margin:5px 0;
+}
+.OpponentRating .AvatarImage img {
+}
+.OpponentComments {
+	float:right;
+}
+.OpponentComments h3 {
+	font-size:10px;
+	margin-bottom:5px;
+}
+.tempRatingIcon {
+	position:absolute;
+	bottom:10px;
+	left:90px;
+	
+}
+
+
+
+/**************************
+Invite Players - Multiplayers
+**************************/
+#Invite {
+	background:#000;
+	padding:10px 20px;
+}
+#Invite h1 {
+	margin:0;
+	padding:5px 0;
+}
+#Invite .Widget {
+	margin:10px 0;
+	border:1px solid #333;
+}
+#Invite .WidgetContent  {
+	padding:10px;
+	background:#111;
+	height:200px;
+	overflow:auto;
+}
+#Invite .WidgetContent table {
+	width:100%;
+}
+#Invite .WidgetContent table th {
+	font-size:9px;
+	padding:5px;
+}
+#Invite .WidgetContent table td {
+	background:#333;
+	padding:5px;
+	border-bottom:2px solid #111;
+}
+#Invite .WidgetContent table td img {
+	margin:0 5px 0 0;
+}
+#Invite input.checkbox {
+	margin-right:5px;
+}
+/**************************/
+#Public {
+	margin:10px 0px;
+	padding:5px;
+	border:1px solid #111;
+}
+#Public p {
+	margin-left:20px;
+}
+/**************************/
+.MultiPlayerList {
+	width:100%;
+}
+.MultiPlayerList thead th {
+	border-bottom:2px solid #fff;
+}
+
+.Opponent .MultiPlayerList td {
+	padding:5px 2px;
+	font-weight:bold;
+}
+.MultiPlayerList th {
+	padding:5px 2px;
+}
+/**************************/
+table.ccPlayerInfo {
+	width:100%;
+	clear:both;
+	font-size:11px;
+}
+table.ccPlayerInfo td {
+	padding:3px;
+	vertical-align:top;
+}
+
+table.ccPlayerInfo th {
+	color:#d2d2d2;
+	padding:3px;
+	vertical-align:top;
+}
+
+
+img.PlayerStatus {
+	display:block;
+	margin:20px 0;
+}
+/**************************/
+.Organizer {
+	float:left;
+	width:150px;
+	padding:20px 5px 20px;
+	/* width 160 */
+}
+
+h3.wager {
+	margin:25px 5px;
+}
+h3.wager strong {
+	font-size:18px;
+}
+/**************************/
+.Opponent {
+	float:right;
+	width:150px;
+	padding:20px 5px 20px;
+}
+.Opponent h4 {
+	text-align:center;
+	margin-top:15px;
+}
+.MultiPlayerEdit {
+	text-align:center;
+	margin:20px 0;
+	font-size:10px;
+	padding:2px;
+	color:#d2d2d2;
+}
+.MultiPlayerEdit table {
+	margin:0 auto;
+}
+
+
+/**************************/
+.GameDetails {
+	width:245px;
+	padding-top:10px;
+	margin:0 160px 5px;
+}
+.GameDetails .vs {
+	width:241px;
+	height:120px;
+	margin:10px auto;
+	background:transparent url(images/icons/fiery-logo.png) 0 5px no-repeat;
+}
+.GameDetails .vs span {
+	display:none;	
+}
+.GameDetails .GameAvatar {
+	width:80px;
+	height:150px;
+	margin:0 auto;
+}
+
+table.tableGameDetails {
+	width:100%;
+	margin-bottom:0px;
+	border-top:1px solid #9c9c9c;
+}
+table.tableGameDetails th {
+	padding:4px;
+	vertical-align:top;
+	color:#aaaaaa;
+	border-bottom:1px dotted #9c9c9c;
+	font-size:10px;
+	vertical-align:center;
+}
+table.tableGameDetails td {
+	padding:4px;
+	border-bottom:1px dotted #9c9c9c;
+}
+table.tableGameDetails td input, table.tableGameDetails td select {
+	border:1px solid #eaeaea;
+	background:#999;
+	font-size:10px;
+	color:#fff;
+	width:150px;
+}
+table.tableGameDetails td input {
+	width:144px;
+}
+.GameDetails textarea {
+	border:1px solid #eaeaea;
+	background:#999;
+	font-size:10px;
+	color:#fff;
+	padding:5px;
+	width:80%;
+	margin:0 auto 5px auto;
+}
+table.tableGameDetails strong {
+	font-size:24px;
+}
+
+
+.Results{
+	height:150px;
+	overflow:auto;
+}
+
+.commentView {
+	padding-bottom: 10px;
+	overflow:auto;
+}
+
+.MatchStats {
+	padding:20px;
+	background:#000;
+}
+
+.MatchStats table {
+	border-color:#333;
+	border-width:1px;
+	border-style: solid;
+	border-bottom:0;
+	background:#111;
+	width:100%;
+	margin-bottom:10px;
+}
+
+.MatchStats table caption img {
+	width:30px;
+}
+.MatchStats table td, .MatchStats table th {
+	padding:5px;
+	border-bottom:1px solid #333;
+}
+
+.MatchStats table th {
+	color:#666;
+	width:100px;
+}
+#Rate {
+	background:transparent;
+	border:3px solid #666;
+	background:#333;
+	padding:5px;
+}
+
+.ChatWrap {
+	background-color:#333;
+	padding:5px 10px;
+}
+.ChatWrap h3 {
+	font-size:15px;
+	font-weight:bold;
+}
+
+input.green, input.blue, input.gray, input.orange, input.purple, input.red {
+	color:#fff;
+	padding:2px 10px 3px 7px;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:lowercase;
+	margin-right:7px;
+	cursor:pointer;
+}
+
+input.green {
+	background:url('../css/images/bg/buttons/green.jpg') center left repeat-x #a4b488;
+}
+
+input.blue {
+	background:url('../css/images/bg/buttons/blue.jpg') center left repeat-x #d69b59;
+}
+
+input.gray {
+	background:url('../css/images/bg/buttons/gray.jpg') center left repeat-x #737373;
+}
+
+input.gray:hover {
+	background:url('../css/images/bg/buttons/orange.jpg') center left repeat-x #d69b59;
+}
+
+input.orange {
+    background:url('../css/images/bg/buttons/orange.jpg') center left repeat-x #d69b59;
+	color:#000;
+}
+
+input.purple {
+    background:url('../css/images/bg/buttons/purple.jpg') center left repeat-x #d69b59;
+}
+
+input.red {
+    background:url('../css/images/bg/buttons/red.jpg') center left repeat-x #d69b59;
+}

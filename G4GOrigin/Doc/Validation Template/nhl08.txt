@@ -1,0 +1,61 @@
+From="EA_Admin@ea.com" <EA_Admin@ea.com>
+To=jigar@askdigi.com
+
+Versus1=[
+Versus2=]
+Shootout1=
+Shootout2=
+OnlineTeamPlay1=
+OnlineTeamPlay2=
+OnlineLeague1=
+OnlineLeague2=
+
+Ranked1=[
+Ranked2=]
+Unranked1=
+Unranked2=
+
+CompletedYes1=[
+CompletedYes2=]
+CompletedNo1=
+CompletedNo2=
+
+Player1=Player 1
+Player1_Level=1
+Player1_Score=5
+Player1_UTF=Player_1
+Player1_Team=Los Angeles Kings
+
+Player1_Team_35Spaces=Los Angeles Kings                  
+Player1_Score_35Spaces=5                                  
+Player1_Shots_35Spaces=25                                 
+Player1_Hits_35Spaces=42                                 
+Player1_PenaltyMinutes_35Spaces=02:00                              
+Player1_PowerPlayGoals_35Spaces=0                                  
+Player1_PowerPlayOps_35Spaces=0                                  
+Player1_FaceoffsWon_35Spaces=16                                 
+Player1_Breakaways_35Spaces=0/0                                
+Player1_OneTimers_35Spaces=1/3                                
+Player1_Passing_35Spaces=106/130                            
+Player1_PenltyShots_35Spaces=0/0                                
+Player1_BlockedShots_35Spaces=4                                  
+
+Player2=Player 2
+Player2_Level=1
+Player2_Score=3
+Player2_UTF=Player_2
+Player2_Team=Toronto Maple Leafs
+
+Player2_Shots=14
+Player2_Hits=29
+Player2_PenaltyMinutes=00:00
+Player2_PowerPlayGoals=0
+Player2_PowerPlayOps=1
+Player2_FaceoffsWon=5
+Player2_Breakaways=0/0
+Player2_OneTimers=0/4
+Player2_Passing=43/61
+Player2_PenltyShots=0/0
+Player2_BlockedShots=12
+
+

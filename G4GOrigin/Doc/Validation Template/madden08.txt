@@ -1,0 +1,212 @@
+From="EA_Admin@ea.com" <EA_Admin@ea.com>
+To=staging@localhost
+
+Player1=wg1
+Player1_Score=17
+Player1_Level=1
+Player2=wg2
+Player2_Score=23
+Player2_Level=1
+
+Mode=Ranked
+QtrLength=5 minutes
+Difficulty=All-Pro
+
+Player1_20Spaces=wg1              
+Player1_Q1=3
+Player1_Q2_5spaces=    7
+Player1_Q3_5spaces=    7
+Player1_Q4_5spaces=    9
+Player1_OT_5spaces=    0
+Player1_Score_5spaces=   17
+
+Player2_20Spaces=wg2                
+Player2_Q1=7
+Player2_Q2_5spaces=    0
+Player2_Q3_5spaces=   14
+Player2_Q4_5spaces=    0
+Player2_OT_5spaces=    0
+Player2_Score_5spaces=   23
+
+Player1_15Spaces=wg1         
+Player2_15Spaces=wg2                   
+
+Player1_RushingAttempts_9Spaces=       20
+Player2_RushingAttempts_9Spaces=       11
+
+Player1_RushingYards_9Spaces=       60
+Player2_RushingYards_9Spaces=       20
+
+Player1_PassingAttempts_9Spaces=       15
+Player2_PassingAttempts_9Spaces=       12
+
+Player1_PassingYards_9Spaces=       96
+Player2_PassingYards_9Spaces=      106
+
+Player1_Punts_9Spaces=        1
+Player2_Punts_9Spaces=        2
+
+Player1_FieldGoals_9Spaces=        1
+Player2_FieldGoals_9Spaces=        0
+
+Player1_LongFieldGoals_9Spaces=        1
+Player2_LongFieldGoals_9Spaces=        0
+
+Player1_RushingTDs_9Spaces=        0
+Player2_RushingTDs_9Spaces=        1
+
+Player1_PassingTDs_9Spaces=        0
+Player2_PassingTDs_9Spaces=        0
+
+Player1_ReturnsTDs_9Spaces=        0
+Player2_ReturnsTDs_9Spaces=        0
+
+Player1_DefensiveTDs_9Spaces=        2
+Player2_DefensiveTDs_9Spaces=        0
+
+Player1_Turn_9Spaces=        3
+Player2_Turn_9Spaces=        4
+
+Player1_Interceptions_9Spaces=        3
+Player2_Interceptions_9Spaces=        3
+
+Player1_Sacks_9Spaces=        1
+Player2_Sacks_9Spaces=        3
+
+Player1_3rdDowns_9Spaces=        8
+Player2_3rdDowns_9Spaces=        3
+
+Player1_3rdDownConversions_9Spaces=        3
+Player2_3rdDownConversions_9Spaces=        0
+
+Player1_NoHuddlePlays_9Spaces=        1
+Player2_NoHuddlePlays_9Spaces=        0
+
+Player1_Audibles_9Spaces=        0
+Player2_Audibles_9Spaces=        0
+
+Player1_HotRoutes_9Spaces=        7
+Player2_HotRoutes_9Spaces=        0
+
+Player1_ShotgunPlays_9Spaces=        4
+Player2_ShotgunPlays_9Spaces=        5
+
+Player1_Blitzes_9Spaces=       12
+Player2_Blitzes_9Spaces=       14
+
+Player1_TimeOfPossesion_9Spaces=    12:37
+Player2_TimeOfPossesion_9Spaces=     7:27
+
+Player1_2PointConversionAttempts_9Spaces=        0
+Player2_2PointConversionAttempts_9Spaces=        0
+
+Player1_2PointConversions_9Spaces=        0
+Player2_2PointConversions_9Spaces=        0
+
+Player1_RedZoneFieldGoals_9Spaces=        0
+Player2_RedZoneFieldGoals_9Spaces=        0
+
+Player1_RedZoneTouchdowns_9Spaces=        0
+Player2_RedZoneTouchdowns_9Spaces=        1
+
+Player1_RedZoneOpportunities_9Spaces=        1
+Player2_RedZoneOpportunities_9Spaces=        1
+
+Player1_FirstDowns_9Spaces=        9
+Player2_FirstDowns_9Spaces=        5
+
+Player1_FirstDownYards_9Spaces=       28
+Player2_FirstDownYards_9Spaces=       37
+
+Player1_SpecialTeamYards_9Spaces=      143
+Player2_SpecialTeamYards_9Spaces=      144
+
+Player1_PuntReturnYards_9Spaces=       69
+Player2_PuntReturnYards_9Spaces=        0
+
+Player1_PuntYards_9Spaces=       59
+Player2_PuntYards_9Spaces=       99
+
+Player1_Penalities_9Spaces=        2
+Player2_Penalities_9Spaces=        1
+
+Player1_PenalityYards_9Spaces=        6
+Player2_PenalityYards_9Spaces=        1
+
+Player1_FirstDownRushingPlays_9Spaces=        8
+Player2_FirstDownRushingPlays_9Spaces=        6
+
+Player1_FirstDownPassingPlays_9Spaces=        8
+Player2_FirstDownPassingPlays_9Spaces=        6
+
+Player1_SecondDownRushingPlays_9Spaces=        7
+Player2_SecondDownRushingPlays_9Spaces=        3
+
+Player1_SecondDownPassingPlays_9Spaces=        5
+Player2_SecondDownPassingPlays_9Spaces=        5
+
+Player1_ThirdDownRushingPlays_9Spaces=        3
+Player2_ThirdDownRushingPlays_9Spaces=        1
+
+Player1_ThirdDownPassingPlays_9Spaces=        5
+Player2_ThirdDownPassingPlays_9Spaces=        2
+
+Player1_FourthDownRushingPlays_9Spaces=        2
+Player2_FourthDownRushingPlays_9Spaces=        1
+
+Player1_FourthDownPassingPlays_9Spaces=        0
+Player2_FourthDownPassingPlays_9Spaces=        0
+
+Player1_PassesCompleted_9Spaces=        9
+Player2_PassesCompleted_9Spaces=        4
+
+Player1_Fumbles_9Spaces=        3
+Player2_Fumbles_9Spaces=        0
+
+Player1_FumblesRecovered_9Spaces=        0
+Player2_FumblesRecovered_9Spaces=        1
+
+Player1_Possessions_9Spaces=       10
+Player2_Possessions_9Spaces=       11
+
+Player1_3rdDowns3OrLessYards_9Spaces=        3
+Player2_3rdDowns3OrLessYards_9Spaces=        1
+
+Player1_3rdDown3OrLessYardsSuccesses_9Spaces=        1
+Player2_3rdDown3OrLessYardsSuccesses_9Spaces=        0
+
+Player1_3rdDown4To9Yards_9Spaces=        3
+Player2_3rdDown4To9Yards_9Spaces=        1
+
+Player1_3rdDown4To9YardsSuccesses_9Spaces=        1
+Player2_3rdDown4To9YardsSuccesses_9Spaces=        0
+
+Player1_3rdDown10OrMoreYards_9Spaces=        2
+Player2_3rdDown10OrMoreYards_9Spaces=        1
+
+Player1_3rdDown10OrMoreYardsSuccesses_9Spaces=        1
+Player2_3rdDown10OrMoreYardsSuccesses_9Spaces=        0
+
+Player1_Hurries_9Spaces=        1
+Player2_Hurries_9Spaces=        2
+
+Player1_Knockdowns_9Spaces=        1
+Player2_Knockdowns_9Spaces=        0
+
+Player1_PassesDeflected_9Spaces=        3
+Player2_PassesDeflected_9Spaces=        1
+
+Player1_PassesTipped_9Spaces=        0
+Player2_PassesTipped_9Spaces=        0
+
+Player1_OffensiveYards_9Spaces=      156
+Player2_OffensiveYards_9Spaces=      126
+
+Player1_TotalYards_9Spaces=      299
+Player2_TotalYards_9Spaces=      270
+
+Player1_ReturnYards_9Spaces=       75
+Player2_ReturnYards_9Spaces=      144
+
+Player1_TotalTouchdowns_9Spaces=        2
+Player2_TotalTouchdowns_9Spaces=        3

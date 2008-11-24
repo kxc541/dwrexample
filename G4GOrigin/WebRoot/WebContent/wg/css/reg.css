@@ -1,0 +1,199 @@
+#content.registration {
+	background: #e7e5e0;
+	padding: 0px 10px 20px 10px;
+}
+
+#content.registration ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#content.registration h1 {
+	margin: 10px 0px 10px 0px;
+}
+
+#content.registration p {
+	margin: 10px 0px 10px 0px;
+}
+
+#content.registration td {
+	padding: 2px;
+}
+
+#content.registration input {
+	padding: 2px;
+}
+
+#content.registration h2 {
+	color: #000;
+	margin-left: 0;
+}
+
+#content.registration a {
+	color: #000;
+}
+
+#month {
+	width: 50px;
+}
+
+#day {
+	width: 45px;
+}
+
+#year {
+	width: 60px;
+}
+
+#sidebar.registration {
+	background: #f9f8f6;
+}
+
+label.error {
+	font-weight: bold;
+	color: red;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.showTag {
+	display: inline;
+}
+
+
+#sidebarStepsTitle h3 {
+	background: #b4afa0;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 10px 10px 0px 10px;
+	padding: 10px;
+}
+
+#sidebarSteps {
+	margin: 0px 10px 10px 10px;
+	padding: 10px;
+	border: 1px #CCC solid;
+	border-top: none;
+}
+
+#sidebarSteps p {
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#sidebarSteps img {
+	vertical-align: middle;
+	padding: 3px 5px 2px 0px;
+}
+
+#sidebarSteps .off {
+	height: 30px;
+	padding-left: 25px;
+	color: #999;
+	background: url(images/icons/registration_off.gif) left center no-repeat;
+}
+
+#sidebarSteps .on {
+	height: 30px;
+	padding-left: 25px;
+	background: url(images/icons/registration_on.gif) left center no-repeat;
+}
+
+#sidebarCallOut {
+	background:url(../images/wg_registrationCallOut.jpg) top left repeat-x #eeede9;
+	margin: 10px;
+	padding: 10px;
+	border: 1px #CCC solid;
+}
+
+#sidebarCallOut h3 {
+	font-size: 14px;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+}
+
+#sidebarCallOut p {
+	color: #000;
+	font-size: 10px;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	text-align: justify;
+}
+
+#sidebar.registration p.note {
+	padding: 10px;
+}
+
+
+
+/* SubNav used on Cashier Pages */
+
+.SubNav a.selected {
+	color: #000;
+	border: 1px solid #b6b6b6;
+}
+
+/* Cashier Styles */
+
+#AccountBalanceSection {
+	width: 100%;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+}
+
+	#AccountBalance {
+		font-size: 24px;
+		line-height: 1.5;
+	}
+
+#MoveMoneySection {
+	width: 100%;
+	border-bottom: 1px solid #999;
+}
+
+#TransactionHistorySection {
+	width: 100%;
+}
+
+#TransactionHistory {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+#TransactionHistory th {
+	padding: 3px 0px 3px 0px;
+	text-align: left;
+	font-weight: normal;
+	border-bottom: 1px solid #000;
+}
+
+#TransactionHistory td {
+	padding: 5px 0px 5px 0px;
+	border-bottom: 1px dotted #000;
+}
+
+#TransactionHistory tr.credit {
+	background: #f5f5f5;
+}
+
+#MyAccountsSection {
+	width: 100%;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding: 10px 0px 10px 0px;
+}
+
+#MyAccounts {
+	width: 100%;
+}

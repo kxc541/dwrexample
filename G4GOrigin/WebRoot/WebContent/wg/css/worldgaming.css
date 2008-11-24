@@ -1,0 +1,152 @@
+
+/*************************************
+Style Sheet
+*************************************/
+
+body {
+font-family: Verdana, Arial, "sans serif";
+font-size:10px;
+color:#000000;
+margin:0;
+padding:0;
+text-align:left;
+}
+
+
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
+.module:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+	/* Hides from IE-mac \*/
+	* html .module {height: 1%;}
+	/* End hide from IE-mac */
+
+
+/*************************************
+basic font styles
+*************************************/
+a {
+	text-decoration:none;
+}
+input {
+	border:1px solid #d2d2d2;
+	padding:2px;
+}
+a.add-item {
+	padding-left:10px;
+	background:url(../images/icons/add.png) left center no-repeat;
+}
+/*************************************
+Structure
+*************************************/
+#container {
+	width:920px;
+	margin:0 auto;
+	padding-top:10px;
+}
+#header {
+	height:80px;
+	position:relative;
+}
+/*************************************
+sort columns
+*************************************/
+#sort1 {
+	width:215px;
+	float:left;
+}
+#sort2 {
+	width:470px;
+	float:left;
+	margin:0 10px;
+/*	background:#dbdbdb; */
+}
+#sort3 {
+	width:215px;
+	float:left;
+/*	background:#dadada; */
+}
+#sort1 .module {
+	margin-bottom:5px;
+}
+#sort2 .module {
+	margin:5px;
+}
+
+#sort3 .module {
+	margin:5px;
+}
+/*
+ * temp fix
+ */
+#sort2 .mccommon {
+	background: #dbdbdb;
+}
+
+#sort3 .mccommon {
+	background: #dadada;
+}
+
+/*************************************
+Style
+*************************************/
+#header {
+	background:url(../images/headerbg01.jpg) top left no-repeat;
+}
+/*************************************
+Style
+*************************************/
+.mtcommon {
+	background:url(../images/col1-title.jpg) bottom left repeat-x;	
+}
+.sortHelper
+{  
+	border: 1px solid #666;
+	background:#eaeaea;
+	width: auto !important;
+}
+.border {
+	height:1px;
+	margin:0 5px;
+}
+/*************************************
+Theme Stuff
+*************************************/
+#myfriends #halogod.themeon {
+	background:url(../images/profiles/halogod.jpg) left center no-repeat #000;
+}
+#myfriends #bibby2smooth.themeon {
+	background:url(../images/profiles/bibby2smooth.jpg) left center no-repeat #ffeded;
+	color:#a80000;
+}
+#myfriends #bibby2smooth.themeon table td {
+	color:#a80000;
+}
+#myfriends #bibby2smooth.themeon table tr:hover td {
+	background:#ecfbd8;
+}
+#sort1 #myfriends #halogod.themeon {
+	background:url(../images/profiles/halogod.jpg) 100% 110% no-repeat #000;
+	
+}
+#sort1 #myfriends #bibby2smooth.themeon {
+	background:url(../images/profiles/bibby2smooth.jpg) bottom center no-repeat #ffeded;
+	
+}

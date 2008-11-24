@@ -1,0 +1,117 @@
+UPDATE game SET  imgsrc = '/wg/images/gameart/pgr4-360-178.png', bannerimgsrc = 'wg/images/banners/projectgothamracing4XBOX360.png' 
+WHERE gameid=9;
+UPDATE game SET imgsrc = '/wg/images/gameart/ncaa08-ps2-178.png', bannerimgsrc = 'wg/images/banners/ncaafootball08ps2.jpg' 
+WHERE  gameid =21 
+UPDATE game SET imgsrc = '/wg/images/gameart/ncaa08-ps3-178.png', bannerimgsrc = 'wg/images/banners/ncaabbl08ps3.jpg' 
+WHERE gameid =44
+UPDATE game SET imgsrc = '/wg/images/gameart/NBA Street 08 - 360.jpg', bannerimgsrc = 'wg/images/banners/nbastreetxbox360.jpg'
+WHERE  gameid =11 
+UPDATE game SET imgsrc = '/wg/images/gameart/Madden 08 - 360.jpg', bannerimgsrc = 'wg/images/banners/madden08xbox360.jpg' 
+WHERE gameid =16 
+UPDATE game SET imgsrc = '/wg/images/gameart/NASCAR 08 - 360.jpg', bannerimgsrc = 'wg/images/banners/nascar08xbox360.jpg' 
+WHERE gameid =13
+UPDATE game SET imgsrc = '/wg/images/gameart/NCAA FOOTBALL 08 - 360.jpg', bannerimgsrc = 'wg/images/banners/ncaafootball08xbox360.jpg' 
+WHERE gameid =14
+UPDATE game SET imgsrc = '/wg/images/gameart/MLB The Show-ps2.jpg', bannerimgsrc = 'wg/images/banners/MLB08theShowps2.jpg' 
+WHERE  gameid =7
+UPDATE game SET imgsrc = '/wg/images/gameart/nascar 08 -ps2.jpg', bannerimgsrc = 'wg/images/banners/nascar08ps2.jpg' 
+WHERE gameid =20
+UPDATE game SET imgsrc = '/wg/images/gameart/Madden 08 -ps2.jpg', bannerimgsrc = 'wg/images/banners/madden08xps2.jpg' 
+WHERE gameid =23
+UPDATE game SET imgsrc = '/wg/images/gameart/Motorstorm Cover.jpg', bannerimgsrc = 'wg/images/banners/motorstormps3.jpg' 
+WHERE	gameid =4,
+UPDATE game SET imgsrc = '/wg/images/gameart/Resistance Fall of Man Cover.jpg', bannerimgsrc ='wg/images/banners/resistancefallofmanbanner.jpg'	
+WHERE gameid =5,
+UPDATE game SET imgsrc = '/wg/images/gameart/NBA Street cover.jpg', bannerimgsrc = 'wg/images/banners/nbastreetps3.jpg'	
+WHERE gameid =28
+UPDATE game SET imgsrc = '/wg/images/gameart/NCAA Football 08 Cover.jpg', bannerimgsrc = 'wg/images/banners/ncaafootball08ps3.jpg' 
+WHERE gameid =30
+UPDATE game SET imgsrc = '/wg/images/gameart/Madden 08 Cover.jpg', bannerimgsrc = 'wg/images/banners/madden08ps3.jpg' 
+WHERE gameid =31
+UPDATE game SET imgsrc = '/wg/images/gameart/Fifa 08 cover.jpg', bannerimgsrc = 'wg/images/banners/fifa08ps3.jpg' 
+WHERE	gameid =42
+UPDATE game SET imgsrc = '/wg/images/gameart/Nascar 08 Cover.jpg', bannerimgsrc = 'wg/images/banners/nascar08ps3.jpg' 
+WHERE gameid =45
+UPDATE game SET imgsrc = '/wg/images/gameart/Halo 2 - 360.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-Halo2.jpg' 
+WHERE gameid =1,
+UPDATE game SET imgsrc = '/wg/images/gameart/Tiger Woods PGA Tour 08 cover.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-TigerWoods08.jpg'
+WHERE gameid =2,
+UPDATE game SET imgsrc = '/wg/images/gameart/NCAA Basketball 08.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-Madden08.jpg' 
+WHERE gameid =3,
+UPDATE game SET imgsrc = '/wg/images/gameart/ncaa basketball 08-ps2.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-Madden08.jpg' 
+WHERE gameid =6,
+UPDATE game SET imgsrc = '/wg/images/gameart/Madden 08 - 360.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-Madden08.jpg' 
+WHERE gameid =8,
+UPDATE game SET imgsrc = '/wg/images/gameart/FIFA 08 - 360.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-FIFA08.jpg' 
+WHERE gameid =37
+UPDATE game SET imgsrc = '/wg/images/gameart/fifa08-ps2-178.png', bannerimgsrc = 'wg/images/banners/gamelobby-FIFA08.jpg' 
+WHERE	gameid =38
+UPDATE game SET imgsrc = '/wg/images/gameart/halo3-360.png', bannerimgsrc = 'wg/images/banners/gamelobby-Halo3.jpg' 
+WHERE gameid =32
+UPDATE game SET imgsrc = '/wg/images/gameart/NBA Live 08 -ps2.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-NBALive08.jpg' 
+WHERE gameid =18
+UPDATE game SET imgsrc = '/wg/images/gameart/NBA Live - 360.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-NBALive08.jpg' 
+WHERE gameid =36
+UPDATE game SET imgsrc = '/wg/images/gameart/nba live 08 cover.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-NBALive08.jpg'	
+WHERE gameid =41
+UPDATE game SET imgsrc = '/wg/images/gameart/nhl08-ps2-178.png', bannerimgsrc = 'wg/images/banners/gamelobby-NHL08.jpg' 
+WHERE gameid =19
+UPDATE game SET imgsrc = '/wg/images/gameart/NHL 08 - 360.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-NHL08.jpg' 
+WHERE gameid =33
+UPDATE game SET imgsrc = '/wg/images/gameart/nhl 08 cover.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-NHL08.jpg' 
+WHERE gameid =39
+UPDATE game SET imgsrc = '/wg/images/gameart/Tiger 08 - 360.jpg', bannerimgsrc = 'wg/images/banners/gamelobby-TigerWoods08.jpg'	
+WHERE gameid =27
+
+
+-- Bug Id 241 --
+-- Summary:- Challenge Card Options- NCAA Football 2008 --
+-- Date:- 20/06/2008 --
+-- Auther:- Pratik --
+update gameoption set value='All American' where optioned=2 and valueid = 1 and gameid = 14;
+update gameoption set value='5 Minute Quarters' where optioned=2 and valueid = 1 and gameid = 14;
+update gameoption set value='5 Minute Quarters' where optioned=2 and valueid = 1 and gameid = 21;
+update gameoption set value='5 Minute Quarters' where optioned=2 and valueid = 1 and gameid = 30;
+Update game set imgsrc = '/wg/images/gameart/NCAA Football 08 Cover.jpg', bannerimgsrc='/wg/images/banners/gamelobby/ncaafootball08.jpg' where gameid = 14;
+
+-- Bug Id 244 --
+-- Summary:- Challenge Card Options- Fifa 2008 --
+-- Date:- 20/06/2008 --
+-- Auther:- Pratik --
+update gameoption set value='5 Minute Quarters' where optioned=2 and valueid = 1 and gameid = 37;
+update gameoption set value='Legendary' where optioned=2 and valueid = 4 and gameid = 37;
+update gameoption set value='Legendary' where optioned=2 and valueid = 4 and gameid = 38;
+update gameoption set value='Legendary' where optioned=2 and valueid = 4 and gameid = 42;
+
+delete gameoption where optioned=3 and valueid = 10 and gameid = 37;
+delete gameoption where optioned=3 and valueid = 11 and gameid = 37;
+delete gameoption where optioned=3 and valueid = 12 and gameid = 37;
+delete gameoption where optioned=3 and valueid = 13 and gameid = 37;
+delete gameoption where optioned=3 and valueid = 15 and gameid = 37;
+delete gameoption where optioned=3 and valueid = 16 and gameid = 37;
+delete gameoption where optioned=3 and valueid = 17 and gameid = 37;
+delete gameoption where optioned=3 and valueid = 18 and gameid = 37;
+
+delete gameoption where optioned=3 and valueid = 10 and gameid = 38;
+delete gameoption where optioned=3 and valueid = 11 and gameid = 38;
+delete gameoption where optioned=3 and valueid = 12 and gameid = 38;
+delete gameoption where optioned=3 and valueid = 13 and gameid = 38;
+delete gameoption where optioned=3 and valueid = 15 and gameid = 38;
+delete gameoption where optioned=3 and valueid = 16 and gameid = 38;
+delete gameoption where optioned=3 and valueid = 17 and gameid = 38;
+delete gameoption where optioned=3 and valueid = 18 and gameid = 38;
+
+delete gameoption where optioned=3 and valueid = 10 and gameid = 42;
+delete gameoption where optioned=3 and valueid = 11 and gameid = 42;
+delete gameoption where optioned=3 and valueid = 12 and gameid = 42;
+delete gameoption where optioned=3 and valueid = 13 and gameid = 42;
+delete gameoption where optioned=3 and valueid = 15 and gameid = 42;
+delete gameoption where optioned=3 and valueid = 16 and gameid = 42;
+delete gameoption where optioned=3 and valueid = 17 and gameid = 42;
+delete gameoption where optioned=3 and valueid = 18 and gameid = 42;
+
+-- Bug Id 246 --
+-- Summary:- Challenge Car Options- Madden Football 2008 --
+-- Date:- 20/06/2008 --
+-- Auther:- Pratik --
+update gameoptions set value='5 Minute Quarters' where optionid = 3 and valueid = 1 and gameid = 31

@@ -1,0 +1,1 @@
+GRANT ALL ON message_messageid_seq TO public;

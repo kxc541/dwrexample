@@ -1,0 +1,129 @@
+#ComingSoon1.ContentWrapper1 {
+	background-color:#000000;
+	width:530px;
+	border:5px solid #d2d2d2;
+	position:relative;
+}
+
+/*************************************
+Start Ratings  CSS
+*************************************/
+#greybg {
+	border:1px solid #666666;
+	position:relative;
+	background-color: #3c3c3c;
+	height: 100%;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+}
+#olive-greenbg {
+	border:1px solid #656563;
+	position:relative;
+	background-color: #434738;
+	height: 100%;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+}
+
+.grey-text10 {
+	font-size: 10px;
+	color: #787878;
+	text-transform: none;
+	font-weight: normal;
+	
+}
+.white-text10 {
+	font-size: 10px;
+	color: #FFFFFF;
+	text-transform: none;
+	font-weight: normal;
+}
+.white-border-olive {
+	border:1px solid #ffffff;
+	position:relative;
+	padding: 6px;
+	background-color:#565a4c;
+	height:43px;
+	width:228px;
+}
+.white-border-grey {
+	border:1px solid #ffffff;
+	position:relative;
+	padding: 6px;
+	background-color:#505050;
+	height:43px;
+	width:228px;
+}
+.rankincontent-right {
+	padding-left: 9px;
+}
+
+.rankincontent-left {
+	padding-right: 9px;
+}
+.rankincontent-bottom{
+	padding-bottom: 7px;
+}
+.white-text14-bold{
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: none;
+	font-weight: bold;
+}
+.PageContent1 {
+	float:none;
+	position:relative;
+	top:2px;
+	background:transparent;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-right: 22px;
+	padding-bottom: 10px;
+	padding-left: 22px;
+}
+.PageContent1 h1 {
+	margin-bottom:10px;
+	font-size:14px;
+	text-transform:none;
+	font-weight: bold;
+}
+.PageContent1 p {
+	line-height:normal;
+	font-size: 11px;
+}
+.PageContent-middle {
+	float:none;
+	position:relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+.PageContent2 {
+	width:276px;
+	float:none;
+	position:relative;
+	padding-right: 126px;
+	padding-left: 126px;
+	padding-top:18px;
+}
+.PageContent2 p {
+	line-height:normal;
+	font-size: 11px;
+	color:#FFFFFF;
+}
+
+/*************************************
+End Ratings  CSS
+*************************************/

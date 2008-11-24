@@ -1,0 +1,36 @@
+From="EA_Admin@ea.com" <EA_Admin@ea.com>
+To=angelo@genovese.ca
+
+Player1=Player 1
+Player1_UTF=Player_1
+Player1_Level=1
+Player1_Boxer=SomeGuy
+
+Player2=Player 2
+Player2_UTF=Player_2
+Player2_Level=1
+Player2_Boxer=SomeOtherGuy
+
+Winner=Player 1
+
+HW1=
+HW2=
+LHW1=
+LHW2=
+MW1=<
+MW2=>
+WW1=
+WW2=
+LW1=
+LW2=
+FW1=
+FW2=
+
+Ranked1=<
+Ranked2=>
+Unranked1=
+Unranked2=
+CompleteYes1=<
+CompleteYes2=>
+CompleteNo1=
+CompleteNo2=
