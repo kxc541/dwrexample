@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/</rootDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>true</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation></warLocation>
+    <extraInfo></extraInfo>
+    <webPath></webPath>
+    <webClassPathEntries>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/classes</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/FastInfoset.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/Logger.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/PropertyLoader.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/activation.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/commons-codec-1.3.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/commons-lang-2.1.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/dwr.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/http.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/icu4j-3.4.4.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/impessa.worldgaming.client.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jakarta-oro.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jasypt-1.4.1.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jaxb-api.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jaxb-impl.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jaxb-xjc.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jaxws-api.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jaxws-rt.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jaxws-tools.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jsr173_api.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jsr181-api.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/jsr250-api.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/log4j-1.2.8.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/mail-1.4.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/mysql-connector-java-3.1.14-bin.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/postgresql-8.2-504.jdbc3.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/postgresql-8.3-603.jdbc3.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/postgresql-8.3-603.jdbc4.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/resolver.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/saaj-api.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/saaj-impl.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/simplecaptcha.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/sjsxp.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/sslext.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/stax-ex.jar</webClassPathEntry>
+        <webClassPathEntry>/G4GOrigin/WebRoot/WEB-INF/lib/streambuffer.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/antlr-2.7.2.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/commons-beanutils-1.7.0.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/commons-chain-1.1.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/commons-digester-1.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/commons-fileupload-1.1.1.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/commons-io-1.1.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/commons-logging-1.0.4.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/commons-validator-1.3.1.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/struts-core-1.3.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/struts-el-1.3.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/struts-extras-1.3.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/struts-faces-1.3.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/struts-mailreader-dao-1.3.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/struts-scripting-1.3.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/struts-taglib-1.3.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.cross.easystruts.eclipse_6.0.1.zmyeclipse601200710/data/1.3/lib/struts-tiles-1.3.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/activation.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/javax.servlet.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/javax.servlet.jsp.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/jboss-j2ee.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/jboss-jaxrpc.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/jboss-jsr77.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/jboss-saaj.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/mail.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/namespace.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.eclipse.j2eedt.core_6.0.1.zmyeclipse601200710/data/libraryset/1.4/xml-apis.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/asm-attrs.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/asm.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/commons-collections-2.1.1.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/commons-logging-1.0.4.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/concurrent-1.3.2.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/connector.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/jaas.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/jacc-1_0-fr.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/jdbc2_0-stdext.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/jta.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/optional/jboss-common.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/optional/jboss-jmx.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/optional/jboss-system.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/oscache-2.1.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/proxool-0.8.3.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/swarmcache-1.0rc2.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/xerces-2.6.2.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.0/lib/xml-apis.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.1/lib/cglib-2.1.3.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.1/lib/dom4j-1.6.1.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.1/lib/jaxen-1.1-beta-7.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.1/lib/jgroups-2.2.8.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.1/lib/log4j-1.2.11.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/antlr-2.7.6.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/c3p0-0.9.1.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/ehcache-1.2.3.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/entitymanager/ejb3-persistence.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/entitymanager/hibernate-annotations.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/entitymanager/hibernate-commons-annotations.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/entitymanager/hibernate-entitymanager.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/entitymanager/hibernate-validator.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/entitymanager/jboss-archive-browsing.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/hibernate3.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/javassist.jar</webClassPathEntry>
+        <webClassPathEntry>C:/Tools/MyEclipse 6.0/myeclipse/eclipse/plugins/com.genuitec.org.hibernate.eclipse_6.0.1.zmyeclipse601200710/myeclipse-data/3.2/lib/jboss-cache.jar</webClassPathEntry>
+        <webClassPathEntry>com.genuitec.eclipse.j2eedt.core.J2EE14_CONTAINER</webClassPathEntry>
+        <webClassPathEntry>melibrary.com.genuitec.eclipse.cross.easystruts.eclipse.STRUTS13_CONTAINER</webClassPathEntry>
+        <webClassPathEntry>melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_2_CORE</webClassPathEntry>
+        <webClassPathEntry>melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_2_EM</webClassPathEntry>
+        <webClassPathEntry>melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_2_EXTRAS</webClassPathEntry>
+    </webClassPathEntries>
+</tomcatProjectProperties>

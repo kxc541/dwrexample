@@ -1,0 +1,400 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, tahoma, helvetica, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #cc6633;
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.more {
+	padding-top: 0px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.more a {
+	color: #fff;
+	font-size: 12px;
+	padding-left: 15px;
+	background: url('images/icons/expand.png') left center no-repeat;
+}
+
+#page {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#content {
+	width: 550px; /* -20 from 570 for padding */
+	float: left;
+	padding: 10px;
+	background: #fff;
+}
+
+#contentNoSidebar {
+	width: 900px; /* -20 from 920 for padding */
+	padding: 10px;
+	background: #fff;
+}
+
+#sidebar {
+	width: 330px; /* -20 from 350px for padding */
+	float: right;
+	padding: 10px;
+	background: #fff;
+}
+
+#content h1 {
+	font-size: 16px;
+}
+
+#content h2 {
+	font-size: 14px;
+	margin-left: 0;
+}
+
+#content form {
+	font-size: 11px;
+}
+
+#content.info h1 {
+	margin: 15px 0px 15px 0px;
+	color: #222;
+}
+
+#content.info b {
+	color: #222;
+}
+
+#content.info p {
+	margin: 8px 0px 8px 0px;
+	color: #333;
+}
+
+#content.info ul {
+	margin: 8px 0px 8px 25px; 
+	list-style: disc;
+	color: #333;
+}
+
+#content.info li {
+	padding: 2px 0px 0px 2px;
+}
+
+#sidebar.info a {
+	color: #666;
+}
+
+#sidebar.info a:hover {
+	text-decoration: underline;
+}
+
+#sidebar.info ul {
+	width: 200px;
+	margin: 50px auto;
+	border-top: 1px solid #ddd;
+	padding: 0px;
+	list-style: none;
+}
+
+#sidebar.info li {
+	border: 1px solid #ddd;
+	border-top: 0px;
+	padding: 7px 7px 7px 10px;
+}
+
+input {
+	color: #000;
+}
+
+input, select, textarea {
+	border: 1px solid #d2d2d2;
+}
+
+input.green {
+	background: url('../css/images/bg/buttons/green.jpg') center left repeat-x #a4b488;
+	color: #fff;
+	padding: 2px 5px 2px 5px;
+}
+
+input.blue {
+	background:url('../css/images/bg/buttons/blue.jpg') center left repeat-x #d69b59;
+	color:#fff;
+	padding: 2px 5px 2px 5px;
+}
+
+input.gray {
+	background: url('../css/images/bg/buttons/gray.jpg') center left repeat-x #737373;
+	color: #fff;
+	padding: 2px 5px 2px 5px;
+}
+
+input.gray:hover {
+	background: url('../css/images/bg/buttons/orange.jpg') center left repeat-x #d69b59;
+	color: #fff;
+	padding: 2px 5px 2px 5px;
+}
+
+input.orange {
+    background:url('../css/images/bg/buttons/orange.jpg') center left repeat-x #d69b59;
+	color:#000;
+	padding: 2px 5px 2px 5px;
+}
+
+input.purple {
+    background:url('../css/images/bg/buttons/purple.jpg') center left repeat-x #d69b59;
+	color:#fff;
+	padding: 2px 5px 2px 5px;
+}
+
+input.red {
+    background:url('../css/images/bg/buttons/red.jpg') center left repeat-x #d69b59;
+	color:#fff;
+	padding: 2px 5px 2px 5px;
+}
+
+#footer {
+	background: url(../images/wg_footerLogo.jpg) left top no-repeat;
+	width: 920px;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#footer p {
+	font-size: 10px;
+	color: #666;
+	padding: 0px 0px 10px 0px;
+	vertical-align: middle;
+}
+
+#footer a {
+	font-weight: normal;
+	color:#666;
+}
+
+
+span.Reputation {
+	width:55px;
+	height:16px;
+	display:block;
+}
+
+span.Reputation b {
+	display:none;
+}
+
+span.Reputation.rep5 {
+	background:url(images/icons/Reputation.png) 0 0 no-repeat;
+}
+span.Reputation.rep4 {
+	background:url(images/icons/Reputation.png) -11px 0 no-repeat;
+}
+span.Reputation.rep3 {
+	background:url(images/icons/Reputation.png) -21px 0 no-repeat;
+}
+span.Reputation.rep2 {
+	background:url(images/icons/Reputation.png) -32px 0 no-repeat;
+}
+span.Reputation.rep1 {
+	background:url(images/icons/Reputation.png) -43px 0 no-repeat;
+}
+
+.hideDiv {
+	display:none;
+}
+
+.showDiv {
+	display:block;
+}
+
+/*************************************
+NOTIFICATION pop up
+*************************************/
+#Notification {
+	color:#fff;
+	position:fixed;
+	bottom:0px;
+	left:50px;
+	width:400px;
+	z-index:500;
+}
+#Notification dl a {
+	color:#55b0e4;
+}
+#Notification dt {
+	font-size:13px;
+	margin-bottom:4px;
+}
+#Notification dd {
+	font-size:11px;
+	margin-bottom:10px;
+}
+.NotificationBG {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:501;
+	background:url(images/bg/notificationBG.jpg) 0 0 no-repeat #000;
+	filter:alpha(opacity=80); 
+	-moz-opacity: 0.8; 
+	opacity: 0.8;
+}
+.NotificationContent {
+	position:relative;
+	padding:20px;
+	z-index:502;
+}
+.NotificationContent .Avatar {
+	margin-right:-100%;
+}
+.NotificationContent h1 {
+	font-size:16px;
+	margin:0 0 10px;
+	line-height:60px;
+	padding-left:80px;
+}
+#Notification.Challenge h1 {
+	background:url(images/bg/ChallengeHeader.png) left center no-repeat;
+}
+.NotificationContent h2 {
+	font-size:12px;
+	font-weight:bold;
+	margin:10px 80px;
+	color:#999;
+	clear:left;
+}
+.NotificationContent th {
+	color:#999;
+}
+
+.NotificationContent ul {
+	float:right;
+	margin-left:-100%;
+}
+.NotificationContent table.generalInfo {
+	margin:0 90px 0 80px;
+}
+.NotificationContent p {
+	margin:10px 80px;
+}
+.NotificationContent em.Close {
+	position:absolute;
+	bottom:10px;
+	right:15px;
+	color:#fff;
+	cursor:pointer;
+	font-size:10px;
+}
+
+/*************************************
+Buttons
+*************************************/
+#container a.viewprofile  img {
+	border:1px solid #fff;
+}
+
+#container .buttons a.red span.challenge {
+	display:block;
+	padding-left:18px;
+	background:url(images/bg/buttons/PlayersChallengeIcon.png) left center no-repeat;
+	
+}
+
+.buttons a, .buttons button, #container .buttons input {
+    display:block;
+    float:left;
+    margin:0 7px 0 0;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+
+    font-family:arial, "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	text-transform:lowercase;
+    font-size:12px;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:2px 10px 3px 7px; /* Links */
+}
+
+.buttons button{
+    width:auto;
+    overflow:visible;
+    padding:1px 10px 0px 7px; /* IE6 */
+}
+.buttons button[type]{
+    padding:2px 10px 2px 7px; /* Firefox */
+    line-height:17px; /* Safari */
+}
+*:first-child+html button[type]{
+    padding:1px 10px 0px 7px; /* IE7 */
+}
+.buttons button img, .buttons a img{
+    margin:0 3px -3px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+
+.buttons li {
+	float:left;
+	width:90px;
+	clear:left;
+}
+.buttons li a {
+	width:100%;
+	margin-bottom:5px;
+	text-align:center;
+	padding-left:0;
+	padding-right:0;
+}
+
+
+
+button.green, .buttons a.green, #container .buttons input.green {
+    background:url(images/bg/buttons/green.jpg) center left repeat-x #a4b488;
+	color:#fff;
+}
+button.gray, .buttons a.gray, #container .buttons input.gray {
+    background:url(images/bg/buttons/gray.jpg) bottom left repeat-x #737373;
+	color:#fff;
+}
+.buttons a.gray:hover {
+	background:url(images/bg/buttons/orange.jpg) center left repeat-x #d69b59;
+	color:#000;
+}
+
+button.orange, .buttons a.orange, #container .buttons input.orange {
+    background:url(images/bg/buttons/orange.jpg) center left repeat-x;
+	color:#000;
+}
+button.blue, .buttons a.blue, #container .buttons input.blue {
+    background:url(images/bg/buttons/blue.jpg) center left repeat-x #d69b59;
+	color:#fff;
+}
+button.purple, .buttons a.purple, #container .buttons input.purple {
+    background:url(images/bg/buttons/purple.jpg) center left repeat-x #d69b59;
+	color:#fff;
+}
+button.red, .buttons a.red, #container .buttons input.red {
+    background:url(images/bg/buttons/red.jpg) center left repeat-x #d69b59;
+	color:#fff;
+}

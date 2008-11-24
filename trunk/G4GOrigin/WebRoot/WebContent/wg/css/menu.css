@@ -1,0 +1,113 @@
+/* main menu */
+
+#globalnav {
+	height: 30px;
+	background: url('../images/wg_navBackground.jpg') bottom left repeat-x;
+	border-bottom: 1px solid #eaeaea;
+}
+
+#globalnav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#globalnav li {
+	position:relative;
+	background:url('../images/wg_navButton.jpg') bottom left repeat-x;
+	float:left;
+	line-height:30px;
+	border-right:1px solid #b2b7af;
+}
+
+#globalnav li a {
+	display:block;
+	padding:0 10px;
+	color:#333;
+	font-size:10px;
+	font-weight:bold;
+}
+
+#globalnav li a:hover {
+	background: url('../images/wg_navHover.jpg') bottom left repeat-x;
+	text-decoration: none;
+}
+
+#globalnav li.on a {
+	background: url('../images/wg_navOn.jpg') top center no-repeat #fbfbf9;
+}
+
+#globalnav li.on a:hover {
+	background: url('../images/wg_navOn.jpg') top center no-repeat #fbfbf9;
+}
+
+/* tabNav Menu - default style */
+
+.TabNav {
+	height: 30px;
+	background: url('../images/Nav/ProfileTab.jpg') bottom left repeat-x #aab0a6;
+}
+
+.TabNav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.TabNav li {
+	float: left;
+	border-right: 1px solid #727272;
+}
+
+.TabNav li a {
+	display:block;
+	line-height:30px;
+	padding:0 8px;
+	background:url('../images/Nav/ProfileTab.jpg') bottom left repeat-x #aab0a6;
+	color:#51534e;
+	font-size:10px;
+}
+.TabNav li a.selected {
+	background:#535353;
+	color:#fff;
+}
+
+/* SUBNAV Menu - default style */
+
+.SubNav {
+	padding: 10px 0px 15px 0px;
+}
+
+.SubNav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	height: 20px;
+}
+
+.SubNav li {
+	float: left;
+	line-height: 20px;
+	font-size: 9px;
+}
+
+.SubNav li a {
+	font-weight: normal;
+	color: #999;
+	display: block;
+	padding: 0px 10px 0px 10px;
+}
+
+.SubNav li.NewMessage a {
+	color: #acb77b;
+	font-weight: bold;
+}
+.SubNav li.on a {
+	color:#fff;
+	border:1px solid #fff;
+}
+
+.SubNav a.selected {
+	color: #fff;
+	border: 1px solid #fff;
+}

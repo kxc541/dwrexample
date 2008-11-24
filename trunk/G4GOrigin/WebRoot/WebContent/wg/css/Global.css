@@ -1,0 +1,1230 @@
+/* ------ NOTES ---------------------------------------------------------------
+
+Master Screen Style for WorldGaming.
+
+--------- UPDATE INFO ---------------------------------------------------------
+
+
+
+--------- CONTENTS ------------------------------------------------------------
+
+1: BODY AND UNIVERSAL RESET
+ GLOBAL NAVIGATION
+	a) Top navigation and user box
+ PAGE STRUCTURE
+	a) Contianers
+	b) Header
+	c) Main content
+	d) Footer
+ SECTION SPECIFIC STYLES
+	a) Home page
+	b) Signup page
+	c) Start page
+	d) Your list
+	e) Gift tips and News
+	f) Your profile and Tools
+ LISTS
+ FORMS & TABLES
+	a) Standard forms
+	b) Forms on Edit list page
+	c) Tables for forms
+ GLOBALS
+	a) Links
+	b) Typography
+ MISC
+	
+---------------------------------------------------------------------------- */
+
+
+/* 1: BODY AND UNIVERSAL RESET
+============================================================================ */
+/*CSS Reset*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	outline:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym {
+	border:0;
+}
+:focus {
+	outline:0;
+}
+a{text-decoration:none;}
+
+
+body {
+	font-family:Tahoma, Verdana, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	margin:0;
+	padding:0;
+	text-align:left;
+	position:relative;
+}
+body          { font-size:75%; }   /* IE */
+html > body   { font-size:12px; }  /* Other browsers */
+
+.clearfix:after {
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden;
+}
+.Widget:after {
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden;
+}
+.Format1:after {
+	content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height:1%;}
+* html .Widget {height:1%;}
+* html .Format1 {height:1%;}
+/* End hide from IE-mac */
+
+.module:after {
+    content:"."; 
+    display:block; 
+    height:0; 
+    clear:both; 
+    visibility:hidden;
+}
+
+	/* Hides from IE-mac \*/
+	* html .module {height:1%;}
+	/* End hide from IE-mac */
+
+.opacity {
+	filter:alpha(opacity=30); 
+	-moz-opacity:0.3; 
+	opacity:0.3;
+}
+
+/* 2:FONTS and TYPOGRAPHY
+============================================================================ */
+a {
+	text-decoration:none;
+	color:#fff;
+}
+p {
+	font-size:12px;
+	line-height:18px;
+	margin-bottom:18px;
+}
+p.crumbs {
+	float:right;
+	margin:20px;
+}
+
+/* 2 a):INPUTS and TEXTAREAS
+============================================================================ */
+input {
+	border:1px solid #d2d2d2;
+	padding:2px;
+}
+input.text {
+}
+#container input.checkbox {
+	width:auto;
+}
+input.submit {
+	width:auto;
+}
+textarea {
+	border:1px solid #999;
+	padding:5px;
+	font-family:verdana;
+	font-size:11px;
+}
+
+/* 3 :PAGE STRUCTURE
+============================================================================ */
+#container {
+	width:920px;
+	margin:0 auto;
+	padding-top:10px;
+}
+#Header {
+	height:87px;
+	width:100%;
+	background:url(images/bg/BrandingBG.jpg) top left no-repeat;
+	background:url(images/bg/Header/HeaderBG2.jpg) bottom left no-repeat;
+	position:relative;
+}
+.ContentWrapper {
+	background:url(images/bg/PageContent1.jpg) top left repeat-y #d2d2d2;
+	background:transparent;
+	position:relative;
+}
+.PageContent {
+	width:565px;
+	float:left;
+	background:#727272;
+	color:#fff;
+}
+.PageContent1 {
+	float:none;
+	position:relative;
+	top:2px;
+	margin-top:0;
+	margin-right:auto;
+	margin-bottom:0;
+	margin-left:auto;
+	padding-top:15px;
+	padding-right:24px;
+	padding-bottom:10px;
+	padding-left:24px;
+	color:#FFFFFF;
+}
+.Sidebar {
+	float:right;
+	color:#fff;
+	margin-right:0;
+	padding-top:10px;
+	width:345px;
+}
+#Footer {
+	background:url(images/bg/FooterLogo.jpg) left center no-repeat;
+	height:86px;
+	width:920px;
+	margin:0 auto;
+}
+
+/* 4 :ELEMENT STYLES
+============================================================================ */
+
+
+
+/* 4 a) :Footer
+============================================================================ */
+#Footer ul {
+	padding-top:26px;
+	margin-left:220px;
+}
+#Footer li {
+	float:left;
+	margin-right:15px;
+}
+#Footer a {
+	color:#666;
+}
+
+
+/* 4 b) :Header
+============================================================================ */
+
+#Header.LoggedOut {
+	height:103px;
+	width:100%;
+	background:url(images/bg/Branding_LoggedOutBG.jpg) top left no-repeat;
+}
+.LogInOut {
+	position:absolute;
+	top:0;
+	right:0;
+	font-size:9px;
+}
+.LogInOut a {color:#666;}
+.LogInOut a.highlight {
+	float:left;
+	padding:0 5px;
+	margin:0 5px;
+	color:#a80000;
+	border:2px solid #a80000;
+}
+
+
+#UserHeaderModule {
+	position:absolute;
+	bottom:1px;
+	right:11px;
+	height:59px;
+	width:410px;
+	overflow:hidden;
+}
+#UserHeaderModule .ProfileImage {
+	float:left;
+	margin-right:10px;
+}
+#UserHeaderModule h1 {
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+	line-height:59px;
+	float:left;
+}
+table.AccountValue {
+	float:right;
+	line-height:59px;
+	color:#fff;
+}
+table.AccountValue td {
+	padding:0 10px;
+	font-size:11px;
+}
+table.AccountValue td strong {
+	font-weight:bold;
+}
+
+
+/* moved to PublicHome.css / header.css
+
+#MemberStatusModule {
+	position:absolute;
+	bottom:0;
+	right:0;
+	height:74px;
+	width:180px;
+	color:#fff;
+	padding:2px 10px;
+	font-size:10px;
+}
+#MemberStatusModule h1 {
+	font-weight:bold;
+	margin-bottom:4px;
+	font-size:12px;
+}
+#MemberStatusModule table {
+	width:100%;
+}
+#MemberStatusModule table td {
+	padding:4px 2px;
+	border-bottom:1px dotted #fff;
+}
+#MemberStatusModule strong {
+	font-weight:bold;
+}
+
+*/
+
+
+/* 4 c) :CONTENTWRAPPER
+============================================================================ */
+
+#FAQ.ContentWrapper {
+	background:url(images/bg/PageContent2.jpg) top left repeat-y #d2d2d2;
+}
+#Games.ContentWrapper {
+	/*background:url(images/bg/PageContent3.jpg) top left repeat-y #d2d2d2;*/
+}
+#Search.ContentWrapper {
+	background:url(images/bg/PageContent2.jpg) top left repeat-y #d2d2d2;
+	background:transparent;
+}
+#Tournaments.ContentWrapper {
+	background:url(images/bg/PageContent4.jpg) top left repeat-y #252525;
+}
+#MailCenter.ContentWrapper {
+	background:url(images/bg/PageContent6.jpg) top left repeat-y #252525;
+}
+
+#Registration.ContentWrapper {
+	background:url(images/bg/PageContent7.jpg) top left repeat-y #252525;
+}
+#Oops.ContentWrapper {
+	background:#d2d2d2;
+}
+#PublicHome.ContentWrapper {
+	background:#eaeaea;
+	border-top:5px solid #eaeaea;
+	border-bottom:5px solid #eaeaea;
+}
+
+
+/* 4 a) :PAGECONTENT
+============================================================================ */
+
+.PageContent h1 {
+	font-size:18px;
+}
+.PageContent h2 {
+	margin-bottom:18px;
+	font-size:1.4em;
+}
+.PageContent h3 {
+	font-size:1.1em;
+}
+.PageContent p {
+}
+.PageContent a {
+}
+
+
+.PageContent .WidgetHeader h1 {
+	padding:10px 5px;	
+}
+.PageContent .WidgetContent {
+	background:#5f5f5f;
+	background:#535353;
+	background:transparent;
+}
+
+.PageContent .TabContent {}
+.PageContent .TabContent .Widget {
+	margin:0px 10px 10px;
+	background:#727272;
+	background:transparent;
+}
+.PageContent .TabContent .WidgetContent {
+	padding:5px 0;
+}
+
+.AreaWrapperTitle {
+	height:40px;
+	background:transparent;
+	margin-bottom:0px;
+	width:100%;
+	overflow:hidden;
+}
+.GameBanner {
+	height:60px;
+	background:url(images/bg/GameBanner.jpg) top left no-repeat #000;
+}
+
+
+/* 4 a) :SIDEBAR
+============================================================================ */
+
+.Sidebar a {
+	color:#ffcc00;
+	color:#c0da59;
+}
+
+.Sidebar h1 {
+	font-size:10px;
+}
+.Sidebar h2 {
+	padding:0 10px;
+}
+.Sidebar h3 {}
+
+
+/* 5 :WIDGETS
+============================================================================ */
+
+
+/* 5 a) :Global Widget Styles
+============================================================================ */
+.Widget {
+	position:relative;
+	z-index:0;
+}
+.WidgetHeader {
+	color:#fff;
+	font-size:12px;
+	cursor:pointer;
+	width:100%;
+}
+
+.WidgetHeader td {
+	padding:0 0px;
+}
+
+/* 5 b) :Sidebar Widget Styles
+============================================================================ */
+
+.Sidebar .WidgetHeader {
+	color:#666;
+}
+.Sidebar .WidgetHeader h1 {
+	font-size:13px;
+	font-weight:bold;
+	padding:0 5px 0 12px;
+	height:30px;
+	line-height:30px;
+	background:url(images/bg/Sidebar/widgetheaderbg.jpg) top left repeat-x #546871;
+	color:#666;
+	font-family:verdana;
+}
+.Sidebar .Widget {
+	background:url(images/bg/SidebarBG.jpg) bottom right no-repeat #bbbbbb;
+	background:transparent;
+	margin-bottom:10px;
+}
+
+.Sidebar .Widget .Format1 {
+	padding:10px;
+	background:#868686;
+	background:#000;
+	margin:0 0 1px 0;
+}
+
+/* 4 a) :GLOBALNAV
+============================================================================ */
+
+#globalnav {
+	height:30px;
+	background:url(images/Nav/GlobalNav/globalnavbg.jpg) bottom left repeat-x;
+	border-bottom:1px solid #eaeaea;
+}
+#globalnav ul {
+}
+#globalnav li {
+	position:relative;
+	background:url(images/Nav/GlobalNav/navbg.jpg) bottom left repeat-x;
+	float:left;
+	line-height:30px;
+	border-right:1px solid #b2b7af;
+}
+#globalnav li a {
+	display:block;
+	padding:0 10px;
+	color:#333;
+	font-size:10px;
+	font-weight:bold;
+}
+#globalnav li a:hover {
+	background:url(images/Nav/GlobalNav/navbghover.jpg) bottom left repeat-x;
+}
+#globalnav li.on a {
+	background:url(images/Nav/GlobalNav/navbgon.jpg) top center no-repeat #fbfbf9;
+}
+#globalnav li:hover ul {
+	display:block;
+}
+#globalnav ul ul {
+	display:none;
+	position:absolute;
+	bottom:-30px;
+	left:0;
+	width:300px;
+	z-index:100;
+}
+
+
+
+/* 4 a) :TABNAVIGATION
+============================================================================ */
+.TabNav {
+	height:30px;
+	background:url(images/Nav/ProfileTab.jpg) bottom left repeat-x #aab0a6;
+}
+.TabNav li {
+	float:left;
+	border-right:2px solid #727272;
+}
+.TabNav li a {
+	display:block;
+	line-height:30px;
+	padding:0 8px;
+	background:url(images/Nav/ProfileTab.jpg) bottom left repeat-x #aab0a6;
+	color:#51534e;
+	font-size:10px;
+}
+.TabNav li a.selected {
+	background:#535353;
+	color:#fff;
+}
+.TabContent {
+	background:#535353;
+	padding:10px 0;
+}
+
+
+/* 4 a) :SUBNAV
+============================================================================ */
+/*Page Navigation for PageContent */
+.SubNav {
+	margin:0px 0 20px;
+	padding:10px 10px 20px 10px;
+	color:#fff;
+	border-bottom:1px solid #999;
+}
+.SubNav ul {
+	height:20px;
+}
+.SubNav li {
+	float:left;
+	line-height:20px;
+	font-size:9px;
+}
+.SubNav li a {
+	color:#999;
+	display:block;
+	padding:0 10px;
+}
+.SubNav li.NewMessage a {
+	color:#acb77b;
+	font-weight:bold;
+}
+.SubNav li.on a {
+	color:#fff;
+	border:1px solid #fff;
+}
+.SubNav a.selected {
+	color:#fff;
+	border:1px solid #fff;
+}
+
+/*************************************
+Reputation
+*************************************/
+span.Reputation {
+	width:55px;
+	height:16px;
+	display:block;
+}
+span.Reputation strong {
+	display:none;
+}
+span.Reputation.rep5 {
+	background:url(images/icons/Reputation.png) 0 0 no-repeat;
+}
+span.Reputation.rep4 {
+	background:url(images/icons/Reputation.png) -11px 0 no-repeat;
+}
+span.Reputation.rep3 {
+	background:url(images/icons/Reputation.png) -21px 0 no-repeat;
+}
+span.Reputation.rep2 {
+	background:url(images/icons/Reputation.png) -32px 0 no-repeat;
+}
+span.Reputation.rep1 {
+	background:url(images/icons/Reputation.png) -43px 0 no-repeat;
+}
+
+/*************************************
+Avatar
+*************************************/
+.Avatar {
+	margin:0 5px 0 0;
+	font-size:9px;
+}
+.PlayerAvatar .Avatar {
+	width:100px;
+}
+.Avatar a {
+	color:#fff;
+}
+.Avatar em {
+	display:block;
+	text-align:left;
+	width:80%;
+	font-size:10px;
+	padding:5px 0;
+	overflow:hidden;
+	clear:both;
+}
+#container .Sidebar .Avatar em a {
+	color:#fff;
+}
+
+.Avatar img.statusdot {
+	position:absolute;
+	bottom:2px;
+	left:0px;
+}
+
+.AvatarImage {
+	position:relative;
+	margin:0 auto;
+	border:1px solid #fff;
+}
+.PlayerAvatar .AvatarImage {
+	width:60px;
+}
+.PlayerAvatar .AvatarImage img {
+	width:60px;
+	height:60px;
+	border:0;
+}
+
+.AvatarStatus {
+	margin-top:3px;
+	font-size:10px;
+	line-height:13px;
+	text-align:center;
+}
+.AvatarStatus img {
+	position:relative;
+	top:3px;
+	margin-right:2px;
+}
+
+.GameAvatar .AvatarImage {
+	border:0;
+}
+
+#container .AvatarOptions {
+	display:none;
+	position:absolute;
+	bottom:10px;
+	left:-10px;
+	z-index:200;
+	width:80px;
+	height:auto;
+	padding-bottom:25px;
+	padding-top:5px;
+	background:url(images/icons/AvatarBG2.png) bottom center no-repeat;
+}
+#container .AvatarOptions h1 {
+	font-size:10px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+#container .AvatarOptions table {
+	width:100%;
+	height:100%;
+	color:#fff;
+}
+#container .AvatarOptions table td {
+	padding:1px 3px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	color:#fff;
+	font-size:9px;
+}
+
+#container .AvatarOptions table img {
+	width:auto;
+}
+
+/*************************************
+NOTIFICATION pop up
+*************************************/
+#Notification {
+	color:#fff;
+	position:fixed;
+	bottom:0px;
+	left:50px;
+	width:400px;
+	z-index:500;
+}
+#Notification dl a {
+	color:#55b0e4;
+}
+#Notification dt {
+	font-size:13px;
+	margin-bottom:4px;
+}
+#Notification dd {
+	font-size:11px;
+	margin-bottom:10px;
+}
+.NotificationBG {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:501;
+	background:url(images/bg/notificationBG.jpg) 0 0 no-repeat #000;
+	filter:alpha(opacity=80); 
+	-moz-opacity:0.8; 
+	opacity:0.8;
+}
+.NotificationContent {
+	position:relative;
+	padding:20px;
+	z-index:502;
+}
+.NotificationContent .Avatar {
+	margin-right:-100%;
+}
+.NotificationContent h1 {
+	font-size:16px;
+	margin:0 0 10px;
+	line-height:60px;
+	padding-left:80px;
+}
+#Notification.Challenge h1 {
+	background:url(images/bg/ChallengeHeader.png) left center no-repeat;
+}
+.NotificationContent h2 {
+	font-size:12px;
+	font-weight:bold;
+	margin:10px 80px;
+	color:#999;
+	clear:left;
+}
+.NotificationContent th {
+	color:#999;
+}
+
+.NotificationContent ul {
+	float:right;
+	margin-left:-100%;
+}
+.NotificationContent table.generalInfo {
+	margin:0 90px 0 80px;
+}
+.NotificationContent p {
+	margin:10px 80px;
+}
+.NotificationContent em.Close {
+	position:absolute;
+	bottom:10px;
+	right:15px;
+	color:#fff;
+	cursor:pointer;
+	font-size:10px;
+}
+
+/*************************************
+Buttons
+*************************************/
+#container a.viewprofile  img {
+	border:1px solid #fff;
+}
+
+#container .buttons a.red span.challenge {
+	display:block;
+	padding-left:18px;
+	background:url(images/bg/buttons/PlayersChallengeIcon.png) left center no-repeat;
+	
+}
+
+.buttons a, .buttons button, #container .buttons input {
+    display:block;
+    float:left;
+    margin:0 7px 0 0;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;
+
+    font-family:arial, "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	text-transform:lowercase;
+    font-size:12px;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:2px 10px 3px 7px; /* Links */
+}
+
+.buttons button{
+    width:auto;
+    overflow:visible;
+    padding:1px 10px 0px 7px; /* IE6 */
+}
+.buttons button[type]{
+    padding:2px 10px 2px 7px; /* Firefox */
+    line-height:17px; /* Safari */
+}
+*:first-child+html button[type]{
+    padding:1px 10px 0px 7px; /* IE7 */
+}
+.buttons button img, .buttons a img{
+    margin:0 3px -3px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+
+.buttons li {
+	float:left;
+	width:90px;
+	clear:left;
+}
+.buttons li a {
+	width:100%;
+	margin-bottom:5px;
+	text-align:center;
+	padding-left:0;
+	padding-right:0;
+}
+
+button.green, .buttons a.green, #container .buttons input.green {
+    background:url(images/bg/buttons/green.jpg) center left repeat-x #a4b488;
+	color:#fff;
+}
+button.gray, .buttons a.gray, #container .buttons input.gray {
+    background:url(images/bg/buttons/gray.jpg) bottom left repeat-x #737373;
+	color:#fff;
+}
+.buttons a.gray:hover {
+	background:url(images/bg/buttons/orange.jpg) center left repeat-x #d69b59;
+	color:#000;
+}
+
+button.orange, .buttons a.orange, #container .buttons input.orange {
+    background:url(images/bg/buttons/orange.jpg) center left repeat-x;
+	color:#000;
+}
+button.blue, .buttons a.blue, #container .buttons input.blue {
+    background:url(images/bg/buttons/blue.jpg) center left repeat-x #d69b59;
+	color:#fff;
+}
+button.purple, .buttons a.purple, #container .buttons input.purple {
+    background:url(images/bg/buttons/purple.jpg) center left repeat-x #d69b59;
+	color:#fff;
+}
+button.red, .buttons a.red, #container .buttons input.red {
+    background:url(images/bg/buttons/red.jpg) center left repeat-x #d69b59;
+	color:#fff;
+}
+
+/*************************************
+SwisherNav
+*************************************/
+.SwisherNav {
+	color:#fff;
+	font-size:10px;
+	padding:5px 10px;
+	clear:left;
+	margin-top:-4px;
+ 	background:#000;
+	line-height:18px;
+}
+.SwisherNav  {
+	height:20px;
+	text-align:center;
+}
+.SwisherNav em {
+	float:left;
+	margin-right:5px;
+}
+.SwisherNav a span {
+	display:none;
+}
+.SwisherNav  a {
+	display:block;
+	float:left;
+	width:8px;
+	margin:5px 2px 0;
+	height:8px;
+	background:#fff;
+}
+
+
+/*************************************
+IE7
+*************************************/
+.ContentWrapper, .Widget, .Format1, .TabContent {
+	height:100%;
+}
+#Games #GamePicker .Avatar {
+	float:left; 
+	width:60px;
+	padding:0 10px;
+	display:inline;
+}
+
+/* BLANK CONTENT WRAPPER */
+/*
+.ContentWrapper {
+	background:url(images/bg/PageContent1.1.jpg) top left repeat-y #d2d2d2;
+	padding:0 5px;
+	border-top:5px solid #d2d2d2;
+	border-bottom:5px solid #d2d2d2;
+	position:relative;
+	border:0;
+	margin:5px 0;
+}
+
+.AreaWrapperTitle {
+	border-bottom:5px solid #fff;
+}
+*/
+
+/*************************************
+Star Ratings - pure CSS WBS
+*************************************/
+.star-rating,
+.star-rating a:hover,
+.star-rating a:active,
+.star-rating a:focus,
+.star-rating .current-rating{
+	background:url(images/star.png) left -1000px repeat-x;
+}
+
+.star-rating{
+	position:relative;
+	width:100px;
+	height:25px;
+	overflow:hidden;
+	list-style:none;
+	margin:0;
+	padding:0;
+	background-position:left top;
+}
+
+.star-rating li{
+	display:inline;
+}
+
+.star-rating a, 
+.star-rating .current-rating{
+	position:absolute;
+	top:0;
+	left:0;
+	text-indent:-1000em;
+	height:25px;
+	line-height:25px;
+	outline:none;
+	overflow:hidden;
+	border:none;
+}
+
+.star-rating a:hover,
+.star-rating a:active,
+.star-rating a:focus{
+	background-position:left bottom;
+}
+
+.star-rating a.one-star{
+	width:20%;
+	z-index:6;
+}
+
+.star-rating a.two-stars{
+	width:40%;
+	z-index:5;
+}
+
+.star-rating a.three-stars{
+	width:60%;
+	z-index:4;
+}
+
+.star-rating a.four-stars{
+	width:80%;
+	z-index:3;
+}
+
+.star-rating a.five-stars{
+	width:100%;
+	z-index:2;
+}
+
+.star-rating .current-rating{
+	z-index:1;
+	background-position:left center;
+}	
+
+/* for an inline rater */
+.inline-rating{
+	display:-moz-inline-block;
+	display:-moz-inline-box;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+/* smaller star */
+.small-star{
+	width:50px;
+	height:10px;
+}
+
+.small-star,
+.small-star a:hover,
+.small-star a:active,
+.small-star a:focus,
+.small-star .current-rating{
+	background-image:url(images/star_small.gif);
+	line-height:10px;
+	height:10px;
+}
+/*************************************
+End Star Ratings - pure CSS
+*************************************/
+
+.consoleImage {
+	display:block;
+	float:left;
+}
+.consoleImage.CImed {
+	width:70px;
+	height:25px;
+}
+.CIsmall {
+	
+}
+.mygames_med {
+	background:url(images/icons/mygames_med.png) top left no-repeat;
+}
+.xbox360_med {
+	background:url(images/icons/xbox360_med.png) top left no-repeat;
+}
+
+.xbox_med {
+	background:url(images/icons/xbox_med.png) top left no-repeat;
+}
+
+.ps3_med {
+	background:url(images/icons/ps3_med.png) top left no-repeat;
+}
+
+.ps2_med {
+	background:url(images/icons/ps2_med.png) top left no-repeat;
+}
+
+
+/* hide and show divs for the game picker*/
+.hideDiv {
+	display:none;
+}
+
+.showDiv {
+	display:block;
+}
+
+/*************************************
+Start Ratings  CSS
+*************************************/
+#greybg {
+	border:1px solid #666666;
+	position:relative;
+	background-color:#3c3c3c;
+	height:100%;
+	padding-top:8px;
+	padding-right:10px;
+	padding-bottom:8px;
+	padding-left:10px;
+}
+#olive-greenbg {
+	border:1px solid #656563;
+	position:relative;
+	background-color:#434738;
+	height:100%;
+	padding-top:8px;
+	padding-right:10px;
+	padding-bottom:8px;
+	padding-left:10px;
+}
+
+.grey-text10 {
+	font-size:10px;
+	color:#787878;
+	text-transform:none;
+	font-weight:normal;
+	
+}
+.white-text10 {
+	font-size:10px;
+	color:#FFFFFF;
+	text-transform:none;
+	font-weight:normal;
+}
+.white-border-olive {
+	border:1px solid #ffffff;
+	position:relative;
+	padding:6px;
+	background-color:#565a4c;
+	height:43px;
+	width:228px;
+}
+.white-border-grey {
+	border:1px solid #ffffff;
+	position:relative;
+	padding:6px;
+	background-color:#505050;
+	height:43px;
+	width:228px;
+}
+.rankincontent-right {
+	padding-left:9px;
+}
+
+.rankincontent-left {
+	padding-right:9px;
+}
+.rankincontent-bottom{
+	padding-bottom:7px;
+}
+.white-text14-bold{
+	font-size:14px;
+	color:#ffffff;
+	text-transform:none;
+	font-weight:bold;
+}
+.PageContent1 {
+	float:none;
+	position:relative;
+	top:2px;
+	background:transparent;
+	margin-top:0;
+	margin-right:auto;
+	margin-bottom:0;
+	margin-left:auto;
+	padding-top:15px;
+	padding-right:22px;
+	padding-bottom:10px;
+	padding-left:22px;
+}
+.PageContent1 h1 {
+	margin-bottom:10px;
+	font-size:14px;
+	text-transform:none;
+	font-weight:bold;
+}
+.PageContent1 p {
+	line-height:normal;
+	font-size:11px;
+}
+.PageContent-middle {
+	float:none;
+	position:relative;
+	margin-top:0;
+	margin-right:auto;
+	margin-bottom:0;
+	margin-left:auto;
+	padding-top:8px;
+	padding-right:10px;
+	padding-bottom:0px;
+	padding-left:10px;
+}
+.PageContent2 {
+	width:276px;
+	float:none;
+	position:relative;
+	padding-right:126px;
+	padding-left:126px;
+	padding-top:18px;
+}
+.PageContent2 p {
+	line-height:normal;
+	font-size:11px;
+	color:#FFFFFF;
+}
+/*************************************
+End Ratings  CSS
+*************************************/
+
+div.clear {
+	clear:both;
+	float:none;
+}

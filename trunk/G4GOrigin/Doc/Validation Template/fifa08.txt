@@ -1,0 +1,15 @@
+From="EA_Admin@ea.com" <EA_Admin@ea.com>
+To=staging@testwg.com
+
+Player1=cannis_xb
+Player1_UTF=cannis_xb
+Player1_Score=21
+
+Player2=lupo_xb
+Player2_UTF=lupo_xb
+Player2_Score=22
+
+Ranked=*
+Unranked=
+CompleteYes=*
+CompleteNo=

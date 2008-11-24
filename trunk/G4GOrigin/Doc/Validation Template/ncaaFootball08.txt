@@ -1,0 +1,91 @@
+From="EA_Admin@ea.com" <EA_Admin@ea.com>
+To=eastats@codefab.com
+
+Mode=Ranked
+QtrLength=5 minutes
+Difficulty=All-Pro
+Opponent=<Player2>
+OpponentRank=100
+
+Player1=Sleeze Z
+Player1_Score=17
+Player2=Mee772272
+Player2_Score=23
+
+Player1_15Spaces=Sleeze Z       
+Player2_15Spaces=Mee772272              
+
+Player1_RushingAttempts_9Spaces=       20
+Player2_RushingAttempts_9Spaces=       11
+
+Player1_RushingYards_9Spaces=       60
+Player2_RushingYards_9Spaces=       20
+
+Player1_PassingAttempts_9Spaces=       15
+Player2_PassingAttempts_9Spaces=       12
+
+Player1_PassingYards_9Spaces=       96
+Player2_PassingYards_9Spaces=      106
+
+Player1_Punts_9Spaces=        1
+Player2_Punts_9Spaces=        2
+
+Player1_FieldGoals_9Spaces=        1
+Player2_FieldGoals_9Spaces=        0
+
+Player1_LongFieldGoals_9Spaces=        1
+Player2_LongFieldGoals_9Spaces=        0
+
+Player1_WentFor2_9Spaces=        0
+Player2_WentFor2_9Spaces=        1
+
+Player1_RushingTDs_9Spaces=        0
+Player2_RushingTDs_9Spaces=        1
+
+Player1_PassingTDs_9Spaces=        0
+Player2_PassingTDs_9Spaces=        0
+
+Player1_ReturnsTDs_9Spaces=        0
+Player2_ReturnsTDs_9Spaces=        0
+
+Player1_DefensiveTDs_9Spaces=        2
+Player2_DefensiveTDs_9Spaces=        0
+
+Player1_Turn_9Spaces=        3
+Player2_Turn_9Spaces=        4
+
+Player1_Interceptions_9Spaces=        3
+Player2_Interceptions_9Spaces=        3
+
+Player1_Sacks_9Spaces=        1
+Player2_Sacks_9Spaces=        3
+
+Player1_3rdDowns_9Spaces=        8
+Player2_3rdDowns_9Spaces=        3
+
+Player1_3rdDownConversions_9Spaces=        3
+Player2_3rdDownConversions_9Spaces=        0
+
+Player1_FourthDownRushingPlays_9Spaces=        2
+Player2_FourthDownRushingPlays_9Spaces=        1
+
+Player1_FourthDownPassingPlays_9Spaces=        0
+Player2_FourthDownPassingPlays_9Spaces=        0
+
+Player1_NoHuddlePlays_9Spaces=        1
+Player2_NoHuddlePlays_9Spaces=        0
+
+Player1_Audibles_9Spaces=        0
+Player2_Audibles_9Spaces=        0
+
+Player1_HotRoutes_9Spaces=        7
+Player2_HotRoutes_9Spaces=        0
+
+Player1_Scrambles_9Spaces=        4
+Player2_Scrambles_9Spaces=        5
+
+Player1_ShotgunPlays_9Spaces=        4
+Player2_ShotgunPlays_9Spaces=        5
+
+Player1_TimeOfPossesion_9Spaces=    12:37
+Player2_TimeOfPossesion_9Spaces=     7:27

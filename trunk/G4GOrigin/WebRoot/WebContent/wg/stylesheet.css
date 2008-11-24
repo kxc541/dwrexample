@@ -1,0 +1,3490 @@
+/*CSS Reset*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+a{text-decoration:none;}
+
+/*************************************
+global Style properties
+*************************************/
+
+body {
+font-family: Verdana, Arial, "sans serif";
+font-size:10px;
+color:#000000;
+margin:0;
+padding:0;
+text-align:left;
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
+.module:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+	/* Hides from IE-mac \*/
+	* html .module {height: 1%;}
+	/* End hide from IE-mac */
+
+
+/*Global Structural Elements*/
+/*************************************
+basic font styles
+*************************************/
+a {
+	text-decoration:none;
+}
+p {
+	font-size:10px;
+	line-height:16px;
+}
+input {
+	border:1px solid #d2d2d2;
+	padding:2px;
+}
+a.add-item {
+	padding-left:10px;
+	background:url(/wg/images/icons/add.png) left center no-repeat;
+}
+a.more {
+	padding-right:20px;
+	background:url(/wg/images/icons/grayarrow.png) right center no-repeat;
+	color:#000;
+}
+a.MatchDetails {
+	padding-left:15px;
+	background:url(/wg/images/icons/ChallengeArrow.png) left center no-repeat;
+}
+
+/*************************************
+Structure
+*************************************/
+#container {
+	width:920px;
+	margin:0 auto;
+	padding-top:10px;
+}
+
+/*************************************
+sidebar
+*************************************/
+#sidebar {
+	width:215px;
+	margin:0px 0 0px;
+	float:right;
+	padding:0;
+}
+#sidebar .module {
+	margin:5px 0;
+	border:5px solid #dbdbdb;
+}
+/*************************************
+globalnav
+*************************************/
+#globalnav {
+	height:30px;
+	background:url(/wg/images/Nav/GlobalNav/globalnavbg.jpg) bottom left repeat-x;
+	border-bottom:1px solid #eaeaea;
+}
+#globalnav ul {
+}
+#globalnav li {
+	position:relative;
+	background:url(/wg/images/Nav/GlobalNav/navbg.jpg) bottom left repeat-x;
+	float:left;
+	line-height:30px;
+	border-right:1px solid #b2b7af;
+}
+#globalnav li a {
+	display:block;
+	padding:0 10px;
+	color:#000;
+}
+#globalnav li a:hover {
+	background:url(/wg/images/Nav/GlobalNav/navbghover.jpg) bottom left repeat-x;
+}
+#globalnav li.on a {
+	background:url(/wg/images/Nav/GlobalNav/navbgon.jpg) top center no-repeat #fbfbf9;
+}
+#globalnav li:hover ul {
+	display:block;
+}
+#globalnav ul ul {
+	display:none;
+	position:absolute;
+	bottom:-30px;
+	left:0;
+	width:300px;
+	z-index:100;
+}
+/*************************************
+header
+*************************************/
+#header {
+	height:87px;
+	position:relative;
+	background:url(/wg/css/images/bg/BrandingBG.jpg) top left no-repeat;
+}
+
+#header div {
+	display:none;
+}
+
+#header p {
+	float:right;
+}
+/*Logo*/
+h1#WGlogo {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+h1#WGlogo a {
+	display:block;
+	height:87px;
+	width:527px;
+	background:url(/wg/images/Header/logo.jpg) bottom left no-repeat black;
+}
+h1#WGlogo a span {
+	display:none;
+}
+/*UserInfo*/
+#userinfo {
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:420px;
+	height:59px;
+	overflow:hidden;
+	color:#fff;
+	background:url(/wg/images/Header/UserInfoBG.jpg) bottom right no-repeat;
+}
+#userinfo h1 {
+	font-size:12px;
+}
+#userinfo a {
+	color:#fff;
+	font-size:9px;
+}
+#userinfo table {
+	width:100%;
+}
+#userinfo table td {
+	height:59px;
+	padding:0px;
+}
+#userinfo table td {
+	padding:0px;
+	font-size:10px;
+}
+/*Logoout*/
+#logout {
+	position:absolute;
+	top:10px;
+	right:5px;
+	font-size:9px;
+}
+#logout a {
+	color:#666;
+}
+/*************************************
+footer
+*************************************/
+#footer {
+	padding-top:50px;
+	clear:both;
+	height:80px;
+	background:url(/wg/images/footer/footer.jpg) 0 20px no-repeat;
+	padding-left:200px;
+}
+#footer li {
+	float:left;
+	margin-right:20px;
+}
+#footer li a {
+	color:#000;
+}
+
+
+/* BUTTONS */
+.button {
+	background:url(/wg/images/Buttons/ButtonBG.jpg) left center repeat-x;
+	border:1px solid #fff;
+	line-height:20px;
+	color:#fff;
+	font-size:10px;
+	padding:3px 5px;
+	text-align:center;
+}
+.button.green {
+	background:url(/wg/images/Buttons/GreenButtonBG.jpg) left center repeat-x;
+}
+.button.blue {
+	background:url(/wg/images/Buttons/BlueButtonBG.jpg) left center repeat-x;
+}
+.button.block {
+	display:block;
+	margin:0 auto;
+}
+.button.floatright {
+	float:right;
+}
+.button.floatleft {
+	float:left;
+}
+.button.inline {
+	display:inline;
+}
+/*dotted table class*/
+table.dotted td {
+	color:#fff;
+	border-bottom:1px dotted #b6c0bd;
+}
+/*a class that makes the iages appear to be links*/
+img.BlockButton {
+	display:block;
+	margin:5px auto;
+	cursor:pointer;
+}
+/*the little squares that do page numbers */
+.PageID {
+	font-size:9px;
+}
+.squres {
+	padding:2px 0;
+}
+.squares li {
+	width:5px;
+	height:5px;
+	border:1px solid #fff;
+	margin:3px 2px;
+	float:left;
+}
+.squares li.on {
+	background:#fff;
+}
+.squares li span {
+	display:none;
+}
+
+
+
+
+
+
+
+
+/*stuff*/
+.mtcommon {
+	background:url(/wg/images/Modules/modtitle/col1-title.jpg) bottom left repeat-x #d2d2d2;
+}
+.mccommon {
+	background:#d2d2d2;
+	margin:0;
+	padding:0px;
+}
+.mccommon .modprefs {
+	background:white;
+}
+
+
+
+.tabs-nav {
+	height:20px;
+	font-size:9px;
+	border-bottom:1px solid #f7f7f7;
+	background:url(/wg/images/Modules/grayshadow.jpg) top right repeat-x #bcc1b9;
+}
+.tabs-nav li {
+	float:left;
+	line-height:20px;
+	background:#d2d3cf;
+	border-right:1px solid #bdbfb8;
+}
+.tabs-nav li a {
+	display:block;
+	padding:0 5px;
+	color:#000;
+	background:url(/wg/images/Modules/tabbg.jpg) bottom left repeat-x;
+}
+
+.tabs-nav li.selected {
+	background:#e7e7e7;
+	height:20px;
+}
+.tabs-nav li.selected a {
+	background:#e7e7e7;
+	height:21px;
+}
+.yui-content {
+	padding:5px;
+	background:#e7e7e7;
+}
+.yui_content_options {
+	display:block;
+	padding:5px 5px 0;
+	font-size:9px;
+	line-height:20px;
+}
+
+.yui-navset {
+	overflow:hidden;
+}
+
+
+
+table.tabbed {
+	width:100%;
+}
+table tr.red td {
+	color:#fff;
+	background:#a80000;
+}
+table.tabbed tr.red:hover td{
+	background:#b00000;
+}
+table.tabbed tr:hover td{
+	background:#252525;
+}
+table.tabbed td {
+	background:#333;
+	border-bottom:1px solid #666;
+	padding:5px;
+	font-size:11px;
+}
+
+
+
+#myprofile-info dl {
+	margin:5px 0;
+}
+
+#myprofile-info dt {
+	font-size:12px;
+}
+#myprofile-info dd {
+	line-height:16px;
+	color:#333;
+}
+
+#userAccountWidget {
+	float:right;
+}
+
+#Public h1#WGlogo {
+	display:none;
+}
+
+
+
+
+
+
+
+#LoginRegister {
+	padding-top:10px;
+	width:400px;
+	height:400px;
+	margin:50px auto;
+	background:url(/wg/images/publichome.jpg) top center no-repeat;
+}
+#LoginRegister div {
+	color:#fff;
+	margin:25px;
+}
+div.newmember {
+	border-top:1px dotted #d2d2d2;
+	padding-top:20px;
+	width:220px;
+}
+div.newmember a {
+	color:#94eb37;
+}
+#LoginRegister h1 {
+	font-size:18px;
+	margin-bottom:10px;
+}
+#LoginRegister p {
+	font-size:14px;
+}/**** ********************************************** ****/
+/**** ********************************************** ****/
+/* structure of containing PageContent Div */
+#PageContent {
+	width:680px;
+	padding:5px;
+	float:left;
+	background:#d2d2d2;
+}
+
+.Pagetitle {
+	height:60px;
+	background:#000;
+}
+.Pagetitle span {
+	display:none;
+}
+
+
+
+/* reset module styles for the module title and module content */
+#PageContent .modtitle {
+
+}
+#PageContent .modtitle h1 span {
+	display:none;
+}
+
+
+#PageContent .modtitle.xbox360 {
+	background:url(/wg/images/Pages/modtitleXbox360.jpg) top left no-repeat;
+}
+#PageContent.Tournaments .modtitle {
+	background:url(/wg/images/Pages/modtitleTournaments.jpg) top left no-repeat;
+	height:61px;
+}
+
+#PageContent.Registration .modtitle {
+	background:url(/wg/images/Pages/modtitleRegistration.jpg) top left no-repeat;
+	height:61px;
+}
+#PageContent.MailCenter .modtitle {
+	background:url(/wg/images/Pages/modtitleMessageCenter.jpg) top left no-repeat;
+	height:61px;
+}
+
+/*ModContent*/
+#PageContent .modcontent {
+	margin:0;
+	padding-top:0;
+	color:#eaeaea;
+}
+
+
+
+
+#PageContent .modcontent a {
+	color:#fff;
+}
+
+#PageContent .modcontent h1 {
+	color:#fff;
+}
+#PageContent .modcontent h2 {
+	color:#fff;
+}
+#PageContent .modcontent h3 {
+	color:#fff;
+}
+
+
+/*Page Navigation for PageContent */
+#PageNav {
+}
+#PageNav ul {
+	height:20px;
+}
+
+#PageNav li {
+	float:left;
+	line-height:20px;
+	font-size:9px;
+}
+#PageNav li a {
+	color:#51544b;
+	display:block;
+	padding:0 10px;
+}
+#PageNav li.on a {
+	color:#fff;
+}
+
+/*ItemNav for PageContent */
+#ItemNav {
+	height:25px;
+}
+#ItemNav ul {
+	height:20px;
+}
+
+
+#ItemNav li {
+	font-size:9px;
+	float:left;
+	line-height:20px;
+}
+#ItemNav li a {
+	color:#fff;
+	display:block;
+	padding:0 10px;
+}
+
+
+
+
+
+
+/**** ********************************************** ****/
+/*************************
+GAMES PAGE
+*************************/
+.Games .modcontent {
+	background:url(/wg/images/Pages/Games/GamesContentBG.jpg) top left repeat-y #000;
+}
+
+.Games .GamesList {
+	background:#000;
+}
+
+.Games #PageNav {
+	background:url(/wg/images/Pages/Games/PageNav.jpg) bottom left repeat-x #000;
+}
+.Games #PageNav li a {
+	color:#515443;
+}
+.Games #PageNav li.on {
+	background:url(/wg/images/Pages/Games/PageNavOn.jpg) bottom left repeat-x #597c90;
+}
+.Games #PageNav li.on a {
+	color:#fff;
+}
+
+.Games #ItemNav ul {
+	background: #a9afa5;
+}
+
+.Games #ItemNav li a {
+	border-right:2px solid #000;
+	color:#000;
+}
+
+.Games #ItemNav li.on a {
+	background:#000;
+	color:#fff;
+}
+
+.Games .GameInfo li {
+	background:#252525;
+}
+.Games .GameInfo li.on {
+	background:#454545;
+}
+
+.Games .MatchInfo {
+	background:transparent;
+}
+.Games .support {
+	border:5px solid #454545;
+}
+
+.Games .PageBanner {
+	height:70px;
+	background:url(/wg/images/Pages/PageBanner/GamesLobby.jpg) top left no-repeat;
+}
+.Games .PageBanner em {
+	background:url(/wg/images/Pages/Games/ShowAllBG.png) top right no-repeat;
+}
+
+.Games .Help {
+	background:#454545;
+}
+/**********************
+***********************/
+
+
+.Registration .modcontent {
+	background:#5e5e5e;
+}
+.supplimental p {
+	margin:10px 0;
+	font-family:arial;
+}
+.Registration .support {
+	margin:20px auto;
+	border:5px solid #8a8a8a;
+	background:#515151;
+	color:#fff;
+}
+.Registration .support p {
+	margin:0;
+}
+
+.Registration td {
+	font-size:10px;
+	color:#fff;
+}
+.Registration td li {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************
+GAMES PAGE
+*************************/
+.Tournaments  {
+	background:#5c6662;
+}
+.Tournaments #PageNav {
+	background:url(/wg/images/Pages/Tournaments/PageNav.jpg) top left repeat-x #738079;
+}
+.Tournaments #PageNav li a {
+	color:#515443;
+}
+.Tournaments #PageNav li.on a {
+	background:url(/wg/images/Pages/Tournaments/PageNavOn.jpg) top left repeat-x #738079;
+	color:#fff;
+}
+.Tournaments #ItemNav ul {
+	background: ;
+}
+.Tournaments #ItemNav li.on a {
+	background:#333;
+	color:#fff;
+}
+
+
+.Tournaments .GameInfo li {
+	padding-left:5px;
+}
+
+.Tournaments .GameInfo li a {
+	background:url(/wg/images/icons/more.png) left center no-repeat;
+	padding-left:15px;
+}
+
+.Tournaments .Matchinfo {
+	background:#738079;
+}
+.Tournaments .support {
+	border:5px solid #333;
+}
+
+.Tournaments .GamesList {
+	background:#738079;
+}
+.Tournaments .PageBanner {
+	height:27px;
+	background:url(/wg/images/Pages/PageBanner/TournamentsLobby.jpg) top left repeat-x;
+}
+.Tournaments .PageBanner em {
+	background:url(/wg/images/Pages/Tournaments/ShowAllBG.png) top right no-repeat;
+}
+/**********************
+***********************/
+/**** *****************games***************************** ****/
+
+/***********************
+GameList.css
+***********************/
+.GamesList {
+	padding:10px;
+}
+.GameContainer, .GameContainerNav {
+	float:left;
+	margin:4px;
+}
+.GameContainer img {
+	width:65px;
+}
+
+.GamesList .PageID {
+	margin:0 auto;
+	display:block;
+	float:none;
+	width:60px;
+}
+.GamesList .PageID em {
+	display:none;
+}
+/**** ********************************************** ****/
+/*********************
+	PageBanner.css
+**********************/
+
+.PageBanner {}
+.PageBanner em {
+	font-size:9px;
+	padding:3px 15px 0 5px;
+	height:24px;
+	float:left;
+}
+
+/**** ********************************************** ****/
+/*********************
+	MatchInfo.css
+**********************/
+.MatchInfo {
+	float:right;
+	width:520px;
+}
+.MatchInfo h1 {
+	font-size:29px;
+}
+.MatchInfo h2 {
+	color:#fff;
+	font-size:18px;
+}
+.MatchInfo h2.xbox360 {
+	background:url(/wg/images/icons/xbox360_med.png) right bottom no-repeat;
+}
+
+.Tournaments .MatchInfo h1 {
+	color:#bec2c0;
+	font-size:12px;
+	margin:0 10px;
+}
+.Tournaments .MatchInfo h2 {
+	color:#fff;
+	font-size:18px;
+	margin:0 10px;
+	padding:5px 0;
+}
+
+
+
+
+.PageID {
+	text-align:right;
+}
+.PageID .squares {
+	float:right;
+	margin:0 10px;
+}
+
+
+
+
+
+table.OpenGames {
+	margin:10px auto;
+	padding:0;
+	width:500px;
+}
+table.OpenGames tr {
+}
+table.OpenGames tr:hover td {
+	background:#6a8a99;
+}
+table.OpenGames tr:hover td.challenge {
+	background:url(/wg/images/icons/Challenge1.jpg) bottom left repeat-x #d69a5a;
+}
+table.OpenGames th {
+	padding:5px 2px;
+	color:#8ea2b0;
+	font-size:9px;
+}
+table.OpenGames tr.spacer td {
+	padding:2px;
+	background:transparent;
+}
+table.OpenGames td {
+	padding:2px;
+	margin:5px 0;
+	border:1px solid #91a2ac;
+	border-width:1px 0;
+	background:#527186;
+	font-size:9px;
+
+}
+table.OpenGames td.member {
+	border-left:1px solid #91a2ac;
+	font-size:9px;
+
+}
+table.OpenGames td.challenge {
+	border:1px solid #fff;
+	padding:0;
+	text-align:center;
+	background:url(/wg/images/icons/Challenge1.jpg) bottom left repeat-x #d69a5a;
+	width:74px;
+	font-size:9px;
+
+}
+
+
+
+
+
+/***********************
+TournamentInfo.css
+***********************/
+
+table.TournamentInfoTable {
+	margin:0;
+	border-collapse:collapse;
+	margin:10px auto;
+	padding:0;
+	width:500px;
+}
+table.TournamentInfoTable table {
+	width:100%;
+}
+
+
+table.TournamentInfoTable thead th {
+	background:#3b423e;
+	font-size:14px;
+	padding:5px;
+	color:#fff;
+	border-bottom:1px solid #727f79;
+}
+
+table.TournamentInfoTable td {
+	padding:0;
+	width:auto;
+}
+table.TournamentInfoTable td.desc {
+	width:80px;
+	font-size:9px;
+	color:#b7bab8;
+}
+table.TournamentInfoTable tr {
+	padding:0;
+	margin:0;
+}
+table.TournamentInfoTable table td {
+	background:#4a524e;
+	border-bottom:1px solid #727f79;
+	padding:5px;
+	font-size:12px;
+	border-collapse:collapse;
+	color:#a3a9a6;
+}
+
+
+table.TournamentInfoTable td strong {
+	font-size:14px;
+	color:#fff;
+}
+
+
+
+
+
+.TournamentOptions {
+	width:400px;
+	margin:10px auto;
+	text-align:center;
+}
+.TournamentOptions p {
+	margin:10px 0;
+}/**** ********************************************** ****/
+/*****************
+	GameInfo.css
+*****************/
+	
+.GameInfo {
+	float:left;
+	width:160px;
+	padding:10px 0;
+}
+.GameInfo .GameArt {
+	display:block;
+	margin:0 auto;
+}
+.GameInfo h3 {
+	margin:5px 10px;
+	font-size:10px;
+}
+
+
+.support {
+	/*border color is in pagesytle*/
+	padding:0px;
+	width:135px;
+	margin:5px auto;
+	text-align:center;
+}
+
+.live {
+	background:url(/wg/images/ads/LiveSupportBG.jpg) top left repeat-x #496575;
+	padding-bottom:10px;
+}
+
+.GameInfo ul {
+	margin-bottom:20px;
+}
+.GameInfo li {
+	margin:1px 0;
+	font-size:9px;
+}
+.GameInfo li.on a {
+	background:url(/wg/images/icons/indicator.png) left center no-repeat;
+}
+.GameInfo li a {
+	display:block;
+	padding:7px 10px;
+}
+
+
+
+.FastPlay {
+	padding:0 3px;
+	text-align:center;
+	font-size:9px;
+}
+
+.FastPlay li {
+	border:1px solid #454545;
+	margin:4px 0px;
+	padding:0;
+	text-align:center;
+}
+
+.FastPlay li a {
+	padding:3px;
+	background:#252525;
+}
+.FastPlay li a:hover {
+	background:#333333;
+}
+.FastPlay li span {
+
+}
+.FastPlay li span strong {
+}/**** ********************************************** ****/
+.GamesPicker {
+	background:#000;
+	margin:25px;
+	border:1px solid #666;
+}
+
+.GamesPicker ul {
+	background:#3c3c3c;	
+	padding:10px 25px;
+}
+.GamesPicker li {
+	width:65px;
+	float:left;
+	margin:0 7px;
+	background:#3c3c3c;
+}
+.GamesPicker li img {
+	width:65px;
+}
+
+.GamesPicker .modcontent {
+	border-top:1px solid #666;
+	margin-bottom:0;
+	padding:0;
+}
+.GamesPicker .modtitle {
+	cursor:pointer;	
+}/**** ********************************************** ****/
+/*********************
+	Help.css
+**********************/
+
+.Help {
+	padding:10px 20px;
+}
+
+.Help h1 {
+	font-size:9px;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	margin:0px 0;
+}
+.Help h2 {
+	font-size:12px;
+	margin:5px 0 15px;
+	letter-spacing:1px;
+}
+
+.Help p {
+	margin:10px 0;
+	font-family:verdana;
+}
+
+.Help ul {
+	margin:10px;
+	padding:0 15px;
+}
+.Help li {
+	list-style:disc;
+	margin:5px 0;
+}
+
+
+/*********************
+	UserLanding.css
+**********************/
+
+#Public #header {
+	height:80px;
+	position:relative;
+	background:url(/wg/images/Header/PublicHeader.jpg) top left no-repeat #eaeaea;
+}
+
+#Public #userinfo {
+	float:right;
+	height:auto;
+	width:175px;
+	padding:10px 20px;
+	overflow:hidden;
+	position:absolute;
+	bottom:0px;
+	right:0;
+	background:transparent;
+	color:#fff;
+}
+
+#Public #userinfo table {
+}
+#Public #userinfo table td {
+	height:auto;
+}
+
+/*************************************
+UserLanding Header styles
+*************************************/
+#UserLanding #logout {
+	top:-10px;
+}
+#UserLanding #header {
+	height:80px;
+	position:relative;
+	background:url(/wg/images/Header/headerbg.jpg) top left no-repeat #eaeaea;
+}
+
+
+/*************************************
+UserLanding UserInfo styles
+*************************************/
+#UserLanding #userinfo {
+	float:right;
+	height:80px;
+	width:317px;
+	padding-left:85px;
+	overflow:hidden;
+	position:relative;
+	background:#666957;
+	color:#fff;
+}
+#UserLanding #userinfo table {
+	float:left;
+	width:45%;
+	height:auto;
+	margin:0 5px;
+}
+#UserLanding #userinfo table td {
+	height:auto;
+}
+#UserLanding #userinfo img {
+	position:absolute;
+	top:0;
+	left:0;
+}
+#UserLanding #userinfo h1 {
+	font-size:12px;
+	padding:4px 0 0 5px;
+	margin-bottom:5px;
+}
+
+
+
+
+/*************************************
+Banner
+*************************************/
+#banner {
+	height:165px;
+	margin-bottom:10px;
+	position:relative;
+	background:#000;
+}
+#banner-image {
+	height:165px;
+	width:100%;
+	float:left;
+	z-index:1;
+	overflow:hidden;
+}
+.marathon {
+	background:url(/wg/images/Banner/halo3.jpg) top left no-repeat #000;
+}
+.halo {
+	background:url(/wg/images/Banner/halo.jpg) top left no-repeat #000;
+	
+}
+
+
+
+/*************************************
+bannernav
+*************************************/
+#bannernav {
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:30px;
+	width:700px;
+	
+}
+#bannernav li {
+	position:relative;
+
+	float:right;
+	line-height:30px
+}
+#bannernav li a {
+	display:block;
+	padding:0 10px;
+	color:#fff;
+}
+#bannernav li a:hover {
+	background:url(/wg/images/Banner/bannernavbgon.jpg) bottom left repeat-x;
+}
+#bannernav li.on a {
+	background:url(/wg/images/Banner/bannernavbgon.jpg) bottom left repeat-x;
+}
+#bannernav li:hover ul {
+	display:block;
+}
+#bannernav ul ul {
+	display:none;
+	position:absolute;
+	bottom:-30px;
+	left:0;
+	width:300px;
+}
+
+
+
+
+#search {
+	position:absolute;
+	top:0;
+	right:0;
+	width:200px;
+	z-index:100;
+	background:url(/wg/images/Banner/searchbg.png) top left;
+	padding:10px 5px 5px 10px;
+	color:#fff;
+}
+#searchWidget {
+	width:200px;
+	font-size: 16px;
+}
+#leftWidgetHeaderText {
+	font-size:12px;
+}	
+#search input {
+	width:150px;
+	font-size:9px;
+	padding:2px;
+}
+
+#search em {
+	font-size:9px;
+	display:block;
+	line-height:20px;
+}
+#search .modtitle h1 {
+	color:#fff;
+	font-size:12px;
+}
+#search a {
+	font-size:9px;
+	color:#fff;
+}
+#search p {
+	margin:0px 0;
+	line-height:20px;
+}/**** ********************************************** ****/
+
+.ChallengeCard {
+	background:#7e7e7e;
+	padding:0;
+	width:500px;
+	height:600px;
+	margin:0 auto;
+	border:5px solid #d2d2d2;
+}
+
+.ChallengeCard .modtitle {
+	background:#5f5f5f;
+	padding:5px;
+	font-size:10px;
+}
+
+.ChallengeCard .modcontent {
+	margin:0;
+	padding:0;
+	border-top:1px solid #8ea2b0;
+}
+
+
+.ChallengeCard h2 {
+	font-size:18px;
+	text-align:center;
+	color:#fff;
+}
+
+.ChallengeCard a {
+	color:#fff;
+}
+.ChallengeCard .avatar {
+	text-align:center;
+	margin:0 auto;
+	font-size:9px;
+	width:100%;
+}
+
+
+#PageContent .ChallengeCard .modtitle {
+	height:auto;
+	border-bottom:0;
+}
+#PageContent .MatchInfo .ChallengeCard {
+	border:1px solid #8ea2b0;
+	margin:10px auto;
+}
+#PageContent .MatchInfo .ChallengeCard .modtitle h1 {
+	font-size:10px;
+	margin:0;
+	padding:0;
+	line-height:auto;
+}
+
+#PageContent .MatchInfo .ChallengeCard .modtitle {
+	background:#577388;
+	line-height:20px;
+}
+#PageContent .MatchInfo .ChallengeCard .CC1, #PageContent .MatchInfo .ChallengeCard .CC3  {
+		background:url(/wg/images/icons/ChallengeCardBG.png) top left repeat-x #476275;
+}
+#PageContent .MatchInfo .ChallengeCard .CC2 {
+		background:url(/wg/images/icons/ChallengeCardBG.png) top left repeat-x #3b5a6e;
+}
+#PageContent .MatchInfo .ChallengeCard table.MemberList td {
+	background:transparent;
+	border-bottom:1px dotted #fff;
+}
+
+
+
+
+
+table.ChallengeCardTable {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+table.ChallengeCardTable td {
+	margin:0;
+	padding:0;
+	font-size:9px;
+}
+
+table.CCplayerInfo {
+	width:100%;
+}
+table.CCplayerInfo td {
+	padding:3px;
+	color:#fff;
+}
+table.CCplayerInfo td.desc {
+	width:70px;
+	color:#d2d2d2;
+}
+
+
+table.ChallengeCardTable td.CC1 {
+	width:30%;
+	padding:10px 5px;
+	background:url(/wg/images/icons/ChallengeCardBG.png) top left repeat-x #7e7e7e;
+}
+
+table.ChallengeCardTable td.CC2 {
+	background:url(/wg/images/icons/ChallengeCardBG.png) top left repeat-x #717171;
+	padding:10px 0px;
+	position:relative;
+}
+table.ChallengeCardTable td.CC2 table.dotted {
+	width:100%;
+}
+table.ChallengeCardTable td.CC2 img.firevs {
+	height:80px;
+	display:block;
+	margin:0 auto;
+}
+
+table.ChallengeCardTable td.CC2 table.dotted td {
+	border-bottom:1px dotted #9c9c9c;
+	padding:5px;
+} 
+table.ChallengeCardTable td.CC3 {
+	width:30%;
+	padding:5px;
+	background:url(/wg/images/icons/ChallengeCardBG.png) top left repeat-x #7e7e7e;
+}
+
+
+table.MemberList {
+	margin:10px 0;
+}
+table.MemberList td {
+	padding:0 2px;
+	background:#8b8b8b;
+	border-bottom:3px solid #7e7e7e;
+}
+table.MemberList td.PlayerName {
+	width:100px;
+	color:#fff;
+}
+
+
+
+form#form .MessageContainer {
+	width:600px;
+	margin:50px auto;
+}
+
+.CCheader {
+	height:120px;
+	width:100%;
+	position:relative;
+}
+
+.vsicon {
+	position:absolute;
+	top:-10px;
+	left:-30px;
+}
+
+.CCheader h4 {
+	text-align:center;
+	font-size:14px;
+	color:#d2d2d2;
+}
+
+.CCopenChallenge {
+	text-align:center;
+	color:#fff;
+}
+.CCopenChallenge textarea {
+	height:100px;
+	width:85%;
+	margin:10px auto;
+}
+.CCopenChallenge input {
+	margin-bottom:5px;
+}
+
+.avatar {
+	text-align:center;	
+}
+.avatar img {
+	display:block;
+	margin:5px auto;
+}
+.avatar em {
+	margin:0px 0;
+	display:block;
+}/*************************
+Registration.css
+*************************/
+
+/*setup the dimenstions of the PageContent area*/
+#PageContent.Registration {
+	width:910px;
+}
+#PageContent.Registration .modcontent {
+	width:680px;
+	float:left;
+	border-top:0;
+}
+
+/*supplimental text*/
+.supplimental {
+	float:right;
+	width:180px;
+	margin-right:20px;
+	display:inline;
+	font-family:arial;
+}
+.supplimental h1 {
+	font-size:14px;
+	margin:10px 0;
+}
+.supplimental p {
+
+}
+
+
+
+
+
+/*styles for the registration form*/
+.Registration form {
+	padding:0 80px;
+	color:#cfcfcf;
+}
+
+.Registration form table {
+	width:100%;
+}
+.Registration.Review table {
+	border-top:1px solid #7e7e7e;
+}
+.Registration.Review table table {
+	border-top:0;
+	border-bottom:1px dotted #7e7e7e;
+}
+.Registration form td {
+	padding:10px;
+}
+
+.Registration form p {
+	margin-bottom:20px;
+	padding:0 10px;
+}
+.Registration form h1 {
+	color:#fff;
+}
+
+.Registration form dt {
+	margin-bottom:10px;
+}
+
+/* styles for the input */
+.Registration form input, .Registration form select, .Registration form textarea {
+	border:1px solid #9e9e9e;
+	background:#6b6b6b;
+	color:#fff;
+	font-size:9px;
+	padding:4px;
+}
+.Registration form textarea {
+	font-size:10px;
+	width:100%;
+}
+.Registration form option {
+	padding:0 20px 0 10px;
+}
+
+/*I use LI emements to create rows inside the table td */
+.Registration form li {
+	margin:0 0 5px 0;
+}	
+.Registration form li span {
+	display:block;
+	float:left;
+	width:40px;
+}
+.Registration form em {
+	position:relative;
+	left:-10px;
+	float:left;
+	margin-right:-100%;
+	line-height:25px;
+}
+.Registration form strong {
+	color:#8d8d8d;
+	display:block;
+	font-size:9px;
+	margin:5px 0 0;
+}
+.Registration form .gameart {
+	width:45px;
+}
+.checkbox {
+	background:#000;
+}
+
+
+/*reset some of the PageNav styles */
+.Registration #PageNav {
+	padding:0 80px;
+	margin:20px 0;
+}
+.Registration #PageNav li {
+	margin-right:5px;
+}
+.Registration #PageNav li.on {
+	border:1px solid #9e9e9e;
+}
+.Registration #PageNav li a {
+	color:#9e9e9e;
+}
+.Registration #PageNav li.on a {
+	color:#fff;
+}
+
+
+.rowheader th {
+	padding:10px;
+	color:#fff;
+}
+
+.UserProfile table {
+	border-top:1px solid #7e7e7e;
+}
+
+.UserProfile table table {
+	border-top:0;
+}
+
+
+.BuddyList .user-list .avatar {
+	width:70px;
+	text-align:center;
+}
+.BuddyList .user-list .avatar .options {
+	display:none;
+}
+.BuddyList .user-list .avatar-image {
+	width:60px;
+	margin:0 auto;
+}
+.BuddyList .user-list {
+	border:0;
+}
+.BuddyList .user-list .options table td {
+	height:10px;
+	width:100%;
+	padding:0;
+	text-align:left;
+	font-size:9px;
+}
+
+
+
+
+table#TransactionHistory th {
+	padding:3px 2px;
+	color:#cfcfcf;
+}
+table#TransactionHistory td {
+	padding:3px 2px;
+}
+table#TransactionHistory tr.odd td {
+	background:#6e6e6e;
+
+}/*************************
+MailCenter.css
+*************************/
+
+/*setup the dimenstions of the PageContent area*/
+#PageContent.MailCenter {
+	width:910px;
+}
+#PageContent.MailCenter .modcontent {
+	border-top:0;
+	background:#f9f8f6;
+}
+#PageContent.MailCenter  a {
+	color:#666;
+}
+#PageContent .MessageContent h1 {
+	font-size:12px;
+	color:#000;
+	margin:10px 0;
+}
+.MessageContent p {
+	margin-bottom:10px;
+}
+
+/* Navigation fo the Mail Center */
+.MailCenterNav {
+	float:left;
+	background:#e8e5e0;
+	width:230px;
+}
+
+#PageContent .MailCenterNav h1 {
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 10px;
+	color:#000;
+	background:url(/wg/images/icons/MessageNavIndicator.png) left center no-repeat #e8e5e0;
+}
+.MailCenterNav ul {
+	margin-bottom:25px;
+}
+.MailCenterNav li {
+	margin-bottom:3px;
+	background:#eeede9;
+}
+.MailCenterNav li:hover {
+	background:#f9f8f6;
+}
+
+.MailCenterNav li.on {
+	background:url(/wg/images/icons/MessageNavIndicator.png) left center no-repeat #f9f8f6;
+}
+
+.MailCenterNav li a {
+	display:block;
+	padding:6px 10px;
+}
+
+
+
+
+/* The Message center content */
+.MailCenterContent {
+	float:right;
+	width:600px;
+	margin-right:50px;
+	padding-top:20px;
+	display:inline;
+	color:#000;
+}
+
+/*each message is contained in a div*/
+.MessageContainer {
+	border:1px solid #cdcdcb;
+	border-bottom:0;
+	margin-bottom:6px;
+}
+/*information about the message */
+table.MyMessageInfo {
+	background:#f2f1ef;
+	width:100%;
+}
+table.MyMessageInfo td {
+	padding:5px;
+	border-bottom:1px solid #cdcdcb;
+}
+.active table.MyMessageInfo td {
+	background:#748e8b;
+	color:#fff;
+}
+table.MyMessageInfo th {
+	padding:5px;
+	background:#fff;
+	font-size:9px;
+	color:#b6b5b3;
+}
+
+/*container for the message content */
+.MyMessage {
+	border-bottom:1px solid #cdcdcb;
+}
+/* message navigation */
+.MessageNav {
+	background:#e6eae9;
+	height:20px;
+	position:relative;
+}
+.MessageNav li {
+	float:left;
+	font-size:9px;
+	line-height:20px;
+}
+.MessageNav li a {
+	display:block;
+	padding:0 10px;
+	color:#8c908f;
+}
+.MessageNav em {
+	position:absolute;
+	top:0;
+	right:10px;
+	font-size:9px;
+	line-height:20px;
+}
+/*the content of the message */
+.MessageContent {
+	margin-left:110px;
+	margin-right:20px;
+}
+img.UserImage {
+	float:left;
+	margin:10px 20px;
+}
+
+
+
+.from {
+	width:60px;
+	font-size: 10px;
+}
+.status {width:40px;
+	font-size: 10px;
+}
+.mt {width:80px;
+	font-size: 10px;
+}
+.date {width:60px;
+	font-size: 10px;
+}
+.time  {width:60px;
+	font-size: 10px;
+}
+.subject  {	font-size: 10px;
+}
+
+
+
+.ComposeMessage {
+	padding:10px;
+	background:url(/wg/images/bg/stamp.jpg) 95% 5% no-repeat;
+}
+.ComposeMessage h1 {
+	font-size:14px;
+	font-weight:bold;
+	padding:10px;
+	margin-bottom:5px;
+}
+.ComposeMessage h2 {
+	font-size:16px;
+}
+.ComposeMessage table {
+	width:100%;
+}
+
+.ComposeMessage th {
+	width:100px;
+	color:#666;
+	vertical-align:top;
+}
+.ComposeMessage td {
+	padding:5px;
+}
+.ComposeMessage textarea {
+	height:250px;
+	border:1px solid #d2d2d2;
+	width:100%;
+}
+.ComposeMessage input {
+	width:100%;
+}
+
+#AdSpace {
+	padding:15px;
+	background:#333333;
+}
+
+#BannerAds {
+	float:left;
+	width:300px;
+	height:200px;
+	border:1px solid #fff;
+	overflow:hidden;
+}
+
+#wgTournaments {
+	float:right;
+	width:550px;
+	height:200px;
+	border:1px solid #fff;
+	background:#4e4e4e;
+}
+
+#PageContent #wgTournaments .modtitle {
+	background: url(/wg/images/Modules/modtitle/wgTournaments.jpg) top left repeat-x; 
+}
+
+
+
+
+
+#TournamentSwisher {
+	width:500px;
+	margin:0 auto;
+}
+img.TournamentGameArt {
+	float:left;
+	margin-right:10px;
+}
+.TournamentInfo {
+	float:left;
+	width:400px;
+	background:#666;
+}
+
+
+
+
+#wgTournaments .TournamentInfo table.row  {
+	border-color:#4e4e4e;
+}
+
+#wgTournaments .TournamentInfo table.row td {
+	background:#3e3e3e;
+	padding:4px 5px;
+}
+#wgTournaments .TournamentInfo table.row dt {
+	width:80px;
+}
+
+#wgTournaments .TournamentInfo table.row dd {
+	font-size:9px;
+	color:#fff;
+}
+#wgTournaments .TournamentInfo table.row h1 {
+	color:#fff;
+	font-weight:bold;
+	font-size:16px;
+}
+
+
+
+
+
+
+#MyDashboard table.row.rowHeader {
+	border-top:0;
+}
+#MyDashboard table.row dt {
+	width:100px;
+	color:#c4c4c4;
+}
+#MyDashboard table.row dd {
+	font-size:10px;
+	color:#fff;
+}
+#MyDashboard table.row td {
+	padding:5px 0px;
+}
+
+
+#MyHomeProfile .modheader {
+	margin:0 10px;
+}
+
+#MyFriends table.modheader {
+	width:100%;
+}
+
+
+
+#MediaCenter {
+	margin:10px 0;
+}
+#MediaCenter .TabNav li.on a {
+	background:#ededed;
+	color:#686868;
+}
+
+#MediaCenterContent {
+	background:#ededed;
+	padding:10px;
+}
+/*************************************
+first paragraph element to keep
+containers open
+*************************************/
+#globalnav .firstp {
+    font-size: 1px;
+    overflow: hidden;
+}
+
+/*************************************
+make the background under the moving
+widget lightgray for now...
+*************************************/
+.sortHelper {
+    background-color: lightgray;
+}
+
+
+/*************************************
+sort columns
+*************************************/
+#he0 {
+
+}
+#he1 {
+	width:470px;
+	float:left;
+	margin:0 10px;
+	background:#dbdbdb;
+}
+#he2 {
+	width:215px;
+	float:left;
+	background:#dadada;
+}
+#he0 .module {
+	margin-bottom:5px;
+}
+#he1 .module {
+	margin:5px;
+}
+
+#he2 .module {
+	margin:5px;
+}
+
+
+/*************************************
+Style
+*************************************/
+#mygames .modtitle, #myprofile .modtitle, #myaccount .modtitle, #myclans .modtitle, #mystats .modtitle, #myachievements .modtitle {
+	background:url(../images/col1-title.jpg) bottom left repeat-x;	
+}
+
+.sortHelper
+{  
+	border: 1px solid #666;
+	background:#eaeaea;
+	width: auto !important;
+}
+.border {
+	height:1px;
+	margin:0 5px;
+}
+
+
+
+
+
+
+#UserLanding .WGinfo .modtitle {
+	padding:0 5px;
+	line-height:21px;
+	height:21px;
+	position:relative;
+	color:#fff;
+	overflow:hidden;
+	background:url(/wg/images/Modules/modtitle/col1-title.jpg) bottom left repeat-x;	
+}
+#UserLanding .modtitle h1 {
+	float:left;
+	cursor:pointer;
+}
+#UserLanding .modtitle em {
+	float:right;
+	font-size:9px;
+	margin-left:5px;
+}
+#UserLanding .modtitle em span {
+	display:block;
+	padding:0 5px;
+}
+#UserLanding .modtitle em a {
+	color:#fff;
+}
+#UserLanding .WGinfo .modcontent {
+	padding:0;
+	margin:0;
+}
+
+#UserLanding .modprefs {
+	margin:5px;
+}
+
+
+/*featured style*/
+#FeaturedVideos {
+	background:url(/wg/images/Modules/modtitle/featuredbg.jpg) top left repeat-x #84918a;
+	color:#fff;
+}
+#FeaturedVideos a {
+	color:#fff;
+	font-weight:bold;
+}
+#FeaturedVideos table tr:hover td {
+	background:#a2b386;
+}
+#FeaturedVideos .modtitle {
+	background:transparent;
+}
+#FeaturedVideos .featured-item {
+	background:transparent;
+	position:relative;
+	padding:1%;
+	float:left;
+	width:23%;
+}
+#FeaturedVideos .modcontent em a {
+	color:#fff;
+	padding-right:20px;
+	background:url(/wg/images/icons/grayarrow.png) right center no-repeat;
+}
+#FeaturedVideos .featuredimg {
+	display:block;
+	margin:5px auto;
+	height:100px;
+}
+#FeaturedVideos p {
+	margin:0 0 10px;
+}
+
+
+/*featured tournaments style*/
+#featured {
+	background:url(/wg/images/Modules/modtitle/featuredbg.jpg) top left repeat-x #84918a;
+	color:#fff;
+}
+#featured a {
+	color:#fff;
+	font-weight:bold;
+}
+#featured table tr:hover td {
+	background:#a2b386;
+}
+#featured .modtitle {
+	background:transparent;
+}
+#featured .featured-item {
+	background:transparent;
+	position:relative;
+	padding:5px;
+	border-bottom:1px solid #fff;
+}
+#featured .modcontent em a {
+	color:#fff;
+	padding-right:20px;
+	background:url(/wg/images/icons/grayarrow.png) right center no-repeat;
+}
+#featured .featuredimg {
+	display:block;
+	margin:5px auto;
+	height:100px;
+}
+#featured p {
+	margin:0 0 10px;
+}
+
+
+/*COLUMN2*/
+#he1 #featured .featuredimg {
+	float:left;
+	height:auto;
+	margin:0;
+}
+#he1 #featured .featured-item {
+	padding:5px 0;
+}
+
+#he1 #featured {
+	padding:5px;
+}
+
+#he1 #featured .col1 {
+	float:left;
+	width:45%;
+	line-height:14px;
+	padding:5px;
+}
+#he1 #featured .col2 {
+	float:right;
+	width:45%;
+	line-height:14px;
+	padding:5px;
+}
+
+#he1 #featured .featured-item .col1 {
+	float:left;
+	width:90px;
+}
+#he1 #featured .featured-item .col2 {
+	float:left;
+	width:100px;
+	margin-left:10px;
+	font-size:9px;
+	line-height:14px;
+}
+#he1 #featured .featured-item .col3 {
+	float:right;
+	width:210px;
+}
+
+
+/*************************************************/
+/*************************************************/
+/*************************************************/
+/*************************************************/
+
+
+
+
+
+#news {
+	padding:0px 0px;
+	background:#bbb;
+}
+
+#news .modtitle {
+	margin:0 5px;
+	background:transparent;
+}
+#news .border {
+	background: #adc2cb;
+}
+#news .modcontent {
+	margin:0 0px;
+	padding:5px 0;
+}
+.post {
+	padding:10px 5px;
+}
+.post.on {
+	background:#97b99e;
+}
+.post em {
+	color:#000;
+	font-size:9px;
+}
+.post h1 {
+	font-size:11px;
+	line-height:16px;
+	padding:5px 0;
+}
+.post h1 a {
+	color:#fff;
+	font-weight:bold;
+	display:block;
+	position:relative;
+}
+.post h1 img {
+	position:absolute;
+	top:4px;
+	right:0;
+}
+.post p {
+	line-height:16px;
+	color:#fff;
+}
+.TabContent h2 {
+	margin-top:10px;
+}
+
+#news .TabContent {
+	background:#eaeaea;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+
+
+/*************************************************/
+/*************************************************/
+/*************************************************/
+/*************************************************/
+
+
+
+
+
+.yui-nav {
+	height:20px;
+	font-size:9px;
+	border-bottom:1px solid #f7f7f7;
+	background:url(/wg/images/Modules/grayshadow.jpg) top right repeat-x #bcc1b9;
+}
+.yui-nav li {
+	float:left;
+	line-height:20px;
+	background:#d2d3cf;
+	border-right:1px solid #bdbfb8;
+}
+.yui-nav li a {
+	display:block;
+	padding:0 5px;
+	color:#000;
+	background:url(/wg/images/Modules/tabbg.jpg) bottom left repeat-x;
+}
+
+.yui-nav li.selected {
+	background:#e7e7e7;
+	height:20px;
+}
+.yui-nav li.selected a {
+	background:#e7e7e7;
+	height:21px;
+}
+.yui-content {
+	padding:5px;
+	background:#e7e7e7;
+}
+.yui_content_options {
+	display:block;
+	padding:5px 5px 0;
+	font-size:9px;
+	line-height:20px;
+}
+
+.yui-navset {
+	overflow:hidden;
+}
+
+
+
+
+/*************************************************/
+/*************************************************/
+/*************************************************/
+/*************************************************/
+
+
+
+
+
+#message_center {
+	background:#bcc1b9;
+}
+#message_center table.tabbed td {
+	color:#333;
+}
+#message_center .modtitle {
+	background:url(/wg/images/Modules/modtitle/messagecenter-title.jpg) bottom left repeat-x #a80000;
+}
+#message_center .yui-content {
+	padding:5px;
+	background:#e7e7e7;
+}
+#message_center .yui-content div {
+}
+
+.message-options{
+	padding:2px 5px;
+	font-size:9px;
+	background:#666;
+}
+.message-options a {
+	color:#eaeaea;
+}
+
+
+
+
+
+
+/*************************************************/
+/*************************************************/
+/*************************************************/
+/*************************************************/
+
+
+/*************************************
+table styles
+*************************************/
+#UserLanding table {
+	font-size:9px;
+	width:100%;
+}
+#UserLanding table td {
+	padding:2px 2px;
+}
+#UserLanding table td.icon {
+	width:14px;
+}
+#UserLanding #myfriends table td.icon {
+	width:45px;
+}
+#UserLanding table tr.red td {
+	color:#a80000;
+}
+#UserLanding table.tabbed tr:hover td{
+	background:#edf8c5;
+}
+#UserLanding table.tabbed td {
+	background:#fdfdfd;
+	border-bottom:1px solid #e6e6e6;
+}
+#UserLanding td.option {
+	text-align:right;
+}
+
+#UserLanding table.dotted td {
+	color:#fff;
+	border-bottom:1px dotted #b6c0bd;
+}
+
+#myfriends img {
+display:block;
+}
+
+/*
+#he1 table tr:hover td {
+	background:#a2b386;
+}
+*/
+#UserLanding #userinfo table tr:hover td {
+	background:transparent;
+}
+
+#UserLanding #blogs table tr:hover td {
+	background:#b1b983;
+}
+
+
+
+
+
+
+
+
+/*************************************************/
+/*************************************************/
+/*************************************************/
+/*************************************************/
+
+#blogs {
+	background:url(../images/blogsbg.jpg) top left repeat-x #9c9d89;
+	padding:5px 0;
+}
+#blogs a {
+	color:#fff;
+}
+#blogs .modtitle {
+	margin:0 5px;
+}
+#blogs .modcontent {
+	margin:0 0px;
+	padding:5px 0;
+}
+#blogs .border {
+	background:#c5c2b7;
+}
+#blogs table td {
+	padding:4px 5px;
+	font-size:11px;
+}
+table td img {
+	cursor:pointer;
+}
+
+
+
+
+
+
+/*************************************************/
+/*************************************************/
+/*************************************************/
+/*************************************************/
+
+
+
+
+
+
+
+
+.mtcommon {
+	background:url(/wg/images/Modules/modtitle/col1-title.jpg) bottom left repeat-x;
+}
+.mccommon {
+	background:#d2d2d2;
+	margin:0;
+	padding:0px;
+}
+.mccommon .modprefs {
+	background:white;
+}
+
+
+
+.tabs-nav {
+	height:20px;
+	font-size:9px;
+	border-bottom:1px solid #f7f7f7;
+	background:url(/wg/images/Modules/grayshadow.jpg) top right repeat-x #bcc1b9;
+}
+.tabs-nav li {
+	float:left;
+	line-height:20px;
+	background:#d2d3cf;
+	border-right:1px solid #bdbfb8;
+}
+.tabs-nav li a {
+	display:block;
+	padding:0 5px;
+	color:#000;
+	background:url(/wg/images/Modules/tabbg.jpg) bottom left repeat-x;
+}
+
+.tabs-nav li.selected {
+	background:#e7e7e7;
+	height:20px;
+}
+.tabs-nav li.selected a {
+	background:#e7e7e7;
+	height:21px;
+}
+.yui-content {
+	padding:5px;
+	background:#e7e7e7;
+}
+.yui_content_options {
+	display:block;
+	padding:5px 5px 0;
+	font-size:9px;
+	line-height:20px;
+}
+
+.yui-navset {
+	overflow:hidden;
+}
+
+
+/*
+#MyFriends {
+	padding:5px;
+	background:url(../images/MyFriendsbg.jpg) top left repeat-x transparent;
+	color:#fff;
+}
+#MyFriends h1 {
+}
+#MyFriends a {
+	color:#fff;
+}
+
+#MyFriends .modtitle {
+	background:transparent;
+}
+#MyFriends .featured-item {
+	background:transparent;
+	height:auto;
+	position:relative;
+	padding:5px 0;
+	border-bottom:1px solid #666;
+}
+img.close {
+	position:absolute;
+	top:5px;
+	right:0px;
+}
+#MyFriends .featured-item .col1 img {
+	float:left;
+	margin-right:10px;
+}
+
+#MyFriends .col1 table {
+	width:85px;
+}
+#MyFriends .col1 table tr:hover td {
+	background:transparent;
+}
+#MyFriends table td {
+	color:#fff;
+	background:transparent;
+}
+
+#MyFriends .col2 {
+	margin:15px 0;
+}
+
+
+#he0 #MyFriends .col1 {
+	float:left;
+	width:160px;
+}
+#he0 #MyFriends .col2 {
+	float:left;
+	width:100px;
+	margin:0 0 0 10px;
+	font-size:9px;
+	line-height:14px;
+}
+#he0 #MyFriends .col3 {
+	float:right;
+	width:180px;
+}
+
+
+
+*//*
+img.close {
+	cursor:pointer;
+}
+.user-list {
+	padding:0px 0;
+	margin:5px 0 0;
+}
+.avatar {
+	float:left;
+	width:65px;
+	padding:5px 0;
+	text-align:center;
+}
+.avatar a.friendhover {
+	display:block;
+	width:100%;
+}
+.avatar img.open-usercard {
+	display:block;
+	margin:0 auto;
+	cursor:pointer;
+}
+.avatar a {
+	border:0;
+	font-size:9px;
+}
+.avatar-image {
+	position:relative;
+	height:60px;
+	overflow:hidden;
+}
+
+
+
+
+.options {
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:100;
+	background:url(/wg/images/Modules/userbg.jpg) bottom left repeat-x #000;
+}
+.options table {
+	height:60px;
+	padding:0;
+	width:100%;
+	position:relative;
+	z-index:102;
+}
+#MyFriends .options table td {
+	text-align:left;
+	color:#fff;
+	cursor:pointer;
+	font-size:9px;
+}
+#MyFriends .options table td {
+	padding:0 2px;
+}
+#MyFriends .options table tr:hover td {
+	background:#6c754a;
+}
+.options img {
+	position:relative;
+	z-index:101;
+}
+
+*/
+
+
+
+
+
+
+.user-list {
+}
+
+.avatar {
+	float:left;
+	width:80px;
+	height:80px;
+}
+.avatar em {
+	font-size:9px;
+}
+
+.avatar-image {
+	width:60px;
+	margin:0 auto;
+	height:60px;
+	position:relative;
+	z-index:10;
+}
+.avatar-image img {
+	position:relative;
+	z-index:100;
+}
+
+
+.avatar-options {
+	z-index:200;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:60px;
+	height:60px;
+	background:url(/wg/images/icons/AvatarBG.png);
+}
+.avatar-options table {
+	width:100%;
+	border-collapse:collapse;
+	cursor:pointer;
+}
+
+.avatar-options table td {
+	padding:0;
+	margin:0;
+	font-size:9px;
+	text-align:left;
+}
+.avatar-options table td img {
+	margin:3px 2px 3px 0;
+}
+
+.Opponent td.user .avatar {
+	margin:0;
+	padding:0;
+	width:auto;
+	height:auto;
+}
+.Opponent td.user .avatar td img {
+	border:0;
+	margin:0;
+}
+.Opponent td.user .avatar td {
+	padding:0;
+	border:0;
+}
+.Opponent td.user .avatar em {
+	display:none;
+}
+/**** ********************************************** ****/
+
+/**** *****************sidebar***************************** ****/
+/* module container */
+#Players {
+	background:url(/wg/images/Modules/modtitle/Green.jpg) top left repeat-x #7b9979;
+	color:#fff;
+}
+/*mod title*/
+#Players .modtitle {
+	background:transparent;
+	padding:5px;
+}
+#Players .modcontent {
+	padding:0px 0 5px;
+}
+#Players a {
+	color:#fff;
+}
+
+
+
+dl.ActivePlayer {
+	padding:2px 0 0;
+	border-bottom:1px dotted #fff;
+}
+dl.ActivePlayer dt {
+	line-height:15px;
+}
+dl.ActivePlayer table {
+	width:100%;
+}
+dl.ActivePlayer dt td.ActiveIcon {
+	width:15px;
+}
+dl.ActivePlayer table.dotted {
+	clear:left;
+}
+dl.ActivePlayer table.dotted td {
+	padding:3px 0;
+}
+dl.ActivePlayer img.friend-avatar {
+	float:left;
+	margin:0px 10px 5px 0;
+}
+dl.ActivePlayer dd {
+	font-size:9px;
+	margin-bottom:20px;
+}
+
+/*this is the small view for avatar lists */
+/*
+#Players-small .module {
+	margin:0;
+	padding:0 0 2px 0;
+	border-bottom:1px dotted #fff;
+}
+#Players-small .modtitle {
+	margin:0;
+	padding:0;
+	line-height:auto;
+	height:auto;
+}
+#Players-small .modtitle em {
+	margin:0;
+	padding:0;
+}
+#Players-small .modtitle em span {
+	padding:0 3px;
+}
+
+#Players-small .modcontent {
+	margin:0;
+	padding:0;
+	border:0;
+}
+#Players-small .modcontent .friend-avatar {
+	float:left;
+	margin-right:5px;
+	border:1px solid #fff;
+}
+#Players-small table.dotted {
+	clear:left;
+	width:100%;
+	margin:5px 0;
+}
+*//* module container */
+#MyGameStats {
+	background:url(/wg/images/Modules/modtitle/Green.jpg) top left repeat-x #7b9979;
+	color:#fff;
+}
+/*mod title*/
+#MyGameStats .modtitle {
+	background:transparent;
+	padding:5px;
+}
+#MyGameStats a {
+	color:#fff;
+}
+
+#MyGameStats .modcontent table {
+	margin:5px 0;
+}
+#MyGameStats .modcontent table td {
+	padding:5px;
+}#Search2 {
+	padding:5px;
+	background:#dbdbdb;
+}
+#Search2 input {
+	font-size:10px;
+}
+#Search2 p {
+	margin:5px 0;
+}
+#Search2 em {
+	font-size:9px;
+}#Feedback {
+	padding:5px;
+	background:#dbdbdb;
+}
+#Feedback textarea {
+	border:1px solid #666;
+	height:100px;
+	width:200px;
+	margin:5px 0;
+}
+
+
+/*Page Formatting*/
+
+body #PageContent.Registration.Profile #he0 .module {
+	background:#454545;
+	padding: 0 5px;
+	margin:20px 0;
+}
+body #PageContent.Registration.Profile #he0 .module .modcontent {
+	width:100%;
+	background:transparent;
+	border-top:1px solid #666;
+}
+body #PageContent.Registration.Profile #MyMessages .modcontent {
+	padding-top:10px;
+}
+
+
+body #PageContent.Registration.Profile #he0 #MyMessages .MessageNav {
+	background:#000;
+	color:#333;
+}
+
+body #PageContent.Registration.Profile #he0 #MyMessages .MyMessage {
+	background:#151515;
+}
+body #PageContent.Registration.Profile #he0 #MyMessages .MyMessage h1 {
+	color:#fff;
+}
+body #PageContent.Registration.Profile #he0 #MyMessages .MyMessageInfo {
+	background:#333;
+}
+
+body #PageContent.Registration.Profile #PageNav {
+	padding:0 10px;
+	margin:20px 0;
+	width:100%;
+}
+body #PageContent.Registration.Profile #PageNav strong {
+	color:#fff;
+	font-style:italic;
+}
+
+#ProfileContainer .modcontent {
+	padding:0;
+}
+
+/*i suck*/
+.modheader {
+	font-size:12px;
+	padding:2px 0;
+	margin-bottom:0px;
+	width:100%;
+	cursor:pointer;
+}
+.modheader td.OpenClose {
+	width:15px;
+}
+
+
+#PageContent.Registration.Profile form {
+	padding:0 0px;
+	color:#cfcfcf;
+}
+
+#PageContent.Registration.Profile .TabContent .module {
+	margin:0;
+	padding:0px;
+}
+
+#PageContent.Registration.Profile .modcontent {
+	width:560px;
+	background:#727272;
+}
+#PageContent.Registration.Profile .supplimental {
+	float:right;
+	margin-right:0;
+	width:340px;
+	padding:10px 0px;
+}
+#PageContent.Registration.Profile .modtitle {
+	background:url(/wg/images/Pages/modtitleProfile.jpg) top left no-repeat;
+}
+
+#PageContent.Registration.Profile .supplimental #AllMyFriends a {
+	color:#666;
+}
+#PageContent.Registration.Profile .supplimental #AllMyFriends img {
+	border:1px solid #fff;
+}
+
+h1.h1Title {
+	font-size:16px;
+	margin:0 0 10px 0;
+}
+
+/*USER PROFILE*/
+#ProfileContainer {
+	padding:20px;
+	background:#727272;
+}
+#ProfileAvatar {
+	float:left;
+	margin:0px;
+	width:128px;
+}
+#ProfileAvatar li {
+}
+#ProfileAvatar li a {
+	padding-left:22px;
+	display:block;
+	line-height:16px;
+	background:#656565;
+	font-size:9px;
+	border-bottom:1px dotted #727272;
+}
+#ProfileAvatar li a:hover {
+	background:#333;
+}
+
+#ProfileAvatar li img {
+	float:left;
+	margin-right:-100%;
+	position:relative;
+	left:-16px;
+	top:3px;
+}
+#ProfileInfo {
+	margin-left:148px;
+}
+
+
+
+
+
+/*TABLE ROW*/
+table.row {
+	border-top:1px solid #999;
+	width:100%;
+	border-width:1px 0;
+}
+table.row td {
+	padding:5px 0;
+}
+table.cols td {
+	width:50%;
+}
+table.row dl {
+	width:100%;
+}
+table.row dt {
+	width:50px;
+	display:table-cell;
+	font-size:9px;
+	color:#999;
+}
+table.row dd {
+	font-size:12px;
+	display:table-cell;
+	padding:0 10px;
+}
+
+
+
+
+
+
+
+/*COMMENT BOARD*/
+#CommentBoard {
+	padding:0 20px;
+}
+.Comment {
+	border-top:1px dotted #fff;
+	padding:10px 0;
+}
+.CommentAuthor {
+	float:left;
+	width:60px;
+	margin-right:-100%;
+	font-size:9px;
+}
+.CommentAuthor img {
+	display:block;
+	margin:0 auto;
+}
+.CommentContent {
+	margin-left:100px;
+	float:left;
+}
+.CommentContent textarea {
+	width:400px;
+	height:140px;
+	display:block;
+	margin-bottom:20px;
+}
+
+
+
+
+
+/*PROFILE TABS */
+#ProfileTabs {
+	margin:20px 0;
+}
+.TabNav {
+}
+.TabNav li {
+	float:left;
+	margin:0 2px 0 0;
+	background:url(/wg/images/Nav/ProfileTab.jpg) bottom left repeat-x #c3c6bf;
+}
+.TabNav li.on {
+	background:#333;
+}
+.TabNav li a {
+	display:block;
+	line-height:30px;
+	padding:0 10px;
+	color:#333;
+}
+
+.TabNav li.on a {
+	color:#fff;
+}
+
+#ProfileTabs .TabNav li.on a {
+	color:#fff;
+}
+#ProfileTabs .TabNav li a {
+	color:#333;
+}
+
+
+.TabContent {
+	padding:20px 10px;
+	background:#333;
+}
+
+
+#ProfileTabs .MailCenterContent {
+	float:none;
+	display:block;
+	width:100%;
+	background:#666;
+}
+#ProfileTabs .MailCenterContent .MessageNav a {
+	color:#666;
+}
+#ProfileTabs .MailCenterContent .MessageContent, #ProfileTabs .MailCenterContent .MessageContent h1 {
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#MyPictures img {
+	width:80px;
+	cursor:pointer;
+}
+#MyPictures h1 {
+	margin-bottom:15px;
+	font-size:16px;
+}
+
+/* RECENT GAMES  TABLE*/
+#RecentGames {
+	background:#666;
+	padding:10px;
+}
+.rgGameArt {
+	float:left;
+	width:100px;
+}
+.rgGameStats {
+	margin-left:120px;
+}
+
+
+.rgGameStats table.row dl {
+	margin:0px 0 5px;
+}
+
+
+/* RECENT GAMES  TABLE*/
+table.rgGamesList {
+	width:100%;
+	margin:10px 0;
+	font-size:9px;
+	border-collapse:collapse;
+}
+
+/*th and td styles*/
+table.rgGamesList th {
+	color:#333;
+	padding:5px;
+	background:transparent;
+}
+table.rgGamesList td {
+	padding:5px;
+	border:1px solid #999;
+	background:#737373;
+	border-width:1px 0;
+}
+
+/*WIN LOSS*/
+table.rgGamesList .wl {
+	text-align:center;
+	width:10px;
+	border:0;
+}
+table.rgGamesList td.wl {
+	border:1px solid #fff;
+}
+table.rgGamesList td.win {
+	background:#99ac6a;
+}
+table.rgGamesList td.lose {
+	background:#a80000;
+}
+
+
+/*OPONENTS*/
+table.rgGamesList td.opnts {
+	width:120px;
+	border:1px solid #999;
+	border-width:1px 0 1px 1px;
+	border-left:1px solid #999;
+}
+
+/*REPUTATION*/
+table.rgGamesList td.rep {
+	width:70px;
+}
+
+/*MATCH TYPE*/
+table.rgGamesList td.mt {
+	width:120px;
+}
+
+/*DETAILS*/
+table.rgGamesList .details {
+	text-align:right;
+}
+table.rgGamesList td.details {
+	border-right:1px solid #999;
+}
+
+/*MATCHUP*/
+table.rgGamesList td.matchup {
+	text-align:center;
+}
+
+/*DATE*/
+table.rgGamesList td.dt {
+	border:1px solid #999;
+	border-width:1px 0;
+}
+table.rgGamesList .dt {
+	text-align:center;
+
+}
+
+
+
+
+table.rgGamesList tr:hover td {
+	background:#8f8f8f;
+}
+table.rgGamesList tr:hover td.win {
+	background:#99ac6a;
+}
+table.rgGamesList tr:hover td.lose {
+	background:#a80000;
+}.Opponent {
+	margin:10px 0;
+	overflow:hidden;
+	border:1px solid #fff;
+}
+
+/*RECENT OPPONENTS */
+table.result {
+	width:100%;
+}
+table.result.won {
+	background: #70765c;
+}
+table.result.lost {
+	background: #835f5f;
+}
+
+
+table.result td {
+	padding:5px;
+}
+
+
+
+
+/*WIN LOSS*/
+td.w {
+	width:20px;
+	text-align:center;
+	background:#99ac6a;
+	border-right:1px solid #fff;
+}
+td.l {
+	width:20px;
+	text-align:center;
+	background:#cc7272;
+	border-right:1px solid #fff;
+}
+
+/*VS */
+td.vs {
+	background:#333;
+}
+
+
+/* USER AVATAR */
+table.result td.user {
+	padding:0;
+}
+table.result td.user img {
+	display:block;
+	border:1px solid #fff;
+	border-width:0 1px;
+}
+
+/* USER INFO */
+td.userinfo {
+}
+.userinfo dt {
+	font-size:12px;
+}
+.userinfo dd {
+	font-size:9px;
+	padding-left:15px;
+	margin:2px 0;
+}
+
+
+/* WG INFO */
+td.wginfo {
+	width:140px;
+}
+.wginfo dt {
+	float:left;
+	width:50px;
+	font-size:9px;
+	color:#d2d2d2;
+}
+.wginfo dd {
+	float:right;
+	width:80px;
+}
+
+
+/* USER OPTIONS */
+td.useroptions table {
+	margin:0;
+}
+td.useroptions td {
+	padding:0 5px;
+	font-size:9px;
+}
+
+
+
+
+tr.PlayerComments td {
+	background:#222;
+	border-top:1px dotted #fff;
+}
+
+tr.PlayerComments td p {
+	margin:10px;
+	line-height:20px;
+	font-style:italic;
+	font-size:11px;
+}
+
+
+#PageContent.SearchResults {
+	width:auto;
+	padding:0 10px 10px;
+}
+#PageContent.SearchResults .MainContent { 	
+	width:560px;
+	float:left;
+	background:#727272;
+}
+#PageContent.SearchResults .supplimental {
+	float:right;
+	margin-right:0;
+	width:320px;
+	padding:10px;
+}
+
+#PageContent.SearchResults .Pagetitle {
+	background:url(/wg/images/Pages/modtitleSearchResults.jpg) top left no-repeat #000;
+}
+
+#PageContent.SearchResults .MainContent .module {
+	background:#454545;
+	padding:5px;
+	margin:10px; 	
+	color:#fff;
+}
+#PageContent.SearchResults .MainContent .modcontent {
+	border-top:1px solid #666;
+}#PageContent.StaticPageTemplate {
+	width:auto;
+	padding:0 10px 10px;
+	background:#515151;
+}
+#PageContent.StaticPageTemplate .MainContent { 	
+	width:560px;
+	float:left;
+	color:#fff;
+}
+#PageContent.StaticPageTemplate .supplimental {
+	float:right;
+	margin-right:0;
+	width:320px;
+	padding:10px;
+	background:#727272;
+}
+
+#PageContent.StaticPageTemplate .Pagetitle.FAQ {
+	background:url(/wg/images/Pages/modtitleFAQ.jpg) top left no-repeat #000;
+}
+#PageContent.StaticPageTemplate .Pagetitle.About {
+	background:url(/wg/images/Pages/modtitleAbout.jpg) top left no-repeat #000;
+}
+
+
+
+.StaticPageTemplate .MainContent h1 {
+	font-size:14px;
+	margin:10px;
+}
+.StaticPageTemplate .MainContent h2 {
+	font-size:11px;
+	margin:5px 10px;
+}
+.StaticPageTemplate .MainContent p {
+	font-size:10px;
+	margin:10px;
+	line-height:16px;
+}
+.StaticPageTemplate .MainContent ul {
+	border:1px dotted #999;
+	border-width:1px 0;
+	padding:10px 0;
+	font-size:11px;
+	margin:15px 25px;
+	line-height:16px;
+}
+.StaticPageTemplate .MainContent li {
+	list-style:disc;
+	margin-left:20px;
+
+
+#ehmnav {
+	float:left;
+	width:100px;
+	padding:10px;
+	margin-right:-200px;
+}
+#ehmnav li {
+	margin:5px; 0
+	padding:5px 0;
+}
+#ehmnav dl {
+	padding:5px 10px
+}
+.ehmcontainer {
+	margin-left:140px;
+	padding:20px;
+}
+
+/*Containing Div*/
+#Chat {
+	background:#333;
+	padding:10px;
+	color:#fff;
+}
+
+/*Chat Styles */
+#Chat h2 {
+	font-size:14px;
+	font-weight:bold;
+}
+#p_status {
+	float:right;
+	margin:0;
+}
+
+/*The Chat Window */
+#div_chat {
+	color:#000;
+	background:#fff;
+	height:150px;
+	overflow:auto;
+	padding:5px;
+	margin:5px 0;
+	border:1px solid #eaeaea;
+}
+#div_chat p {
+	margin:2px 0;
+}
+p.chat_user {
+	font-size:14px;
+	font-weight:bold;
+}
+p.chat_time {
+	font-style:italic;
+	float:right;
+}
+p.chat_message {
+	font-size:11px;
+	line-height:18px;
+}
+#div_chat li {
+	padding:5px;
+}
+
+
+
+#Footer {
+	background:url(css/images/bg/FooterLogo.jpg) left center no-repeat;
+	height:86px;
+	width:920px;
+	margin:0 auto;
+}
+#Footer ul {
+	padding-top:36px;
+	margin-left:220px;
+}
+#Footer li {
+	float:left;
+	margin-right:15px;
+}
+
+
+/*************************************
+Reputation
+*************************************/
+span.Reputation {
+	width:55px;
+	height:16px;
+	display:block;
+}
+span.Reputation strong {
+	display:none;
+}
+span.Reputation.rep5 {
+	background:url(/wg/images/icons/Reputation.png) 0 0 no-repeat;
+}
+span.Reputation.rep4 {
+	background:url(/wg/images/icons/Reputation.png) -11px 0 no-repeat;
+}
+span.Reputation.rep3 {
+	background:url(/wg/images/icons/Reputation.png) -21px 0 no-repeat;
+}
+span.Reputation.rep2 {
+	background:url(/wg/images/icons/Reputation.png) -32px 0 no-repeat;
+}
+span.Reputation.rep1 {
+	background:url(/wg/images/icons/Reputation.png) -43px 0 no-repeat;
+}
+

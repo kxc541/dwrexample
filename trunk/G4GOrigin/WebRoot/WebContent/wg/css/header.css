@@ -1,0 +1,62 @@
+#header {
+	background: url('../images/wg_header.jpg') top left no-repeat;
+	height: 88px;
+}
+
+#header img {
+	border: 0px;
+}
+
+#headerMenu {
+	float: right;
+	margin: 0px;
+	font-size: 9px;
+	color: #999;
+}
+
+#headerMenu a {
+	color: #999;
+}
+
+#headerMenu img {
+	border: 0px;
+}
+
+#headerUserInfo {
+	position: relative;
+	left: 500px;
+	top: 28px;
+	width: 400px;
+	text-align: left;
+	font-size: 12px;
+	color: #fff;
+}
+
+#headerUserInfo a {
+	color: #fff;
+}
+
+#MemberStatusModule {
+	position: relative;
+	top: 35px;
+	left: 725px;
+	text-align: left;
+	width: 180px;
+	color: #fff;
+	font-size: 10px;
+}
+
+#MemberStatusModule table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	color: #fff;
+	font-size: 10px;
+}
+
+#MemberStatusModule table td {
+	padding: 4px 2px;
+	border-bottom: 1px dotted #fff;
+	color: #fff;
+	font-size: 10px;
+}

@@ -1,0 +1,107 @@
+#contentNoSidebar.tournaments {
+	padding: 0px 0px 0px 0px;
+	width: 920px;
+	background: url('images/bg/TournamentBG.jpg') top left no-repeat #313131;
+}
+
+h2 {
+	margin-left: 20px;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+/* page heading?! */
+
+.intro {
+	background: url('images/bg/tournamentIntro.jpg') top left no-repeat;
+	height: 262px;
+}
+
+.intro p {
+	margin: 0px;
+	width: 400px;
+	position: relative;
+	top: 150px;
+	left: 45px;
+	color: #000;
+}
+
+
+
+/* tournament banners! */
+
+.TournamentBanner {
+	border: 1px solid #fff;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	width: 836px;
+	color: #fff;
+}
+
+.TournamentImage {
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #000;
+}
+
+.TournamentInfo {
+	position: relative;
+	top: 10px;
+	left: 580px;
+	width: 260px;
+	height: 165px;
+}
+
+.TournamentInfo h2 {
+	padding: 0px;
+	margin: 0px 0px 5px 0px;
+}
+
+.TournamentInfo table.jackpot  {
+	margin-left: -11px;
+}
+
+.TournamentInfo .jackpot {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.TournamentDescription {
+	border-top: 3px solid #333;
+	padding: 10px;
+	position: relative;
+	text-align: justify;
+}
+
+/* past tournament info */
+
+.PastTournaments {
+	background:#383838;
+	padding: 10px;
+	width: 816px;
+	margin: 0px auto;
+}
+
+.PastTournaments table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	width: 100%;
+}
+
+.PastTournaments th {
+	text-align: left;
+	color: #999;
+	font-size: 11px;
+	padding: 5px 0px 10px 5px;
+}
+
+.PastTournaments td {	
+	color: #fff;
+	font-size: 11px;
+	padding: 5px 0px 5px 5px;
+	background: #3e3e3e;
+	border-bottom: 5px solid #363636;
+}

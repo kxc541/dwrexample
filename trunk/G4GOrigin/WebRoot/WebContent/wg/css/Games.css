@@ -1,0 +1,476 @@
+/* ------ NOTES ---------------------------------------------------------------
+
+Games Pages Style for WorldGaming.
+
+--------- UPDATE INFO ---------------------------------------------------------
+
+
+
+--------- CONTENTS ------------------------------------------------------------
+
+1: PAGE STRUCTURE
+
+2: GAME PICKER
+
+3: GAME LOBBY
+	a) Live Support
+	b) List Players - players online
+	c) TabContent
+	d) Game Banners
+	e) Game Art
+	f) chat 
+	g) fast play
+	h) help
+
+4: CHALLENGE CARD
+	a) Opponent 
+	b) Organizer
+	c) Details
+	
+---------------------------------------------------------------------------- */
+
+
+
+/* 1: PAGE STRUCTURE
+============================================================================ */
+#Games .PageContent {
+	width:685px;
+	float:left;
+	background:#000;
+}
+#Games .Sidebar {
+	float:right;
+	background:transparent;
+	width:225px;
+}
+#SidebarAdSpace {
+
+	margin-bottom:5px;
+	overflow:hidden;
+}
+
+
+
+
+/* 2: GAME PICKER
+============================================================================ */
+#GamePicker p {
+	color:#fff;
+	margin:10px 0px;
+}
+
+#GamePicker .AddGame {
+	display:block;
+	margin:5px auto;
+}
+#GamePicker .AvatarImage {border:0;}
+#GamePicker .Avatar em {display:none;}
+#GamePicker .TabNav {background:#3c3c3c;}
+.PikcerIntro {
+	background:url(images/banners/bannergradient.jpg) top left repeat-x #3c3c3c;
+	padding:30px 260px 30px 30px;
+	position:relative;
+}
+#GamePicker .PikcerIntro img.gridRight {
+	position:absolute;
+	top:-25px;
+	right:20px;
+}
+#pickerUpdate {padding:20px 30px;}
+#Games #SearchWidget input.text {width:160px;}
+
+#GamePicker .TabNav li {
+	border-right:0;
+	margin-right:2px;
+}
+#GamePicker .TabNav li a {
+	background:#252525;
+}
+
+
+
+
+
+/* 3: GAME LOBBY
+============================================================================ */
+.colRight {
+	float:right;
+	width:530px;
+}
+
+.colLeft {
+	float:left;
+	width:155px;
+	background:#0c0c0c;
+	color:#fff;
+}
+#Games a img, #Games .colLeft img {
+	border:0;
+}
+.ReturnToPicker {
+	position:absolute;
+	top:0;
+	right:0;
+	font-size:10px;
+}
+
+/* 3 a) : Live Support
+============================================================================ */
+.livesupport {
+	background:url(images/bg/chatonline.jpg) top right no-repeat;
+	width:132px;
+	padding:10px 0 10px 0px;
+	margin:0 auto 20px;
+	border:5px solid #333;
+}
+.livesupport p {
+	margin:0 ;
+	text-align:center;
+	display:block;
+	font-size:11px;
+	line-height:16px;
+}
+.livesupport p strong {
+	font-weight:bold;
+	font-size:12px;
+	display:block;
+	margin-top:10px;
+}
+#container .livesupport img {
+	margin:0;
+	display:inline;
+	position:relative;
+	
+}
+
+
+
+/* 3 b) : List Players - Players online / all players
+============================================================================ */
+.ListPlayers {
+	padding:5px 20px;
+}
+.ListPlayers .Format2 {
+	height:20px;
+}
+.ListPlayers .Format1 {
+	background:#131313;
+	border:1px solid #666;
+	padding:8px 2px;
+	height:14px;
+	margin:5px 0;
+	font-size:11px;
+	position:relative;
+	color:#fff;
+}
+.ListPlayers .Format1 .PlayerName {
+	font-size:12px;
+	font-weight:bold;
+	overflow:hidden;
+	height:18px;
+}
+.ListPlayers .Format1 .statusdot {
+	float:left;
+	margin-right:3px;
+	position:relative;
+	top:2px;
+}
+.ListPlayers .Format1 .option {
+	position:absolute;
+	top:3px;
+	right:4px;
+	width:80px;
+	line-height:22px;
+	text-align:center;
+	border:1px solid #fff;
+}
+.ListPlayers .Format1 .option.challenge {
+	background:url(images/bg/buttons/red.jpg) left center repeat-x #d69b59;
+}
+.ListPlayers .Format1 .option.signin {
+	background:url(images/bg/buttons/PlayersSignInBG.jpg) left center no-repeat #fff;
+}
+.ListPlayers .Format1 .option.notavailable {
+	background:url(images/bg/buttons/PlayersNoAvailBG.jpg) left center no-repeat #fff;
+}
+.ListPlayers .Format1 .challenge a {
+	display:block;
+	padding-left:15px;
+	margin-left:3px;
+	font-size:11px;
+	background:url(images/bg/buttons/PlayersChallengeIcon.png) left center no-repeat;
+}
+.ListPlayers .Format2 {
+	background:transparent;
+	border:0;
+	font-size:10px;
+	color:#666;
+	padding:0 2px;
+}
+
+
+
+
+
+
+
+
+
+/* 3 c) : TabContent
+============================================================================ */
+/*adjust styles for pageTabs */
+#Games .TabContent {
+	background:transparent;
+}
+#Games .TabNav .selected {
+	background:#000;
+}
+
+
+/* 3 d) : Game Banners
+============================================================================ */
+.GameBanner {
+	position:relative;
+	height:71px;
+}
+
+
+
+.GameBanner.fifa2007 {
+	background:url(images/banners/lobby/gamelobby-FIFA08.jpg) top left no-repeat;
+}
+.GameBanner.fightnightround3 {
+	background:url(images/banners/lobby/gamelobby-FightNightR3.jpg) top left no-repeat;
+}
+.GameBanner.halo2 {
+	background:url(images/banners/lobby/gamelobby-Halo2.jpg) top left no-repeat;
+}
+.GameBanner.halo3 {
+	background:url(images/banners/lobby/gamelobby-Halo3.jpg) top left no-repeat;
+}
+.GameBanner.maddennfl2008, .GameBanner.maddennfl2007  {
+	background:url(images/banners/lobby/gamelobby-Madden08.jpg) top left no-repeat;
+}
+.GameBanner.motorstorm {
+	background:url(images/banners/lobby/gamelobby-Motorstorm.jpg) top left no-repeat;
+}
+.GameBanner.nbalive2007, .GameBanner.nbalive2008 {
+	background:url(images/banners/lobby/gamelobby-NBALive08.jpg) top left no-repeat;
+}
+.GameBanner.nhl2008, .GameBanner.nhl2007 {
+	background:url(images/banners/lobby/gamelobby-NHL08.jpg) top left no-repeat;
+}
+.GameBanner. {
+	background:url(images/banners/lobby/gamelobby-ResistenceFOM.jpg) top left no-repeat;
+}
+.GameBanner.tigerwoods07, .GameBanner.tigerwoods08 {
+	background:url(images/banners/lobby/gamelobby-TigerWoods08.jpg) top left no-repeat;
+}
+.GameBanner.mlb07 {
+	background:url(images/banners/lobby/ggamelobby-MLB07show.jpg) top left no-repeat;
+}
+
+
+
+
+
+
+/* 3 e) : Game Art (which will be depreciated when we get real game art sizes)
+============================================================================ */
+.colLeft .Avatar {
+	margin:10px auto !important;
+	float:none;
+	display:block;
+}
+.colLeft .AvatarImage {
+	border:0;
+	margin:0 auto;
+	width:100px;
+}
+.colLeft .AvatarOptions {
+	left:10px;
+	bottom:5px;
+}
+.colLeft .Avatar em {
+	display:none;
+}
+
+
+
+
+/* 3 f) : Chat
+============================================================================ */
+#Chat2 {
+	background:#000;
+}
+#GamesLobby #Chat em {
+	position:absolute;
+	top:20px;
+	left:10px;
+	width:155px;
+	font-size:10px;
+}
+#div_chat {
+	width:490px;
+}
+
+
+/* 3 g) : Fast Play
+============================================================================ */
+.FastPlay {
+	text-align:center;
+	padding:5px;
+}
+.FastPlay p {
+	letter-spacing:-.4px;
+	line-height:14px;
+	font-size:11px;
+	margin:10px;
+}
+.BlockButton {
+	border:1px solid #fff;
+}
+
+
+/* 3 h) : Help
+============================================================================ */
+.HelpTopics {
+	margin:10px 0 10px;
+}
+.HelpTopics dt {
+	padding:5px 10px;
+	font-size:11px;
+	font-weight:bold;
+}
+.HelpTopics dd {
+	margin:0px 0 1px;
+	font-size:11px;
+}
+.HelpTopics dd a {
+	display:block;
+	padding:5px 10px;
+	background:#252525;
+	color:#fff;
+}
+.HelpTopics dd a:hover {
+	background:url(images/icons/expand.png) -2px 0px no-repeat #454545;
+}
+.support {
+	margin:10px;
+	text-align:center;
+	
+}
+
+/* 4 : CHALLENGE CARD
+============================================================================ */
+#container  #OpenMatches .ChallengeCard {
+	margin-bottom:5px;
+	padding-bottom:10px;
+} 
+#GamesLobby .ChallengeCard .Avatar {
+	position:relative;
+	top:20px;
+	float:none;
+	width:60px;
+	margin:0 auto;
+}
+#GamesLobby .ChallengeCard {
+	width:100%;
+	margin:0 auto;
+	background:url(images/bg/OpenChallengeCardBG.jpg) top center no-repeat #000;
+	color:#fff;
+	padding-bottom:20px;
+}
+
+/* 4 a) : Organizer
+============================================================================ */
+#GamesLobby .Organizer {
+	float:left;
+	width:150px;
+	padding:20px 5px 20px;
+	text-align:center;
+	/* width 160 */
+}
+#GamesLobby .Organizer dt {
+	font-size:18px;
+	font-weight:bold;
+}
+#OpenMatches .ChallengeCard .Organizer dt span {
+	font-size:10px;
+	font-style:italic;
+	display:block;
+}
+#GamesLobby .Organizer dd {
+	margin:2px 0;
+	text-align:center;
+}
+#GamesLobby .Organizer dd.buttons {
+	margin:10px 0;
+}
+#GamesLobby .Organizer dd.buttons a {
+	display:block;
+	width:80px;
+	margin:0 auto;
+	float:none;
+}
+
+
+/* 4 b) : Opponent
+============================================================================ */
+#GamesLobby .Opponent {
+	float:right;
+	width:150px;
+	padding:0px 5px 20px;
+	/* width 160 */
+	overflow:hidden;
+	text-align:center;
+}
+#GamesLobby .Opponent .avatar-image {
+	margin:0 auto;
+	display:block;
+}
+#GamesLobby .Opponent em {
+	font-size:12px;
+	margin:5px 0;
+	text-align:left;
+}
+
+
+
+/* 4 c) : Game Details
+============================================================================ */
+/*jackpot positioning*/
+#OpenMatches .ChallengeCard .GameDetails {
+	padding-top:10px;
+	margin:0 160px 20px;
+	text-align:center;
+	width:170px;
+}
+#OpenMatches .GameDetails h3 {
+	background:url(images/icons/jackpot.png) left center no-repeat;
+	padding-left:90px;
+	line-height:41px;
+	font-family:Arial,sans-serif;
+	font-weight:bold;
+	font-size:22px;
+	text-align:center;
+	position:relative;
+	top:80px;
+}
+
+#OpenMatches .btn {
+	float:right;
+	margin:10px 0;	
+}
+
+#content.games {
+	width:685px;
+	padding:0;
+	background-color:#000;
+}
+#sidebar.games {
+	width:225px;
+	padding-right:0;
+}
+
+#page {position:relative;}

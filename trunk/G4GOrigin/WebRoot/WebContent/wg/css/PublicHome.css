@@ -1,0 +1,203 @@
+#Header {
+	background: url('../images/wg_header.jpg') top left no-repeat;
+	height: 88px;
+}
+#Header .MemberLogin {
+	position:absolute;
+	top:20px;
+	right:10px;
+	font-size:9px;
+	color:#fff;
+}
+#Header .MemberLogin li {
+	width:160px;
+	margin-bottom:2px;
+}
+#Header .MemberLogin input {
+	padding:2px 4px;
+	font-size:10px;
+	background:#5d7662;
+	border:1px solid #fff;
+	color:#fff;
+}
+#Header .MemberLogin .buttons a {
+	font-size:12px;
+	display:block;
+	text-align:center;
+	width:151px;
+	margin:0;
+	padding-left:0;
+	padding-right:0;
+}
+
+
+.MemberLogin {
+	border: 1px solid #fff;
+	background: url('images/bg/newmemberlogin.jpg') top left no-repeat #454545;
+}
+
+.MemberLogin h1 {
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 0px 5px 5px 10px;
+}
+
+.MemberLogin table {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.MemberLogin td {
+	padding-bottom: 5px;
+}
+
+.MemberLogin input {
+	border: 1px solid #000;
+	font-size: 14px;
+	width: 185px;
+}
+
+.MemberLogin #login {
+	overflow: auto;
+	vertical-align: middle;
+}
+
+.MemberLogin #login input.green {
+	overflow: auto;
+	width: 65px;
+}
+
+
+#TopAdSpace {
+	height:200px;
+	padding:0px;
+	margin:0;
+}
+.IntroImages {
+	float:left;
+	width:554px;
+}
+.Supported {
+	float:right;
+	overflow:hidden;
+	width:350px;
+	position:relative;
+}
+.Supported p {
+	position:absolute;
+	top:12px;
+	left:130px;
+	color:orange;
+}
+.Supported .buttons {
+	position:absolute;
+	bottom:50px;
+	left:160px;
+	text-align:center;
+}
+.Supported .buttons a {
+	width:120px;
+}
+
+
+
+
+
+
+
+.ContentWrapper {
+	background:#fff;
+	padding:3px 8px;
+}
+.bgWrapper {
+	background:#bfc1ba;
+}
+.PageContent {
+	background:transparent;
+	width:544px;
+	margin:0;
+	padding:10px 0 10px 10px;
+}
+.PageContent p {
+	color:#333;
+}
+.PageContent .TabContent {
+	background:#ebebe9;
+}
+
+.PageContent .TabNav {
+	background:#bfc1ba;
+	height:43px;
+}
+.PageContent .TabNav ul {
+	background:transparent;
+	height:43px;
+}
+.PageContent .TabNav ul li {
+	background:transparent;
+	border:0;
+	margin-right:8px;
+	height:43px;
+}
+.PageContent .TabNav ul li a {
+		background:transparent;
+		border:0;
+		padding:0;
+}
+.PageContent .TabNav .selected {
+	background:#ebebe9;
+}
+
+
+.SubNav {
+	background:transparent;
+	border-bottom:1px solid #fff;
+	margin-left:5px;
+	margin-right:5px;
+}
+.PageContent .SubNav a.selected {
+	color:#333;
+	border:1px solid #666;
+}
+
+
+.PublicPage {
+	padding-left:10px;
+}
+.PublicPage h1 {
+	color:#256789;
+	font-size:16px;
+	margin:10px 0;
+}
+.PublicPage p {
+	margin:10px 0;
+}
+.PreviewImage {
+	float:right;
+	width:250px;
+}
+.IntroImages img {
+	position:relative;
+}
+
+
+
+
+
+
+
+.Sidebar {
+	width:328px;
+	margin-right:10px;
+}
+.Sidebar .Widget {
+	background:transparent;
+}
+img.SideAd {
+	display:block;
+	margin:10px auto;
+	padding:1px;
+	border:1px solid #666;
+}

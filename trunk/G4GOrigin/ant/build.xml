@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project default="compile" basedir=".">
+	<property name="tomcatlib" value="c:\Tools\Tomcat-6.0\lib" />
+	<property name="endorsedlib" value="c:\Tools\Tomcat-6.0\common\endorsed" />
+	<property name="lib" value="../lib" />
+	<property name="bin" value="../bin" />
+	<property name="src" value="../WebRoot" />
+	<property name="dist" value="../dist" />
+	<property name="javasrc" value="../src" />
+	<property name="build.dir" value=".."/>
+
+  	<path id="class.path">
+		<fileset dir="${src}/WEB-INF/lib">
+			<include name="**/*.jar"/>
+    		</fileset>
+		
+		<fileset dir="${lib}">
+			<include name="**/*.jar"/>
+		</fileset>
+
+		<fileset dir="${tomcatlib}">
+			<include name="**/*.jar"/>
+		</fileset>
+
+		<fileset dir="${endorsedlib}">
+			<include name="**/*.jar"/>
+		</fileset>
+
+		<fileset dir="${bin}">
+			<include name="com/g4g/action/*.class"/>
+			<include name="com/g4g/delegator/*.class"/>
+			<include name="com/g4g/dto/*.class"/>
+			<include name="com/g4g/forms/*.class"/>
+			<include name="com/g4g/notification/*.class"/>
+			<include name="com/g4g/plugin/*.class"/>
+			<include name="com/g4g/services/*.class"/>
+			<include name="com/g4g/servlet/*.class"/>
+			<include name="com/g4g/utils/*.class"/>
+			<include name="com/g4g/ws/*.class"/>
+		</fileset>
+  	</path>
+
+	<target name="init">
+    		<tstamp/>
+  	</target>
+
+	<target name="create_classes_dir" depends="init">
+    		<mkdir dir="${build.dir}/bin"/>
+		<mkdir dir="${build.dir}/dist"/>
+  	</target>
+
+	<!-- CLEAN TARGET -->
+  	<target name="clean">
+    		<delete dir="${build.dir}/bin"/>
+		<delete dir="${build.dir}/dist"/>
+  	</target>
+
+	<!-- COMPILE TARGET -->
+  	<target name="compile" depends="clean,create_classes_dir">
+    		<javac debug="true" destdir="${build.dir}/bin" source="1.6" includeAntRuntime="no">
+			<compilerarg value="-Xlint:unchecked"/>
+      			<src path="../src"/>
+      			<exclude name="**/_*.java"/>
+      			<classpath refid="class.path"/>
+    		</javac>    
+	
+		<copy todir="${build.dir}/bin/com/g4g/dto">
+			<fileset dir="${javasrc}/com/g4g/dto">
+				<include name="**/*.xml"/>
+				<exclude name="**/*.class"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dir}/bin/com/g4g/resources">
+			<fileset dir="${javasrc}/com/g4g/resources" />
+		</copy>
+
+		<copy todir="${build.dir}/bin">
+			<fileset dir="${javasrc}">
+				<include name="**/*.xml"/>
+			</fileset>
+		</copy>
+
+		<war destfile="${dist}/G4GOrigin.war" webxml="${src}/WEB-INF/web.xml">
+			<fileset dir="${src}"/>
+			<classes dir="${bin}"/>
+				
+			<lib dir="${lib}">
+				<include name="**/*.jar"/>
+			</lib>	
+		</war>	
+  	</target>
+
+	<target name="main">
+		
+	</target>
+</project>

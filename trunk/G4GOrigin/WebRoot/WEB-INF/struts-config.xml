@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="registerForm"
+			type="com.g4g.forms.Register1Form" />
+		<form-bean name="register2Form"
+			type="com.g4g.forms.Register2Form" />
+		<form-bean name="register3Form"
+			type="com.g4g.forms.Register3Form" />
+		<form-bean name="register4Form"
+			type="com.g4g.forms.Register4Form" />
+		<form-bean name="loginForm" type="com.g4g.forms.LoginForm" />
+		<form-bean name="profileForm" type="com.g4g.forms.ProfileForm" />
+		<form-bean name="cashierForm" type="com.g4g.forms.CashierForm" />
+		<form-bean name="gameDetailsForm"
+			type="com.g4g.forms.GameDetailsForm" />
+		<form-bean name="searchForm" type="com.g4g.forms.SearchForm" />
+		<form-bean name="forgotPasswordForm"
+			type="com.g4g.forms.ForgotPasswordForm" />
+		<form-bean name="directedChallengeForm"
+			type="com.g4g.forms.DirectedChallengeForm" />
+		<form-bean name="messageCenterForm"
+			type="com.g4g.forms.MessageCenterForm" />
+		<form-bean name="gameLobbyPageForm"
+			type="com.g4g.forms.GameLobbyPageForm" />
+		<form-bean name="sendMessageForm"
+			type="com.g4g.forms.SendMessageForm" />
+		<form-bean name="tournamentActionForm"
+			type="com.g4g.forms.TournamentActionForm" />
+		<form-bean name="viewMultiTierTournamentForm"
+			type="com.g4g.forms.ViewMultiTierTournamentForm" />
+		<form-bean name="pictureForm" type="com.g4g.forms.PictureForm" />
+		<form-bean name="displayDirectChallenge2Form"
+			type="com.g4g.forms.DirectChallenge2Form" />
+		<form-bean name="directChallenge3Form"
+			type="com.g4g.forms.DirectChallenge3Form" />
+		<form-bean name="rankingForm" type="com.g4g.forms.RankingForm" />
+		<form-bean name="paymentAccountForm"
+			type="com.g4g.forms.PaymentAccountForm">
+		</form-bean>
+		<form-bean name="editProfileForm"
+			type="com.g4g.forms.EditProfileForm" />
+		<form-bean name="theForm"
+			type="com.g4g.forms.TournamentCreationForm" />
+	</form-beans>
+
+	<global-exceptions />
+
+	<global-forwards>
+		<forward name="homePage" path="/displayLogin.do" />
+		<forward name="userHome" path="/displayProfile.do" />
+		<forward name="commingSoon" path="/comminSoon.do" />
+		<forward name="commingSoonLogin" path="/comminSoonLogin.do" />
+		<forward name="contact" path="/displayContact.do" />
+		<forward name="faq" path="/displayFAQ.do" />
+		<forward name="about" path="/displayAbout.do" />
+		<forward name="logout" path="/logout.do"/>
+		<forward name="removethickbox" path="/WebContent/removeThickbox.jsp" />
+		<forward name="terms" path="/displayTerms.do" />
+		<forward name="privacy" path="/displayPrivacy.do" />
+		<forward name="press" path="/displayPress.do" />
+		<forward name="advertise" path="/displayAdvertise.do" />
+		<forward name="management" path="/displayManagement.do" />
+		<forward name="responsiblegaming" path="/displayResponsibleGaming.do" />
+
+
+	</global-forwards>
+
+
+	<action-mappings>
+
+		<action path="/displayImage" forward="/WebContent/displayImage.jsp" />
+
+		<action path="/displayAbout" forward="/WebContent/about.jsp"/>
+
+		<action path="/displayFAQ"
+			forward="/WebContent/fAQ.jsp">
+		</action>
+
+		<action path="/displayContact" forward="/WebContent/contact.jsp">
+		</action>
+
+		<action path="/displayTerms"
+			forward="/WebContent/terms.jsp">
+		</action>
+
+		<action path="/displayPrivacy"
+			forward="/WebContent/privacy.jsp">
+		</action>
+
+		<action path="/displayAdvertise" forward="/WebContent/advertise.jsp">
+		</action>
+
+		<action path="/displayManagement"
+			forward="/WebContent/management.jsp">
+		</action>
+
+		<action path="/displayPress"
+			forward="/WebContent/press.jsp">
+		</action>
+
+		<action path="/displayResponsibleGaming"
+
+			forward="/WebContent/responsiblegaming.jsp">
+		</action>
+
+		<action path="/comminSoon"
+			forward="page.comingSoon">
+		</action>
+
+		<action path="/comminSoonLogin"
+			forward="page.comingSoonLogin">
+
+		</action>
+
+
+		<action path="/logout" type="com.g4g.action.LogoutAction">
+
+		</action>
+
+		<action attribute="loginForm" name="loginForm"
+			path="/displayLogin" scope="request"
+			type="com.g4g.action.LoginAction" validate="false">
+
+			<forward name="success" path="/WebContent/homePage.jsp" />
+		</action>
+
+		<!--
+			<action name="pictureForm" path="/uploadPicture" scope="request"
+			type="com.g4g.action.PictureUploadAction" validate="false"
+			input="/displayProfile.do">
+			<forward name="success" path="/displayProfile.do"
+			redirect="true" />
+			</action>
+		-->
+
+
+		<action attribute="loginForm" input="/WebContent/homePage.jsp"
+			name="loginForm" path="/login" scope="request"
+			type="com.g4g.action.LoginAction" validate="true">
+			<forward name="firstLogin" path="/displayRegister2.do" redirect="true"/>
+			<forward name="login" path="/displayProfile.do" redirect="true" />
+		</action>
+
+		<action path="/displayCashier" attribute="cashierForm"
+			name="paymentAccountForm" scope="request" input="page.cashierPage"
+			type="com.g4g.action.CashierAction" validate="false">
+
+			<forward name="success" path="page.cashierPage" />
+		</action>
+
+		<action path="/cashier" name="paymentAccountForm"
+			input="page.cashierPage" scope="request"
+			type="com.g4g.action.CashierAction" validate="false">
+
+			<forward name="next" path="/displayRegister2.do" />
+		</action>
+
+		<action path="/displayCashierAddEditAccount"
+			name="paymentAccountForm" scope="request" input="page.cashierPage"
+			type="com.g4g.action.CashierAddEditAccountAction" validate="false">
+
+		</action>
+
+		<action path="/cashierAddEditAccount" name="paymentAccountForm"
+			scope="request" input="page.cashierPage"
+			type="com.g4g.action.CashierAddEditAccountAction" validate="false">
+
+			<forward name="addsuccess"
+				path="page.cashierPageAddAccount">
+			</forward>
+			<forward name="editsuccess" path="page.cashierPageAddAccount" />
+			<forward name="deletesuccess" path="/displayCashier.do" />
+			<forward name="success" path="/displayCashier.do" />
+		</action>
+
+		<action path="/saveCashierAccount" name="paymentAccountForm"
+			scope="request" input="page.cashierPageAddAccount"
+			type="com.g4g.action.CashierAddEditAccountAction" validate="true">
+
+			<forward name="success" path="/displayCashier.do" redirect="true" />
+
+		</action>
+
+		<action attribute="gameDetailsForm" name="gameDetailsForm"
+			path="/displayGameDetails" scope="request"
+			type="com.g4g.action.GameDetailsAction" validate="false">
+
+			<forward name="success" path="page.gameDetails" />
+			<forward name="gamelobby" path="/displayGameLobbyPage.do" redirect="true" />
+		</action>
+
+		<!-- Not needed now
+			<action path="/gameDetails" name="gameDetailsForm"
+			input="page.gameDetails" scope="request"
+			type="com.g4g.action.GameDetailsAction" validate="false">
+			<forward name="success" path="/index.jsp" />
+			</action>
+		-->
+
+		<action path="/register1" name="registerForm"
+			input="page.register1" scope="request"
+			type="com.g4g.action.Register1Action" validate="true">
+
+			<forward name="next" path="/displayRegister2.do" />
+		</action>
+
+		<action path="/displayRegister1" name="registerForm"
+			validate="false" scope="request"
+			type="com.g4g.action.Register1Action">
+
+			<forward name="success" path="page.register1" />
+		</action>
+
+		<action path="/displayRegister2" name="register2Form"
+			scope="session" validate="false"
+			type="com.g4g.action.Register2Action">
+
+			<forward name="success" path="page.register2" />
+		</action>
+
+		<action path="/register2" name="register2Form"
+			input="/displayRegister2.do" scope="session"
+			type="com.g4g.action.Register2Action" validate="true">
+
+			<forward name="review" path="/displayRegister3.do" />
+		</action>
+
+		<action path="/displayRegister3" name="register3Form"
+			validate="false" scope="request"
+			type="com.g4g.action.Register3Action">
+
+			<forward name="success" path="page.register3" />
+		</action>
+
+		<action attribute="register3Form" input="page.register3"
+			name="register3Form" path="/register3" scope="request"
+			type="com.g4g.action.Register3Action" validate="false">
+
+			<forward name="save" path="/displayRegister4.do"
+				redirect="true" />
+			<forward name="EDIT" path="/register1.do" />
+			<forward name="Edit" path="/displayRegister1.do" />
+			<forward name="error" path="/displayRegister1.do" />
+		</action>
+
+		<action path="/displayRegister4" name="register4Form"
+			validate="false" scope="request"
+			type="com.g4g.action.Register4Action">
+
+			<forward name="success" path="page.register4" />
+		</action>
+
+		<action path="/editProfile" name="editProfileForm"
+			scope="request" validate="true" input="/displayProfile.do"
+			type="com.g4g.action.EditProfileAction">
+
+			<forward name="success" path="/displayProfile.do" />
+		</action>
+
+		<!--
+			<action path="/editGameRegister" name="editGameRegisterForm"
+			input="page.editGameRegister" scope="request"
+			type="com.g4g.action.EditGameRegisterAction" validate="false">
+			<forward name="save" path="/displayProfile.do" />
+			</action>
+		-->
+		<action attribute="searchForm" name="searchForm" path="/search"
+			scope="request" type="com.g4g.action.SearchAction"
+			validate="false">
+
+			<forward name="success" path="page.searchResult" />
+		</action>
+
+		<!-- <action attribute="userPageForm" name="userPageForm"
+			path="/userPage" scope="request" type="com.g4g.action.UserPageAction"
+			validate="false">
+			<forward name="success" path="/index.jsp" />
+			</action>
+
+		-->
+		<action path="/forgotPassword" name="forgotPasswordForm"
+			input="/WebContent/forgotPassword.jsp" scope="request"
+			type="com.g4g.action.ForgotPasswordAction" validate="true">
+
+			<forward name="success" path="/displayLogin.do"
+				redirect="true" />
+		</action>
+
+		<action path="/displayForgotPassword" name="forgotPasswordForm"
+			input="/WebContent/forgotPassword.jsp" scope="request"
+			validate="false" type="com.g4g.action.ForgotPasswordAction">
+
+			<forward name="success"
+				path="/WebContent/forgotPassword.jsp" />
+		</action>
+
+		<action attribute="messageCenterForm" name="messageCenterForm"
+			path="/displayMessageCenter" scope="request" input="page.messageCenter"
+			type="com.g4g.action.MessageCenterAction" validate="false">
+			<forward name="success" path="page.messageCenter" />
+		</action>
+
+		<action attribute="profileForm" name="profileForm"
+			path="/displayProfile" scope="request"
+			type="com.g4g.action.ProfileAction" validate="false">
+			<forward name="success" path="page.profile" />
+			<forward name="review" path="view.profile" />
+		</action>
+
+		<action attribute="profileForm" name="profileForm" input="/displayProfile.do" path="/profile" scope="request"
+			type="com.g4g.action.ProfileAction" validate="true">
+			<forward name="success" path="/displayProfile.do" redirect="true" />
+		</action>
+
+
+		<action attribute="gameLobbyPageForm" name="gameLobbyPageForm"
+			path="/displayGameLobbyPage" scope="request"
+			type="com.g4g.action.GameLobbyPageAction" validate="false">
+			<forward name="success" path="page.gameLobbyPage" />
+		</action>
+
+		<action attribute="gameLobbyPageForm" name="gameLobbyPageForm"
+			path="/displayWidgetGameLobbyPage" scope="request"
+			type="com.g4g.action.WidgetsGameLobbyPageAction" validate="false">
+			<forward name="success" path="/WebContent/Ajax/myGameLobby.jsp" />
+		</action>
+
+		<action attribute="gameLobbyPageForm" name="gameLobbyPageForm"
+		path="/displayWidgetPlayNow" scope="request"
+			type="com.g4g.action.WidgetPlayNowAction" validate="false">
+			<forward name="success" path="/WebContent/Ajax/playNowRefresh.jsp" />
+		</action>
+
+		<action attribute="searchForm" name="searchForm"
+		path="/displayWidgetSearchPeople" scope="request"
+			type="com.g4g.action.WidgetSearchPeopleAction" validate="false">
+			<forward name="success" path="/WebContent/Ajax/searchPeople.jsp" />
+		</action>
+
+		<action attribute="searchForm" name="searchForm"
+		path="/displayWidgetSearchGame" scope="request"
+			type="com.g4g.action.WidgetSearchGameAction" validate="false">
+			<forward name="success" path="/WebContent/Ajax/searchGames.jsp" />
+		</action>
+
+		<action attribute="searchForm" name="searchForm"
+		path="/displayWidgetSearchTournament" scope="request"
+			type="com.g4g.action.WidgetSearchTournamentAction" validate="false">
+			<forward name="success" path="/WebContent/Ajax/searchTournaments.jsp" />
+		</action>
+
+		<action attribute="searchForm" name="searchForm"
+		path="/displayWidgetSearchOpenChallenge" scope="request"
+			type="com.g4g.action.WidgetSearchOpenChallengeAction" validate="false">
+			<forward name="success" path="/WebContent/Ajax/searchOpenChallenge.jsp" />
+		</action>
+
+		<action attribute="gameLobbyPageForm" name="gameLobbyPageForm"
+			path="/gameLobbyPage" scope="request"
+			type="com.g4g.action.GameLobbyPageAction" validate="false">
+
+			<forward name="success" path="/index.jsp" />
+		</action>
+
+		<action attribute="viewMultiTierTournamentForm"
+			name="viewMultiTierTournamentForm"
+			path="/displayViewMutiTierTournament" scope="request"
+			type="com.g4g.action.ViewMutiTierTournamentAction"
+			validate="false">
+
+			<forward name="success" path="page.viewMultiTierTournament" />
+		</action>
+
+
+		<action attribute="viewMultiTierTournamentForm"
+			name="viewMultiTierTournamentForm" path="/viewMutiTierTournament"
+			scope="request" type="com.g4g.action.ViewMutiTierTournamentAction"
+			validate="false">
+
+			<forward name="success" path="page.viewMultiTierTournament" />
+		</action>
+
+		<action attribute="tournamentActionForm"
+			name="tournamentActionForm" path="/displayTournamentAction"
+			scope="request" type="com.g4g.action.TournamentAction"
+			validate="false">
+
+			<forward name="success" path="page.tournamentAction" />
+		</action>
+
+
+		<action attribute="tournamentActionForm"
+			name="tournamentActionForm" path="/tournamentAction" scope="request"
+			type="com.g4g.action.TournamentAction" validate="false">
+
+			<forward name="success" path="/index.jsp" />
+		</action>
+		<action attribute="theForm" input="page.tournamentCreation"
+			name="theForm" path="/displayTournamentCreation" scope="request"
+			type="com.g4g.action.TournamentCreationAction" validate="false">
+
+			<forward name="success" path="page.tournamentCreation" />
+			<forward name="failure" path="/displayLogin.do" />
+		</action>
+
+		<action attribute="theForm" input="page.tournamentCreation"
+			name="theForm" path="/tournamentCreation" scope="request"
+			validate="true" type="com.g4g.action.TournamentCreationAction">
+
+		</action>
+
+		<action attribute="rankingForm" name="rankingForm"
+			path="/displayRanking" scope="request"
+			type="com.g4g.action.RankingFormAction" validate="false">
+
+			<forward name="success" path="/WebContent/rankingform.jsp" />
+		</action>
+
+		<action attribute="rankingForm" name="rankingForm"
+			path="/submitFeedbackReputation" scope="request" input="/displayRanking.do"
+			type="com.g4g.action.RankingFormAction" validate="true">
+
+			<forward name="success" path="/WebContent/removeThickbox.jsp" />
+		</action>
+
+<!--		<action attribute="sendMessageForm" name="sendMessageForm"
+			path="/displaySendMessage" scope="request"
+			type="com.g4g.action.SendMessageAction" validate="false">
+
+			<forward name="success" path="page.sendMessage" />
+		</action>
+
+		<action attribute="sendMessageForm" name="sendMessageForm"
+			path="/sendMessage" scope="request"
+			type="com.g4g.action.SendMessageAction" validate="false">
+
+			<forward name="success" path="/index.jsp" />
+		</action>
+-->
+
+		<action attribute="directedChallengeForm"
+			name="directedChallengeForm" path="/directChallenge1"
+			input="/WebContent/directChallenge1.jsp" scope="session"
+			type="com.g4g.action.DirectedChallengeAction" validate="true">
+
+			<forward name="success" path="/displayDirectChallenge2.do" />
+			<forward name="failure"
+				path="/displayDirectedChallenge1.do" />
+		</action>
+
+
+		<action attribute="directedChallengeForm"
+			input="/WebContent/directChallenge1.jsp" name="directedChallengeForm"
+			path="/displayDirectedChallenge1" scope="session"
+			type="com.g4g.action.DirectedChallengeAction" validate="false">
+
+			<forward name="success" path="/WebContent/directChallenge1.jsp" />
+			<forward name="profile" path="/displayProfile.do" redirect="true" />
+		</action>
+
+
+		<action attribute="displayDirectChallenge2Form"
+			name="displayDirectChallenge2Form" path="/displayDirectChallenge2"
+			scope="session" type="com.g4g.action.DirectChallenge2Action"
+			validate="false">
+			<forward name="success" path="/WebContent/directChallenge2.jsp" />
+		</action>
+
+
+		<action attribute="displayDirectChallenge2Form"
+			name="displayDirectChallenge2Form" path="/directChallenge2"
+			scope="session" type="com.g4g.action.DirectChallenge2Action"
+			validate="false" input="/WebContent/directChallenge2.jsp">
+			<forward name="success" path="/displayDirectChallenge3.do" redirect="true" />
+			<forward name="comment" path="/displayDirectChallenge2.do" />
+			<forward name="dissolve" path="/WebContent/removeThickbox.jsp" />
+		</action>
+
+		<action attribute="directChallenge3Form"
+			name="directChallenge3Form" path="/directChallenge3"
+			type="com.g4g.action.DirectChallenge3Action" scope="session"
+			validate="false" input="/displayDirectChallenge3.do">
+
+			<forward name="success" path="/WebContent/directChallenge3.jsp" />
+		</action>
+
+
+		<action attribute="directChallenge3Form"
+			name="directChallenge3Form" path="/displayDirectChallenge3"
+			type="com.g4g.action.DirectChallenge3Action" validate="false"
+			input="/displayDirectChallenge3.do">
+			<forward name="dissolve" path="/WebContent/removeThickbox.jsp" />
+			<forward name="success" path="/WebContent/directChallenge3.jsp" />
+		</action>
+
+
+	</action-mappings>
+
+	<controller
+		processorClass="org.apache.struts.tiles.TilesRequestProcessor"
+		bufferSize="4096" />
+
+	<message-resources
+		parameter="com.g4g.resources.ApplicationResources" />
+
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames"
+			value="/WEB-INF/validator-rules.xml,
+                                                  /WEB-INF/validation.xml" />
+	</plug-in>
+
+	<plug-in className="org.apache.struts.tiles.TilesPlugin">
+		<set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+		<set-property property="moduleAware" value="true" />
+		<set-property property="definitions-parser-validate" value="true" />
+	</plug-in>
+
+	<plug-in className="com.g4g.ws.ApplicationLevelPlugin" />
+	<plug-in className="com.g4g.plugin.G4GOriginSession" />
+	<plug-in className="com.g4g.plugin.G4GScheduler">
+		<set-property property="startOnLoad" value="false" />
+		<set-property property="startupDelay" value="0" />
+	</plug-in>
+</struts-config>

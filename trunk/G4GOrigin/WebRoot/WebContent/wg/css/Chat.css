@@ -1,0 +1,47 @@
+#Chat {
+	background:#333;
+	padding:0px 0px 10px 0px;
+	color:#fff;
+}
+#Chat p.grid {
+	padding-left:15px;
+}
+
+/*Chat Styles */
+#Chat h2 {
+	font-size:14px;
+	font-weight:bold;
+}
+#p_status {
+	float:right;
+	margin:0;
+}
+
+/*The Chat Window */
+#div_chat {
+	color:#000;
+	background:#fff;
+	height:150px;
+	overflow:auto;
+	padding:5px;
+	margin:5px 0;
+	border:1px solid #eaeaea;
+}
+#div_chat p {
+	margin:2px 0;
+}
+p.chat_user {
+	font-size:14px;
+	font-weight:bold;
+}
+p.chat_time {
+	font-style:italic;
+	float:right;
+}
+p.chat_message {
+	font-size:11px;
+	line-height:18px;
+}
+#div_chat li {
+	padding:5px;
+}

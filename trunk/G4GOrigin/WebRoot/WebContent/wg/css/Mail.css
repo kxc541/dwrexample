@@ -1,0 +1,662 @@
+/*--------- CONTENTS ------------------------------------------------------------
+MAIL
+1: RESET AND DEFINE PAGE STRUCTURE
+
+2: MESSAGE STRUCTURE
+- contains message preview, and message container styles
+
+3: MAIL NAVIGATION
+
+
+	
+---------------------------------------------------------------------------- */
+
+
+
+/* 1: PAGE STRUCTURE
+============================================================================ */
+#MailCenter .PageContent {
+	color:#333;
+	font-size:10px;
+	float:right;
+	background:#f9f8f6;
+	width:660px;
+	margin-right:10px;
+}
+#MailCenter.ContentWrapper {
+	background:url(images/bg/PageContent6.jpg) top left repeat-y #252525;
+	border-top:5px solid #f9f8f6;
+	border-bottom:5px solid #f9f8f6;
+}
+.Sidebar {
+	float:left;
+	background:#e8e5e0;
+	width:240px;
+}
+
+
+
+
+
+
+
+
+
+/* 2: MESSAGE STRUCTURE
+============================================================================ */
+
+/* 2 a : Page Header
+============================================================================ */
+h1.MCheader {
+	text-align:right;
+	padding:20px;
+}
+.ComposeButton.buttons {
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+
+/* 2 b : modal message
+============================================================================ */
+#ModalMessage {
+	border:5px solid #fff;
+	padding:10px;
+}
+
+
+
+/* 2 c : Message Container
+============================================================================ */
+.MessageContainer {
+	background:#e8e5e0;
+	margin:5px 0;
+	border:1px solid #e2e1dd;
+}
+.MessageContainer.Unread {}
+.MessageContainer a {color:#000;}
+.MessageContent .grid2 {
+	width:100px;
+}
+.messageReply textarea {
+	margin:10px 0;
+}
+
+
+/* 2 d : Message Preview
+this is the little part that contains the title, author, and status
+============================================================================ */
+.MessagePreview {
+	padding:5px 5px 5px 20px;
+	background:url(images/icons/ClosedDark.png) 5px 50% no-repeat;
+}
+.MessagePreview.msgOpen {
+	background:#748e8b url(images/icons/OpenDark.png) 5px 50% no-repeat;;
+	color:#fff;
+}
+.MessagePreview.msgOpen a {
+	color:#fff;
+}
+.MessagePreview .grid {
+	margin-right:10px;
+}
+
+/* 2 e : Message Contnet 
+============================================================================ */
+.MessageContent {
+	padding:15px 5px;
+	position:relative;
+	height:100%;
+}
+.CloseButton {
+	position:absolute;
+	top:15px;
+	right:10px;
+	font-weight:bold;
+}
+/* 2 e : Message info structure
+============================================================================ */
+.MessageContent .messageInfo dt {
+	font-size:14px;
+	margin-bottom:10px;
+}
+.messageInfo dt {
+	font-size:12px;
+}
+.messageInfo dd p {
+	font-size:10px;
+}
+/* 2 e : general info
+============================================================================ */
+.generalInfo {
+	text-align:right;
+	margin-right:20px;
+}
+
+
+
+
+/* 2 f : Compose Message
+============================================================================ */
+.compose {
+	margin:20px;
+	padding:20px;
+	border:1px solid #e8e5e0;
+}
+.compose h1 {
+	margin-bottom:18px;
+}
+.compose label {
+	width:130px;
+	float:left;
+	font-size:12px;
+	line-height:20px;
+}
+.compose textarea {
+	margin:5px 0;
+	font-size:10px;
+	width:400px;
+	height:150px;
+}
+.compose input {
+	width:405px;
+	border:1px solid #999;
+	margin-top:5px;
+}
+.compose select {
+	width:220px;
+	border:1px solid #999;
+}
+.compose .buttons {
+	margin:5px 0 0 130px;	
+}
+.compose .grid6 {
+	margin-right:20px;
+}
+.compose .grid6 dt {
+	line-height:18px;
+	margin-bottom:5px;
+}
+img.gameImage {
+	width:60px;
+}
+
+/* 3: Mail navigation
+============================================================================ */
+.MailCenterNav h1 {
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 10px;
+	color:#000;
+	background:url(images/icons/MessageNavIndicator.png) left center no-repeat #e8e5e0;
+}
+.MailCenterNav ul {
+	margin-bottom:2px;
+}
+.MailCenterNav ul ul {
+	margin-left:10px;
+}
+.MailCenterNav li {
+	margin-bottom:3px;
+	background:#eeede9;
+}
+.MailCenterNav li:hover {
+	background:#f9f8f6;
+}
+.MailCenterNav li img {
+	margin-right:3px;
+}
+.MailCenterNav li span.count {
+	margin-left:4px;
+}
+.MailCenterNav li span.image {
+	background-position:left center;
+	background-repeat:no-repeat;
+	padding-left:15px;
+	line-height:16px;
+}
+.MailCenterNav li span.inbox {
+	background-image:url(images/icons/inbox.png);	
+}
+.MailCenterNav li span.challenge {
+	background-image:url(images/icons/challenge.png);	
+}
+.MailCenterNav li span.user {
+	background-image:url(images/icons/user.png);	
+}
+.MailCenterNav li span.status {
+	background-image:url(images/icons/status-rep.png);	
+}
+.MailCenterNav li span.archive {
+	background-image:url(images/icons/archivemessages.png);	
+}
+.MailCenterNav li span.sent {
+	background-image:url(images/icons/sentmessages.png);	
+}
+
+.MailCenterNav ul li.selected a {
+	background:url(css/images/icons/MessageNavIndicator.png) left center no-repeat #000;
+}
+.MailCenterNav a.selected {
+	background:#f9f8f6;
+}
+
+.MailCenterNav li a {
+	display:block;
+	padding:6px 10px;
+	color:#666;
+}
+
+
+
+
+
+.idTabs {
+}
+
+/*
+.MCheader {
+	padding:20px;
+	position:relative;
+}
+.MCheader h1 {
+	text-align:right;
+}
+
+.ComposeButton.buttons {
+	position:absolute;
+	top:20px;
+	right:10px;
+}
+
+*/
+/*
+.MessageContainer {
+	background:#fff;
+	padding:5px;
+	margin:5px 0;
+}
+.MessageContainer.Unread {
+	border:1px solid #9aa27e;
+}
+.MessageContainer a {
+	color:#000;
+}
+
+.generalInfo {
+	text-align:right;
+	margin-right:20px;
+}
+.generalInfo .Avatar,
+.generalInfo .Avatar,
+.generalInfo .Avatar img {
+	width:40px;
+	float:left;
+}
+
+.messageInfo dt {
+	font-size:12px;
+}
+.messageInfo dd p {
+	font-size:10px;
+}
+
+
+.compose {
+	margin:20px;
+	padding:10px;
+	border:1px solid #e8e5e0;
+	display:none;
+}
+.compose h1 {
+	margin-bottom:18px;
+}
+.compose textarea {
+	margin:5px 0;
+}
+
+.compose .grid6 {
+	margin-right:20px;
+}
+.compose .grid6 dt {
+	line-height:18px;
+	margin-bottom:5px;
+}
+*/
+
+
+/* 
+
+
+table.Style1 {
+	font-size:1.2em;
+}
+table.Style1 thead th {
+	font-size:1.4em;
+	padding:0 0 10px 0;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+.MessageContainer {
+	border:1px solid #cdcdcb;
+	background:#fff;
+	border-bottom:0;
+	margin-bottom:6px;
+}
+*/
+
+
+/*information about the message 
+table.MyMessageInfo {
+	background:#f2f1ef;
+	width:100%;
+}
+table.MyMessageInfo td {
+	padding:5px;
+	border-bottom:1px solid #cdcdcb;
+}
+.active table.MyMessageInfo td {
+	background:#748e8b;
+	color:#fff;
+}
+table.MyMessageInfo th {
+	padding:5px;
+	background:#fff;
+	font-size:9px;
+	color:#b6b5b3;
+}
+*/
+
+
+/*container for the message content 
+.MyMessage {
+	border-bottom:1px solid #cdcdcb;
+}
+*/
+
+/* message navigation
+.MessageNav {
+	background:#e6eae9;
+	height:20px;
+	position:relative;
+}
+.MessageNav li {
+	float:left;
+	font-size:9px;
+	line-height:20px;
+}
+.MessageNav li a {
+	display:block;
+	padding:0 10px;
+	color:#8c908f;
+}
+.MessageNav em {
+	position:absolute;
+	top:0;
+	right:10px;
+	font-size:9px;
+	line-height:20px;
+}
+*/
+
+
+/*the content of the message
+.MessageContent {
+	margin-left:110px;
+	margin-right:20px;
+}
+img.UserImage {
+	float:left;
+	margin:10px 20px;
+}
+
+
+
+.from {width:60px;}
+.status {width:40px;}
+.mt {width:80px;}
+.date {width:60px;}
+.time  {width:60px;}
+.subject  {}
+*/
+
+
+
+
+
+
+
+
+/***********************
+New mail styles
+***********************
+
+
+
+.MessageContainer {
+	padding:5px;
+	margin:5px;
+	border:1px solid #eaeaea;
+	position:relative;
+	z-index:0;
+}
+.MessageContainer .Avatar {
+	margin-left:0;
+	height:60px;
+}
+.MessageContainer p {
+	margin:0px 0 15px;
+}
+.MessageContainer h1 {
+	color:#333;
+	font-weight:bold;
+	margin:10px 0;
+}
+.MessageContainer dl.generalInfo strong {
+	font-size:14px;
+}
+
+.MessagePreview {}
+
+
+
+.MessagePreview .messageOptions {
+	float:right;
+}
+.messageOptions li {
+	width:80px;
+	margin-bottom:2px;
+	text-align:left;
+	border-bottom:1px solid #eaeaea;
+}
+.messageOptions a {
+	display:block;
+	color:#666;
+	font-size:10px;
+}
+
+.MessageContainer .generalInfo {
+	float:left;
+	margin:0 10px;
+	width:120px;
+}
+.MessageContainer .generalInfo span {
+	display:block;
+}
+.MessageContainer.compose .generalInfo {
+	width:170px;
+}
+.MessageContainer.compose .generalInfo dt {
+	margin-bottom:10px;
+}
+
+
+
+
+.MessageContainer .messageInfo {
+	float:left;
+	margin:0 10px;
+	width:300px;
+}
+.MessageContainer.compose .messageInfo {
+	width:250px;
+}
+.MessageContainer .messageInfo dt {
+	margin-bottom:5px;
+}
+.MessageContainer .messageInfo span {
+	display:block;
+}
+.MessageContainer .messageInfo dt a {
+	color:blue;
+	font-size:14px;
+}
+.MessageContainer .messageInfo input, .MessageContainer .messageInfo textarea {
+	width:100%;
+}
+#MessageCenterFriendRequests .messageInfo dt {
+	font-size:14px;
+}
+
+#MessageCenterFriendRequests .messageInfo p.excerpt {
+	padding-top:5px;
+	border-top:1px solid #eaeaea;
+	font-size:12px;
+}
+
+
+
+.MessageThread {
+	padding:5px 0;
+	position:relative;
+}
+.MessageThread div.Close {
+	position:absolute;
+	top:2px;
+	right:5px;
+	color:#666;
+	font-weight:bold;
+	font-size:9px;
+	cursor:pointer;
+}
+.MessageThread h2 {
+	border-bottom:1px solid #eaeaea;
+}
+
+
+.messageHistory {
+	margin-bottom:10px;
+}
+.messageHistory .messageInfo {
+	border-bottom:1px solid #eaeaea;
+	float:none;
+	width:auto;
+	margin-left:220px;
+}
+
+
+
+.messageReply {
+	float:right;
+	width:420px;
+}
+.messageReply textarea {
+	width:90%;
+	margin-bottom:5px;
+}
+
+
+
+#MessageCenterIncomingChallenges dl.generalInfo {
+	font-size:10px;
+}
+#MessageCenterIncomingChallenges dl.generalInfo dd {
+	margin:2px 0;
+	padding:2px 0;
+	border-bottom:1px dotted #eaeaea;
+}
+
+#MessageCenterIncomingChallenges dl.generalInfo dt {
+	font-size:14px;
+	font-weight:bold;
+	
+}
+
+
+div.vs {
+	float:left;
+	height:60px;
+	width:40px;
+	font-size:30px;
+	padding:0 5px;
+	margin:0 10px;
+	color:#a80000;
+}
+
+.PageContent h1 {
+	font-size:18px;
+	margin:10px;
+	color:#000;
+}
+.PageContent h2 {
+	font-weight:bold;
+	margin:0 10px 10px;
+	color:#000;
+}
+
+
+#MailCenter .buttons.compose {
+	float:right;
+}
+
+
+
+
+
+
+#DirectCompose {
+	padding:10px;
+	background:;
+}
+#DirectCompose h1 {
+	font-size:14px;
+	font-weight:bold;
+	padding:10px;
+	margin-bottom:5px;
+}
+#DirectCompose h2 {
+	font-size:16px;
+}
+#DirectCompose table {
+	width:100%;
+}
+
+#DirectCompose th {
+	width:100px;
+	color:#666;
+	vertical-align:top;
+}
+#DirectCompose td {
+	padding:5px;
+}
+#DirectCompose textarea {
+	height:250px;
+	border:1px solid #d2d2d2;
+	width:100%;
+}
+#DirectCompose input {
+	width:100%;
+}
+
+*/

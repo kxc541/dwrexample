@@ -1,0 +1,44 @@
+1. Fixed : Javascript on challenge card 1 which calculates Jackpot.
+2. Fixed : Page not refresh after comming back from thickbox.(If i edit challenge card, its details should be refreshed)
+3. redirect to picture tab after uploading picture
+4. GameDetails : open match are very far from each other
+5. Challenge Card: First time display : 
+6. Game Lobby : open matches should be displayed 3 with a viewall link.
+7. Check ViewMultiTierTournament database has 2 entry left for level 1, yet tournament says it has all 16 users
+8. My HOME Tab : HOME should be smaller as compare to other tabs.  
+
+
+
+1st april,2008
+
+1. Registration module: Enter Email-> error message ->"Please provide Email Address"-> given text should be in one line.
+
+2. Registration module: Name->asterik sign should be infront of first name.
+
+3. Registration module: Name-> error message ->"please provide first name" -> it should be infront of first name box.  
+
+4. Registration module: Name-> error message ->"please provide last name" -> it should be infront of last name box.   
+
+5. Registration module: D.O.B -> date, month and year select boxes should be of proper sizes.
+
+6. Registration module: D.O.B ->error message ->"please provide Birth Date" should be dispalyed in one line.
+
+7. Registration module: where do you live? -> street1 -> error message -> "please provide street" should be in one line.
+
+8. Registration module: where do you live? ->  error message -> "please provide postal code" should be in one line.
+
+9. Registration module: 4th page : after registration -> "go to cashier page" option is not working. 
+
+10. Cashier: account info-> existing account is not updating.   
+
+11. Balance format is not proper at mant places. 
+    eg:    $400.0  it is wrong. 
+           $ 400   it is wrong. 
+           $400.00 is correct.   
+
+
+12. Mail Center: displayed info of messages is not coming frequently after clicking on mail center.
+
+13. Cashier: account info: editing ->  account nickname -> when it is clicked to do editing in already existing name, then text is not taken by the already existed name.
+
+14. Mail Center: incoming message  after dilvered is not dispalying correct time of its reception.

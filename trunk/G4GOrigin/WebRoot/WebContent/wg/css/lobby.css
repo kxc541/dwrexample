@@ -1,0 +1,48 @@
+#content.lobby {
+	width:675px; /* -0 from 675 for padding */
+	float:left;
+	padding:0px;
+	background:url('images/banners/bannergradient.jpg') top left repeat-x #3c3c3c;
+	color:#fff;
+}
+
+#sidebar.lobby {
+	width:225px; /* -20 from 245px for padding */
+	float:right;
+	padding:10px;
+	background:#eee;
+}
+
+/* 2:GAME PICKER
+============================================================================ */
+
+#GamePicker {
+	background:#000;
+}
+
+#GamePicker p {
+	color:#fff;
+	margin:10px;
+}
+
+#GamePicker img {
+	border:0;
+}
+
+#GamePicker .TabNav {
+	background:#3c3c3c;
+}
+
+#GamePicker .TabNav li {
+	border-right:0;
+	margin-right:2px;
+}
+
+#GamePicker .TabNav li a {
+	background:#252525;
+}
+
+#pickerUpdate {
+	height:100%;
+	overflow:auto;
+}

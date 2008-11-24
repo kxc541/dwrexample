@@ -1,0 +1,122 @@
+
+/*Ads*/
+#TopAdSpace {
+	padding:15px;
+	background:#333333;
+}
+.BannerAds {
+	width:300px;
+	height:200px;
+	border:1px solid #fff;
+	overflow:hidden;
+	margin:10px auto;
+}
+
+#wgTournaments {
+	float:right;
+	width:550px;
+	height:200px;
+	border:1px solid #fff;
+	background:#4e4e4e;
+}
+
+.TabContent #MyGamesWidget .SubNav {
+	width:auto;
+}
+
+
+
+
+
+
+/* BLACK COLOR THEME
+============================================================================ */
+#Header {
+	background:url(images/bg/Header/HeaderBG2.jpg) bottom left no-repeat;
+}
+
+/*Base Color*/
+.PageContent {background:#525252;}
+
+/*Content Color*/
+ .PageContent .TabContent, 
+ .PageContent .TabNav a.selected, 
+#CommentBoardWidget {
+	background:#333;
+}
+
+/*Highlihght color*/
+.Format1, .Format2 {
+	background:#454545;
+}
+
+
+/*Tabbed navigation*/
+ .PageContent .TabNav {background:transparent;}
+ .PageContent .TabNav a {
+	background:url(images/bg/PageContent/tabnav.png) top left repeat-x #000;
+	color:#fff;
+}
+ .PageContent .TabNav a.selected {font-weight:bold;}
+ .PageContent .TabNav li {
+	border:0;
+	margin-right:1px;
+}
+ .PageContent .TabContent .Format1 {border-bottom:0;}
+
+
+
+/*table styles - userdashboard*/
+ .PageContent table.row th {
+	border-bottom:0;
+	color:#fff;
+	width:80px;
+}
+ .PageContent table.row td {
+	font-weight:bold;
+	color:#fff;
+}
+
+
+/*individual widget styles */
+#ScheduleWidget3 .Format1, #RecentGames .Format1 {
+	background:#454545;
+}
+#CommentBoardWidget {
+	border-top:10px solid #fff;
+}
+#CommentBoardWidget p {
+	color:#fff;
+}
+#CommentBoardWidget .Format1 h3 {
+	color:#999;
+}
+#CommentBoardWidget p.CommentOptions a {
+	border:1px solid #888;
+	background:#666;
+	color:#999;
+}
+#MyGamesWidget .Avatar {
+	height:150px;
+}
+
+
+
+#MyGamerTag .WidgetContent img {
+	display:block;
+	margin:5px auto;
+}
+
+
+#MyGamerTag h1 {
+	background:transparent;
+	color:#000;
+}
+.Sidebar #MyGamerTag.Widget {
+	background:url(images/bg/Sidebar/XBOXLIVE-widget.jpg) top left no-repeat;
+}
+
+.Sidebar #MyGamerTag.Widget .Format1 {
+	background:transparent;
+	text-align:center;
+}

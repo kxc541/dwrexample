@@ -1,0 +1,511 @@
+/* ------ NOTES ---------------------------------------------------------------
+
+Registration Style for WorldGaming.
+
+--------- UPDATE INFO ---------------------------------------------------------
+
+
+
+--------- CONTENTS ------------------------------------------------------------
+
+1: PAGE STRUCTURE
+
+2: SIDEBAR
+
+3: FONTS, INPUTS, STYLE
+
+4: TABLES
+
+5: INDIVIDUAL SECTION STYLES
+	
+---------------------------------------------------------------------------- */
+
+
+
+/* 1: PAGE STRUCTURE
+============================================================================ */
+
+#Registration .PageContent {
+	background:#e7e5e0;
+}
+#Registration .Sidebar {
+	background:#f9f8f6;
+	padding-top:10px;
+	width:345px;
+}
+* html #Registration .Sidebar {
+	width:305px;
+}
+
+#Registration.ContentWrapper {
+	padding-top:0;
+	margin-top:0;
+}
+.AreaWrapperTitle {
+	margin-bottom:0;
+}
+
+
+
+
+/* 2: SIDEBAR
+============================================================================ */
+.Sidebar p {
+	color:#666;
+	margin-bottom:20px;
+}
+.Sidebar p a {
+	color:#333;
+}
+.Sidebar p strong {
+	display:block;
+	color:#333;
+	font-weight:bold;
+	font-size:11px;
+	margin-bottom:5px;
+}
+
+.Sidebar ol {
+	font-size:20px;
+	color:#000;
+	padding-left:30px;
+	margin:20px 0;
+}
+.Sidebar ol li {
+	margin:10px 0;
+}
+
+
+
+
+
+/* 3: FONTS, INPUTS, STYLE
+============================================================================ */
+
+/* 3 a) : MISC
+============================================================================ */
+.NameNotAvailable {
+	background:#a80000;
+}
+#availableMsg {
+	color:#fff;
+	line-height:20px;
+	float:left;
+	padding:0 10px;
+}
+p.note {
+	font-size:10px;
+}
+.checkboxWrapper {
+	float:left;
+}
+#Registration .checkbox {
+	background:#000;
+}
+
+
+/* 3 b) : Form, Fieldset, Legened
+============================================================================ */
+#Registration form {
+	padding:0 30px;
+	color:#000;
+	font-family:arial;
+}
+#Registration fieldset {
+	padding:0;
+}
+legend {
+	font-weight:bold;
+	color:#000;
+	padding:5px 0;
+	font-size:14px;
+}
+
+
+/* 3 c) : Input, Select, Textarea
+============================================================================ */
+#Registration form input, #Registration form select, #Registration form textarea {
+	border:1px solid #9e9e9e;
+	background:#eeede9;
+	font-size:9px;
+	padding:4px;
+}
+ 
+#Registration form textarea {
+	font-size:10px;
+	width:100%;
+}
+#Registration form option {
+	padding:0 20px 0 10px;
+}
+
+
+/* 3 d) : Font Styles
+============================================================================ */
+#Registration p {
+	margin-bottom:20px;
+	padding:0 10px;
+}
+#Registration h1 {
+	font-size:16px;
+}
+#Registration h2 {
+	color:#d2d2d2;
+	font-weight:bold;
+}
+#Registration em {
+	position:relative;
+	left:-10px;
+	float:left;
+	margin-right:-100%;
+	line-height:25px;
+}
+
+
+/* 3 d) : SubNav
+============================================================================ */
+.SubNav {
+	border:0;
+	margin-bottom:0;
+}
+
+.SubNav a.selected {
+	color:#000;
+	border:1px solid #b6b6b6;
+	font-family:Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 4: REGISRATION TABLE FORMATS
+============================================================================ */
+#Registration table {
+	width:100%;
+	margin-bottom:25px;
+}
+#Registration table caption {
+	font-style:italic;
+	margin-bottom:10px;
+	font-size:12px;
+	line-height:18px;
+}
+
+#Registration td {
+	padding:10px;
+	vertical-align:top;
+	font-size:11px;
+}
+#Registration form th {
+	padding:10px 10px 10px 0;
+	vertical-align:top;
+	width:120px;
+	text-align:right;
+	color:#0000;
+}
+#Registration form th h2 {
+	color:#000;
+	font-size:11px;
+}
+#Registration td.buttons a {
+	width:100px;
+	text-align:center;
+}
+
+
+
+/* 4 a) : Registration Form LI elemetns
+============================================================================ */
+#Registration form li {
+	float:none;
+}
+/*I use LI emements to create rows inside the table td */
+#Registration table li {
+	margin:0 0 5px 0;
+}	
+#Registration table li a {
+	font-size:10px;
+	color:#d2d2d2;
+	padding-left:10px;
+	background:url(images/icons/whitearrow.png) left center no-repeat;
+}
+#Registration table li span {
+	display:block;
+	float:left;
+	width:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 5: INDIVIDUAL CONTENT STYLES
+============================================================================ */
+
+/* 5 a) : Transaction history
+============================================================================ */
+table#TransactionHistory th {
+	padding:3px 2px;
+	font-size:9px;
+	width:auto;
+	border-bottom:1px solid #d2d2d2;
+	text-align:left;
+}
+table#TransactionHistory td {
+	padding:3px 2px;
+	border-bottom:1px solid #d2d2d2;
+}
+table#TransactionHistory tr.odd td {
+	background:#fff;
+}
+#AccountHistory ul {
+	width:100px;
+}
+#AccountHistory tr.credit td, #AccountHistory tr.credit th {
+	background:#fff;
+	color:#000;	
+}
+
+#AccountHistory th li a strong {
+	color:#000;
+}
+
+
+
+
+/* 5 b) : Console Prefrences
+============================================================================ */
+table#ConsolePrefs ul {
+	width:100%;
+	float:left;
+}
+table#ConsolePrefs li {
+	float:left;
+	width:33%;
+}
+
+
+
+
+/* 5 c) : GamePrefs
+============================================================================ */
+#GamePrefs td li {
+	font-size:10px;
+}
+#GamePrefs td li input {
+	margin-right:2px;
+}
+#GamePrefs .AvatarImage {
+	width:40px;
+}
+#GamePrefs .AvatarImage img {
+	width:40px;
+}
+#GamePrefs h4 {
+	font-size:14px;
+	margin:0px 0px 5px;
+	background:#858585;
+	padding:3px 0;
+}
+#GamePrefs h3 {
+	font-weight:bold;
+	margin-bottom:2px;
+}
+
+
+/* 5 d) : My Accounts
+============================================================================ */
+#page4 table#MyAccounts, #page4 table#NameAddress {
+	border-bottom:1px dotted #999;
+}
+
+
+
+/* 5 e) : Review
+============================================================================ */
+#ReviewPrefs li {
+	float:left;
+	width:100%;
+	margin:5px 0;
+	padding:5px 0;
+	border-bottom:1px dotted #999;
+}
+#ReviewPrefs img {
+	float:left;
+	margin-right:10px;
+}
+
+
+
+
+/* 5 f) : My Accounts
+============================================================================ */
+#MyAccounts dt {
+	
+	line-height:25px;
+	margin-bottom:10px;
+}
+#MyAccounts dt img {
+	float:left;
+	margin-right:5px;
+}
+#MyAccounts ul {
+	width:100%;
+}
+table#MyAccounts li {
+	float:left;
+	width:50%;
+
+}
+
+
+/* 5 g) : Account Balance
+============================================================================ */
+#AccountBalance {
+	border-bottom:1px solid #999;
+	border-top:1px solid #999;
+}
+#AccountBalance td {
+	font-size:32px;
+}
+
+#MoveMoney {
+	border-bottom:1px solid #999;
+}
+#MoveMoney td, #MoveMoney th {
+	padding-top:0;
+	padding-bottom:0;
+}
+#MoveMoney th h2{
+	position:relative;
+	top:-8px;
+}
+
+
+#AddAccount .radio {
+	float:left;
+	margin-right:3px;
+}
+
+
+
+
+/* 5 h) : Upload
+============================================================================ */
+#UploadAvatar input#fileToUpload {
+	border:1px solid #666;
+	margin:0 5px 0 0;
+	padding:2px;
+}
+#Registration .Format3 {
+	padding:15px;
+	background:#f1efea;
+	margin-bottom:5px;
+}
+#Registration .Format3 h2 {
+	color:#000;
+}
+#Registration .Format3 p a {
+	color:#333;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+/* 5 h) : Error
+============================================================================ */
+fieldset.error legend {
+	color:#a80000;
+}
+fieldset.error caption {
+		color:#a80000;
+}
+#Registration ul.error {
+	margin:10px 0;
+}
+#Registration ul.error li {
+	font-size:14px;
+	color:#a80000;
+	padding:5px;
+	border:1px solid #a80000;
+	float:left;
+}
+#Registration label.error {
+	color:#a80000;
+
+}
+
+
+
+
+
+#regProcess {
+	color:#000;
+	position:relative;
+	left:-10px;
+	padding-left:0px;
+}
+#regProcess dt {
+	background:#b4afa0;
+	font-size:16px;
+	padding:10px;
+	margin-left:20px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+#regProcess dd {
+	font-size:18px;
+	padding:5px 10px 5px 30px;
+	clear:left;
+}
+#regProcess dd.on {
+	background:url(images/bg/Registration-notch.jpg) left center no-repeat;
+}
+#regProcess dd img {
+	float:left;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+#GetIn {
+	color:#000;
+	background:url(images/bg/Registration-getin.jpg) top left repeat-x #eeede9;
+	margin:20px 10px;
+	padding:10px;
+}
+#GetIn dt {
+	font-size:16px;
+	margin-bottom:10px;
+}
+.avatarList li{	
+	display:inline;
+}

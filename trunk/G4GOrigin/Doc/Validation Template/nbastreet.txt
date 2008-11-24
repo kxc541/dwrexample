@@ -1,0 +1,13 @@
+From="EA_Admin@ea.com" <EA_Admin@ea.com>
+To=angelo@genovese.ca
+
+Player1=Player 1
+Player1_UTF=Player_1
+Player1_Score=21
+
+Player2=Player 2
+Player2_UTF=Player_2
+Player2_Score=22
+
+Ranked=<yes>
+Complete=<yes>

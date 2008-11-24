@@ -1,0 +1,396 @@
+.WidgetHeader {
+	height: 30px;
+	background: url('images/bg/Sidebar/widgetheaderbg.jpg') repeat-x;
+	color: #666;
+	font-size: 12px;
+	cursor: pointer;
+	width: 100%;
+	border-top: 1px solid #eaeaea;
+}
+
+.WidgetHeader p {
+	margin: 5px 0px 0px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: verdana;
+}
+
+.Widget {
+	margin-bottom: 10px;
+}
+
+.WidgetContent {
+	padding: 10px;
+}
+
+#sidebar .WidgetContent {
+	background: #000;
+	color: #fff;
+}
+
+#sidebar .WidgetContent textarea {
+	width: 100%;
+}
+
+/* -------- */
+
+/* Dashboard displays differently for 'My Home' vs 'User Profile' */
+
+#content.profile #MyDashboard {
+	background: #e2dfd8;
+	margin-bottom:0 !important;
+	padding-bottom:10px !important;
+	color:#000;
+}
+
+#content.home #MyDashboard {
+	background: #e2dfd8;
+}
+
+#MyDashboard .ProfileImage {
+	margin: 20px 20px 0px 20px;
+	border: 1px solid #999;
+	border-bottom: 0px;
+	background: #666;
+}
+
+#MyDashboard .ProfileImage table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+#MyDashboard .ProfileImage td {
+	padding: 1px;
+	border-bottom: 1px solid #999;
+}
+
+#MyDashboard .ProfileImage a {
+	color: #fff;
+	font-weight: normal;
+	font-size: 10px;
+}
+
+#MyDashboard .ProfileInfo h1 {
+	padding: 0px;
+	margin: 0px;
+}
+
+#MyDashboard .ProfileInfo table {
+	font-size: 10px;
+	width: 375px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+#MyDashboard .ProfileInfo th {
+	border-bottom: 1px solid #ccc;
+	padding: 25px 5px 15px 5px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#MyDashboard .ProfileInfo th.buttons {
+	text-align: right;
+}
+
+#MyDashboard .ProfileInfo td {
+	border-bottom: 1px solid #ccc;
+	padding: 5px;
+	vertical-align: top;
+}
+
+#MyDashboard .ProfileInfo td.Reputation {
+	vertical-align: middle;
+}
+
+#MyDashboard .ProfileInfo b {
+	font-size: 11px;
+}
+
+/* -------- */
+
+#SearchWidget .WidgetContent {
+	margin-bottom: 10px;
+}
+
+#SearchWidget form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#SearchWidget input.text {
+	border: 1px solid #999;
+	font-size: 10px;
+	width: 170px;
+	padding: 5px;
+}
+
+#SearchWidget input.image {
+	color: #bbb;
+	border: 0px;
+	width: 15px;
+	height: 20px;
+	background-image: url('images/bg/buttons/btn-search.gif');
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+/* -------- */
+
+#MyGamerTag .WidgetContent {
+	background: url('images/bg/Sidebar/mytags-widget.jpg') top left no-repeat;
+	text-align: center;
+	color: #333;
+}
+
+/* -------- */
+
+/* -------- */
+
+#PlayNowWidget .WidgetContent p {
+	margin: 0px 0px 0px 10px;
+}
+
+/* -------- */
+
+#CommentBoardWidget .WidgetContent a,
+#MyFriendsWidget .WidgetContent a {
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+}
+/* -------- */
+
+#CommentBoardWidget {
+	background: #a9a396;
+	margin-bottom: 0;
+}
+
+#CommentBoardWidget .WidgetContent {
+	margin: 10px;
+	overflow: hidden;
+}
+
+#CommentBoardWidget .CommentContent p {
+	margin: 0px 0px 10px 10px;
+}
+
+#CommentBoardWidget .CommentContent p.date {
+	color: #999;
+	margin: 0px 0px 10px 10px;
+	font-size: 10px;
+}
+
+#CommentBoardWidget .PostComment {
+	padding: 20px 10px 10px 10px;
+}
+
+#CommentBoardWidget .PostComment textarea {
+	height: 75px;
+	width: 99%;
+	border: 1px solid #999;
+	margin: 10px 0;
+}
+/* -------- */
+
+#ScheduleWidget .WidgetContent td.calendar {
+	width: 60px;
+	background: url('images/bg/calendar.png') no-repeat;
+}
+
+#ScheduleWidget .WidgetContent div {
+	background: transparent;
+	font-weight: bold;
+}
+
+/* top is calcuated as height - font-size / 2, rounded down */
+
+#ScheduleWidget .WidgetContent div.month {
+	position: relative;
+	top: 2px; /*see notes*/
+	width: 60px;
+	height: 17px;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+#ScheduleWidget .WidgetContent div.day {
+	position: relative;
+	top: 6px; /*see notes*/
+	width: 60px;
+	height: 45px;
+
+	font-size: 33px;
+	color: #000;
+}
+
+#ScheduleWidget .WidgetContent div.time {
+	position: relative;
+	top: 6px; /*see notes*/
+	width: 60px;
+	height: 20px;
+	font-size: 11px;
+}
+
+#ScheduleWidget .WidgetContent td.game {
+	padding: 0 5px 0 10px;
+}
+
+#ScheduleWidget .WidgetContent td.schedule h3 {
+	font-size: 20px;
+}
+
+#ScheduleWidget .WidgetContent p {
+	padding: 5px 0px 10px 0px;
+	margin: 0;
+	line-height: 18px;
+}
+
+
+#myLobbiesWidget .WidgetContent ul {
+	margin: 0px;
+	padding: 0px;	
+	list-style:none;
+}
+
+#myLobbiesWidget .WidgetContent li {
+	margin-bottom:1px;
+}
+
+#myLobbiesWidget .WidgetContent li a {
+	font-weight:bold;
+	background:#131313;
+	display:block;
+	padding:4px 5px;
+	color: #c0da59;
+}
+
+#myLobbiesWidget .WidgetContent li a:hover {
+	background: url('images/icons/more.png') 95% center no-repeat #333;
+}
+
+/* --------  SEARCH RESULTS  -------- */ 
+
+#content.searchResults {
+	background:#fff;
+	color:#525252;
+}
+
+#content.searchResults .Widget {
+	background:#fff;
+}
+
+#content.searchResults .WidgetContent {
+	background:#fff;
+}
+
+#content.searchResults .WidgetHeader h1 {
+	background:#f1f1f1;
+	color:#676767;
+}
+#content.searchResults h2 {
+	color:#676767;
+}
+#content.searchResults .WidgetContent .Format1 {
+	margin:5px 0;
+	background:#fafafa;
+}
+
+#content.searchResults a {
+	color:#000;
+}
+#content.searchResults .buttons a {
+	color:#fff;
+}
+#content.searchResults .SearchOptions a {
+	color:#64a4eb;
+}
+
+#content.searchResults .WidgetContent .Format1 .Style1 td {
+	color:#676767;
+}
+#content.searchResults .WidgetContent .Format1 li {
+	color:#676767;
+	font-size:10px;
+	margin-bottom:3px;
+}
+#content.searchResults .WidgetContent .Format1 p {
+	color:#676767;
+}
+
+#content.searchResults .WidgetContent .Format1 .GameAvatar .AvatarImage img {
+	width:40px;
+}
+
+#content.searchResults .WidgetContent .Format1 .buttons {
+	padding:0;
+	margin:0;
+}
+#content.searchResults .WidgetContent .Format1 .buttons a {
+	font-size:10px;
+	float:right;
+	width:80%;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+/* --------  SEARCH RESULTS  -------- */
+
+#PlayNow .WidgetContent {
+	padding:0;
+}
+#PlayNow h3 {
+	padding:10px;
+	font-size:11px;
+	font-weight:bold;
+	color:#fc0;
+}
+#PlayNow .GameAvatar {
+	margin:0;
+}
+.PlayNowGame {
+	height:120px;
+	padding:10px;
+	border-bottom:2px solid #fff;
+}
+
+.PlayNowGame .copy {
+	float:left;
+	margin-left:15px;
+	max-width:210px;
+	width:auto;
+}
+
+.PlayNowGame h4 {
+	color:#fc0;
+}
+.PlayNowGame h3 {
+	margin:6px 0;
+}
+.PlayNowGame .buttons {
+	margin-top:7px;
+}
+.PlayNowGame p a {
+	color:#a8da59;
+}
+
+#MyGamerTag h4 {
+	color:#fff;
+	font-weight:normal;
+	background-color:#757575;
+	border:1px solid #3c3c3c;
+	width:192px;
+	padding:3px;
+	margin:0 auto;
+}
+
+#MyGamerTag .WidgetContent div {
+	margin-bottom:10px;
+}
+
+#MyFriendsWidget .PlayerAvatar {
+	width:92px;
+	margin-top:5px;
+	margin-bottom:5px;
+}

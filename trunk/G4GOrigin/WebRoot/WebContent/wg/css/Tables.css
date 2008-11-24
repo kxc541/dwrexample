@@ -1,0 +1,242 @@
+/* ------ NOTES ---------------------------------------------------------------
+
+Tables Style for WorldGaming.
+
+--------- UPDATE INFO ---------------------------------------------------------
+
+
+
+--------- CONTENTS ------------------------------------------------------------
+
+1: TABLEROW
+	a) RowHeader
+	b) 2cols
+	c) reputation
+	
+2:  WIDGETINFO
+	a) Style1
+	b) Style2
+	c) Style3
+	d) Ul
+	e) dl
+	
+3:  MISC
+	
+---------------------------------------------------------------------------- */
+
+
+
+
+/* 1: TABLEROW
+============================================================================ */
+table.row {
+	width:100%;
+	color:#fff;
+	font-family:arial;
+	border-bottom:1px solid #666;
+	border-bottom:1px solid #aeaeae;
+}
+table.row td {
+	vertical-align:top;
+	line-height:18px;
+}
+table.row th {
+	padding-left:5px;
+	width:100px;
+	color:#bcbcbc;
+	vertical-align:top;
+	height:20px;
+	font-size:.9em;
+}
+
+
+/* 1 a) : rowHeader
+============================================================================ */
+
+table.rowHeader h1 {
+	font-size:16px;
+	font-weight:bold;
+}
+table.rowHeader td {
+	padding:10px 5px;
+	vertical-align:middle;
+}
+
+
+/* 1 b) : row with 2 columns
+============================================================================ */
+table.row.cols td {
+	width:50%;
+	text-align:left;
+}
+table.row.cols td td {
+	width:auto;
+}
+table.row.cols th {
+	width:100px;
+	height:20px;
+}
+
+
+/* 1 c) : reputation
+============================================================================ */
+table.row .Reputation {
+	position:relative;
+	top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2: WIDGETINFO
+============================================================================ */
+.WidgetInfo {}
+.WidgetInfo strong {
+	font-size:11px;
+	font-weight:bold;
+}
+.WidgetInfo thead {}
+.WidgetInfo thead th strong {
+	font-size:1.2em;
+}
+.WidgetInfo td {}
+.WidgetInfo tbody {}
+.WidgetInfo tbody th {
+	padding:3px 5px 3px 0;
+	vertical-align:top;
+}
+.WidgetInfo tbody td {
+	padding:3px 0px 3px 0;
+
+}
+
+
+
+
+
+/* 2 a) : WIDGETINFO Style1
+============================================================================ */
+table.WidgetInfo.Style1 {
+	margin:0;
+}
+.Sidebar .WidgetInfo.Style1 th {
+	font-size:10px;
+	font-family:arial;
+	color:#d9d9d9;
+	width:35px;
+	padding:2px 0;
+}
+.Sidebar .WidgetInfo.Style1 td {
+	font-weight:bold;
+	font-family:arial;
+	color:#fff;
+	font-size:11px;
+	padding:2px 0;
+}
+.PageContent .WidgetInfo.Style1 tbody th {
+	width:80px;
+	font-family:arial;
+	font-weight:bold;
+	font-size:11px;
+	color:#d2d2d2;
+}
+
+
+
+/* 2 b) : WIDGETINFO Style2
+============================================================================ */
+.WidgetInfo.Style2 {
+	margin:0;
+}
+.WidgetInfo.Style2 tbody th {
+	color:#d8d8d8
+}
+
+
+/* 2 b) : WIDGETINFO Style3
+============================================================================ */
+table.WidgetInfo.Style3 {
+	background:#999;
+}
+.WidgetInfo.Style3 td {
+	width:50%;
+}
+.WidgetInfo.Style3 th {
+	width:40%;
+	text-align:right;
+}
+.WidgetInfo.Style3 thead th {
+	text-align:center;
+	width:100%;
+	background:#999;
+	letter-spacing:1.5px;
+
+}
+
+/* 2 c) : WIDGETINFO dl
+============================================================================ */
+.WidgetInfo dl {}
+.WidgetInfo dt {
+	font-weight:bold;
+	background:#999;
+	color:#d2d2d2;
+}
+.WidgetInfo dd {
+	margin:2px 0 20px;
+}
+
+/* 2 d) : WIDGETINFO ul
+============================================================================ */
+.WidgetInfo ul {}
+.WidgetInfo li { 
+	margin-bottom:3px;
+	line-height:18px;
+}
+.WidgetInfo li a {
+	display:block;
+	border-bottom:1px dotted #eaeaea;
+}
+
+
+
+
+
+
+
+/* 3 : MISC
+============================================================================ */
+table.StyleFull {
+	width:100%;
+}
+table.StyleFull thead th {
+	color:#858585;
+	padding:5px 2px;
+}
+table.StyleFull tbody tr {
+	border-bottom:1px solid #666;
+}
+table.StyleFull tbody th, table.StyleFull tbody td {
+	padding:3px 5px 3px 2px;
+}
+table.StyleFull .credit {
+	background:#70765c;
+}
+

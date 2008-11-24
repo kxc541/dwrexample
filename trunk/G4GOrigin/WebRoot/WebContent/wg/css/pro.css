@@ -1,0 +1,146 @@
+/* content id with profile or home classes effect the same jsp page depending on the view */
+
+#content.profile {
+	color: #fff;
+	background: #525252;
+	width: 570px;
+	padding: 0;
+}
+
+#content.home {
+	color: #000;
+	background: #e2dfd8;
+	width: 570px;
+	padding: 0px 0px 20px 0px;
+}
+
+/* end */
+
+/* sidebar layout from 'User Profile' re-used on 'My Home' home view */
+
+#sidebar.profile {
+	background: #fff;
+	width: 340px;
+	padding: 10px 0px 10px 10px;
+}
+
+/* end */
+
+/* tab navigation - modified style */
+
+.TabNav {
+	background: #e2dfd8;
+}
+
+.TabNav li {
+	border-right: 1px solid #525252;
+}
+
+.TabNav li a {
+	background: transparent url('images/bg/PageContent/tabnav.gif') top left repeat-x;
+	color: #fff;
+	font-weight: normal;
+}
+
+.TabNav li a.selected {
+	background-color: #a9a396;
+	background-image: none;
+}
+
+/* TabConent displays differently for 'My Home' vs 'User Profile' */
+
+#content.home .TabContent div {
+	background: #fff;
+}
+
+.TabContent {
+	background: #a9a396;
+	padding: 10px;
+}
+
+/* Dashboard displays differently for 'My Home' vs 'User Profile' */
+
+#content.profile .WidgetContent {
+	background: #525252;
+}
+
+#content.home .WidgetContent {
+	background: #bfb8a9;
+}
+
+/* end */
+
+#Aliases .WidgetContent table, #CommentBoardWidget .WidgetContent table {
+	width: 100%;
+}
+
+#Aliases .WidgetContent td {
+	padding: 5px 0;
+}
+
+#Aliases .WidgetContent th {
+	text-align: left;
+}
+
+#EditProfileWidget .WidgetContent {
+	padding: 0;
+	background: #a9a396 !important;
+}
+
+.WidgetSubContent {
+	background: #bfb8a9;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.WidgetSubContent th {
+	width: 140px;
+	text-align: left;
+	vertical-align: top;
+	line-height: 18px;
+}
+
+.WidgetSubContent td {
+	vertical-align: top;
+	line-height: 18px;
+}
+
+.CommentContent .links {
+	text-align: right;
+}
+.CommentContent .links a {
+	margin-left: 10px;
+}
+
+#RecentOpponents .WidgetSubContent {
+	height:125px;
+}
+
+#RecentOpponents .GameAvatar {
+	margin:0;
+}
+#RecentOpponents .copy {
+	float:left;
+	height:125px;
+	width:366px;
+	padding-left:44px;
+	background-color:transparent;
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+#RecentOpponents .copy.lost {
+	background-image:url(images/bg/PageContent/loss.png);
+}
+#RecentOpponents .copy.won {
+	background-image:url(images/bg/PageContent/won.png);
+}
+#RecentOpponents .buttons {
+	float:right;
+}
+#RecentOpponents .copy h3 {
+	margin:7px 0;
+	font-size:17px;
+}
+#RecentOpponents h4 {
+	margin-bottom:5px;
+}
