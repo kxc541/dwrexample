@@ -1,0 +1,110 @@
+Return-Path: <EA_Admin@ea.com>
+X-Original-To: ang@testwg.com
+Delivered-To: angelog@mail.betplayandwin.com
+Received: from mx-abn03.pogo.com (mx-abn03.pogo.com [159.153.255.243])
+	by mail.betplayandwin.com (Postfix) with SMTP id B5D8D139F8
+	for <ang@testwg.com>; Wed, 26 Sep 2007 20:16:21 +0100 (BST)
+Received: (qmail 6427 invoked from network); 26 Sep 2007 16:29:41 -0000
+Received: from misc2besl01.eao.abn-iad.ea.com (10.102.140.80)
+  by 0 with SMTP; 26 Sep 2007 16:29:41 -0000
+Message-ID: <30872092.1190824181515.JavaMail.cdc-ops@misc2besl01.eao.abn-iad.ea.com>
+From: "EA_Admin@ea.com" <EA_Admin@ea.com>
+To: "ang@testwg.com" <ang@testwg.com>
+Subject: Madden NFL 07 - wchips 14 vs. scjjttniners 28
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Date: Wed, 26 Sep 2007 20:16:21 +0100 (BST)
+
+-Do not reply to this email-
+
+Here are the official results of your Madden NFL 07 game on 2007.9.26-15:49=
+:01.
+
+Mode: Ranked
+Qtr Length: 4 minutes
+Difficulty: All-Pro
+Opponent: scjjttniners
+Rank: 10001
+
+Score breakdown:
+
+                    1    2    3    4   OT    F
+wchips              0    7    7    0    0   14
+scjjttniners        7   14    7    0    0   28
+
+Statistics                  wchips            scjjttniners
+Rushing attempts for                 11              15
+Rushing yards for                    69              75
+Passing attempts for                 22               8
+Passing yards for                    75             224
+Punts                                 2               2
+Field goals for                       0               0
+Long field goals (40+) for            0               0
+Rushing touchdowns for                1               1
+Passing touchdowns for                1               3
+Returns touchdowns for                0               0
+Defensive touchdowns for              0               0
+Turnovers for                         0               1
+Interceptions for                     0               1
+Sacks for                             1               3
+Number of third downs                 7               4
+Third down conversions                4               2
+No-huddle plays                       4               2
+Audibles called                       0               5
+Hot routes used                       2               6
+Shotgun plays                        18               0
+Blitzes                               8               9
+Time of possession                 8:07            7:53
+2-point conversions tried             0               0
+2-point conversions succeeded         0               0
+Red zone field goals                  0               0
+Red zone touchdowns                   2               1
+Red zone opportunities                2               2
+First downs                           9               5
+First down yards                     63              89
+Special teams yards                 135              59
+Punt return yards                    11               0
+Punt yards                           82              97
+Penalties                             2               0
+Penalty yards                        10               0
+First down rushing plays              6               9
+First down passing plays             10               3
+Second down rushing plays             4               3
+Second down passing plays             8               5
+Third down rushing plays              1               3
+Third down passing plays              6               1
+Fourth down rushing plays             0               0
+Fourth down passing plays             1               0
+Passes completed                      8               6
+Fumbles                               0               1
+Fumbles recovered                     0               0
+Possessions                          12              14
+Third downs, 3 or less yards          2               0
+Successes                           2               0
+Third downs, 4 to 9 yards             2               2
+Successes                           1               2
+Third downs, 10 or more yards         3               2
+Successes                           1               0
+Hurries                               2               7
+Knockdowns                            0               2
+Passes deflected                      1               5
+Passes tipped                         0               0
+Offensive yards                     144             299
+Total yards                         279             358
+Return yards                        124              59
+Total touchdowns                      2               4
+
+
+If you believe you are not the intended recipient of this message, or this =
+message contains rude and offensive content, please contact Electronic Arts=
+ immediately. To report this issue visit http://eamembers.custhelp.com/cgi-=
+bin/eamembers.cfg/php/enduser/std_adp.php?%20p_faqid=3D14885 .
+
+PRIVACY POLICY:  Our ESRB Privacy Online Certified Policy gives you confide=
+nce whenever you play EA games.  To view our complete Privacy Policy, go to=
+ www.ea.com/global/legal/privacy.jsp.
+
+-------------------------------
+EA SPORTS=E2=84=A2
+http://www.EASPORTS.com

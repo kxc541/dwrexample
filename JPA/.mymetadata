@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="JPA"
+  id="myeclipse.1216702373258"
+  context-root="/SpringDemo"
+  j2ee-spec="5.0"
+  archive="JPA.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
